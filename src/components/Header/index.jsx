@@ -7,6 +7,7 @@ import {
     IconButton,
     Button,
     Stack,
+    Image,
     Collapse,
     useColorModeValue,
     useBreakpointValue,
@@ -54,18 +55,16 @@ const Header = () => {
                     flex={{ base: 1 }}
                     justify={{ base: "center", md: "start" }}
                 >
-                    <Text
-                        textAlign={useBreakpointValue({
-                            base: "center",
-                            md: "left"
-                        })}
-                        fontFamily="heading"
-                        color={useColorModeValue("white", "white")}
-                    >
-                        HALAPLAY
-                    </Text>
+                    <Image
+                            alignSelf={useBreakpointValue({
+                                base: "center",
+                                md: "left"
+                            })}
+                            w={'75px'}
+                            h={'75px'}
+                            src='https://d15boxbdv4z6lv.cloudfront.net/1_small_100.png' />
 
-                    <Flex display={{ base: "none", md: "flex" }} ml={10}>
+                    <Flex display={{ base: "none", md: "flex" }} ml={10} mt={6}>
                         <DesktopNav />
                     </Flex>
                 </Flex>

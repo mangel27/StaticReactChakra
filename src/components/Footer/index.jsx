@@ -1,104 +1,107 @@
-import {
-  Box,
-  Container,
-  Link,
-  SimpleGrid,
-  Stack,
-  Text,
-  Flex,
-  Tag,
-  useColorModeValue,
-} from "@chakra-ui/react";
-const Logo = () => {
-  return <Text>HALAPLAY</Text>;
-};
-
-const ListHeader = ({ children }) => {
-  return (
-    <Text fontWeight={"500"} fontSize={"lg"} mb={2}>
-      {children}
-    </Text>
-  );
-};
+import { Box, Image, Flex, Stack, List, ListItem, Link, Text, SimpleGrid } from '@chakra-ui/react';
+import Gateway from './Gateway';
 
 const Footer = () => {
-  return (
-    <Box
-      bg={useColorModeValue("gray.50", "gray.900")}
-      color={useColorModeValue("gray.700", "gray.200")}
-    >
-      <Container as={Stack} maxW={"6xl"} py={10}>
-        <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
-          <Stack align={"flex-start"}>
-            <ListHeader>Product</ListHeader>
-            <Link href={"#"}>Overview</Link>
-            <Stack direction={"row"} align={"center"} spacing={2}>
-              <Link href={"#"}>Features</Link>
-              <Tag
-                size={"sm"}
-                bg={useColorModeValue("green.300", "green.800")}
-                ml={2}
-                color={"white"}
-              >
-                New
-              </Tag>
-            </Stack>
-            <Link href={"#"}>Tutorials</Link>
-            <Link href={"#"}>Pricing</Link>
-            <Link href={"#"}>Releases</Link>
-          </Stack>
-          <Stack align={"flex-start"}>
-            <ListHeader>Company</ListHeader>
-            <Link href={"#"}>About Us</Link>
-            <Link href={"#"}>Press</Link>
-            <Link href={"#"}>Careers</Link>
-            <Link href={"#"}>Contact Us</Link>
-            <Link href={"#"}>Partners</Link>
-          </Stack>
-          <Stack align={"flex-start"}>
-            <ListHeader>Legal</ListHeader>
-            <Link href={"#"}>Cookies Policy</Link>
-            <Link href={"#"}>Privacy Policy</Link>
-            <Link href={"#"}>Terms of Service</Link>
-            <Link href={"#"}>Law Enforcement</Link>
-            <Link href={"#"}>Status</Link>
-          </Stack>
-          <Stack align={"flex-start"}>
-            <ListHeader>Follow Us</ListHeader>
-            <Link href={"#"}>Facebook</Link>
-            <Link href={"#"}>Twitter</Link>
-            <Link href={"#"}>Dribbble</Link>
-            <Link href={"#"}>Instagram</Link>
-            <Link href={"#"}>LinkedIn</Link>
-          </Stack>
-        </SimpleGrid>
-      </Container>
-      <Box py={10}>
-        <Flex
-          align={"center"}
-          _before={{
-            content: '""',
-            borderBottom: "1px solid",
-            borderColor: useColorModeValue("gray.200", "gray.700"),
-            flexGrow: 1,
-            mr: 8,
-          }}
-          _after={{
-            content: '""',
-            borderBottom: "1px solid",
-            borderColor: useColorModeValue("gray.200", "gray.700"),
-            flexGrow: 1,
-            ml: 8,
-          }}
+    return (
+      <>
+        <Box
+            as="footer"
+            bg="gray.100"
+            borderTop="1px solid"
+            borderColor="gray.100"
+            py="2.5rem"
         >
-          <Logo />
-        </Flex>
-        <Text pt={6} fontSize={"sm"} textAlign={"center"}>
-          © 2022 Chakra Templates. All rights reserved
-        </Text>
-      </Box>
-    </Box>
-  );
+            <Box
+                maxW="64rem"
+                marginX="auto"
+                pb="2rem"
+                mb="1.5rem"
+                px={10}
+                borderBottom="1px solid"
+                borderColor="gray.300"
+            >
+
+                <Stack display='flex' alignItems="center">
+                    <Text color="gray.500" fontSize="xl" fontWeight='bold' pb={6}>
+                        Halaplay Technology Pvt. Ltd.
+                    </Text>
+                </Stack>
+
+                <Flex flexWrap="wrap" alignItems="start" justify="space-between">
+                    <Box w={{ base: '100%', sm: '50%', md: 'max-content' }} mb={{ base: '1.5rem', lg: '0' }}>
+                        <List lineHeight="2" justifyContent="center">
+                            <LinkItem text="How to Play" />
+                            <LinkItem text="Point System" />
+                            <LinkItem text="Offer" />
+                        </List>
+                    </Box>
+                    <Box w={{ base: '100%', sm: '50%', md: 'max-content' }} mb={{ base: '1.5rem', lg: '0' }}>
+                        <List lineHeight="2" justifyContent="center">
+                            <LinkItem text="About Us" />
+                            <LinkItem text="Support" />
+                            <LinkItem text="T&C" />
+                            <LinkItem text="FAQ" />
+                            <LinkItem text="Blog" />
+                        </List>
+                    </Box>
+                </Flex>
+            </Box>
+            <Stack display='flex' alignItems="center">
+                <Text color="gray.600" fontSize="lg">
+                    Follow us
+                </Text>
+                <SimpleGrid columns={3} spacing={5}>
+                    <Link><Image src="assets/img/facebook.png" w={[30, 50]} p={1}></Image></Link>
+                    <Link><Image src="assets/img/instagram.png" w={[30, 50]} p={1}></Image></Link>
+                    <Link><Image src="assets/img/twitter.png" w={[30, 50]} p={1}></Image></Link>
+                </SimpleGrid>
+                <Text color="gray.600" fontSize="md" pt={5}>
+                    Write us for any Complaint or Feedback
+                </Text>
+                <Text color="blue.600" fontSize="md">
+                    <Link>care@halaplay.com</Link>
+                </Text>
+            </Stack>
+        </Box>
+        <Box>
+          <Gateway />
+        </Box>
+        </>
+    );
+};
+
+
+
+const LinkItem = ({ text, isTag = false, tagText }) => {
+    return (
+        <ListItem display="flex">
+            <Link
+                fontWeight="400"
+                href="#"
+                color="grey.100"
+                textDecoration="none"
+            >
+                {text}
+            </Link>
+            {isTag && (
+                <Text
+                    as="span"
+                    bg="#008F94"
+                    px="0.25rem"
+                    display="inline-flex"
+                    alignItems="center"
+                    color="#fff"
+                    height="1.25rem"
+                    borderRadius="0.25rem"
+                    ml="0.25rem"
+                    mt="0.25rem"
+                    fontSize="0.75rem"
+                >
+                    {tagText}
+                </Text>
+            )}
+        </ListItem>
+    );
 };
 
 export default Footer;
