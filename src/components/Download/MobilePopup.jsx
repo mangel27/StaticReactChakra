@@ -10,17 +10,9 @@ import {
 
 const Mobile = (props) => {
   return (
-    <SimpleGrid 
-        columns={1}
-        pacing={0} 
-        bg="blue.900" w="100%"
-    >
+    <SimpleGrid columns={1} pacing={0} bg="purple.500" w="100%">
       <Flex justifyContent={"center"} px={4}>
-        <Box 
-            p={2} 
-            pl={2} 
-            color={useColorModeValue("white", "gray.200")}
-        >
+        <Box p={2} pl={2} color={useColorModeValue("white", "gray.200")}>
           <Text fontSize={"sm"} fontWeight={"medium"}>
             Its always better with App
           </Text>
@@ -28,11 +20,7 @@ const Mobile = (props) => {
             Download App & Get Rs250 off on League Join
           </Text>
         </Box>
-        <Box 
-            pl={2} 
-            pt={2} 
-            color={useColorModeValue("white", "gray.200")}
-        >
+        <Box pl={2} pt={2} color={useColorModeValue("white", "gray.200")}>
           <Link>
             <Image src="assets/img/istore.png" w={120} p={1}></Image>
           </Link>

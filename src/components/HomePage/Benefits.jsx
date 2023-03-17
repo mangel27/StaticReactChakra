@@ -15,7 +15,7 @@ const Benefits = ({ title }) => {
     return slides;
   };
   return (
-    <Box p="5" w="100%">
+    <Box overflow={"hidden"} p="5" w="100%">
       <Heading my="2em">{title}</Heading>
       <SimpleCardCarousel
         cards={FANTASY_BENEFITS}

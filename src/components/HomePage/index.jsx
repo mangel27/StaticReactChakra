@@ -1,5 +1,4 @@
 import { Flex } from "@chakra-ui/react";
-import Features from "./Features";
 import Benefits from "./Benefits";
 import EarnMore from "./EarnMore";
 import Features from "./Features";
@@ -7,6 +6,7 @@ import HeroSection from "./HeroSection";
 import Testimonial from "./Testimonial";
 import StepsToPlay from "./StepToPlay";
 import FAQ from "./FAQ";
+import Download from "../Download/Download";
 
 const HomePage = () => {
   return (
@@ -18,8 +18,8 @@ const HomePage = () => {
       w="full"
     >
       <HeroSection />
+      <Download />
       <Features />
-
       <EarnMore title={"Earn more with Halaplay"} />
       <Benefits title={"Halaplay Benefits"} />
       <StepsToPlay />
