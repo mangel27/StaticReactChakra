@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import Collapsible from "react-collapsible";
 import { AiFillCloseCircle, AiFillPlusCircle } from "react-icons/ai";
-
+import { FAQ_ITEMS } from "@/constants/sharedData";
 
 
 const FAQRow = (props) => {
@@ -59,19 +59,19 @@ const FAQ = (props) => {
     const [currentOpen, setCurrentOpen] = useState(-1);
     return (
         <Box w={["100%", "80%"]} p={6}>
-            <Heading mb={6}>FAQ's</Heading>
+            <Heading mb={6}>FAQ</Heading>
 
-            {data &&
-                data.map((faq, index) => (
-                    <FAQRow
-                        key={`faq-${index}`}
-                        row={faq}
-                        index={index + 1}
-                        currentOpen={currentOpen}
-                        setCurrentOpen={setCurrentOpen}
-                    />
-                ))}
+            {FAQ_ITEMS.map((faq, index) => (
+                <FAQRow
+                    key={`faq-${index}`}
+                    row={faq}
+                    index={index + 1}
+                    currentOpen={currentOpen}
+                    setCurrentOpen={setCurrentOpen}
+                />
+            ))}
         </Box>
     );
 };
 export default FAQ;
+
