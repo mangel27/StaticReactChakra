@@ -100,7 +100,45 @@ export const TESTIMONIAL_DATA = [
     { id: 2, title: "Won 7 Lakhs", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
     { id: 3, title: "Won 7 Lakhs", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
 ]
-// export const getSlides = (type: string) => {
-//     let slides = [];
-//     if (type === "testimonial") {
-// }
+export const defaultCarouselSettings = {
+                    dots: true,
+                    infinite: false,
+                    swipeToSlide: true,
+                    speed: 500,
+                    autoplay: false,
+    slidesToShow: 3,
+
+                    slidesToScroll: 1,
+                    variableWidth:true,
+                    initialSlide: 0,
+                    adaptiveHeight: true,
+
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 3,
+                                infinite: true,
+                                dots: true
+                            }
+                        },
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                                initialSlide: 2
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                centerMode: true,
+                    centerPadding:'10px',
+                            }
+                        }
+                    ]
+                }

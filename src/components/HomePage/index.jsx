@@ -1,12 +1,15 @@
 import { Flex } from "@chakra-ui/react";
 import Features from "./Features";
+import Benefits from "./Benefits";
+import EarnMore from "./EarnMore";
+import Features from "./Features";
 import HeroSection from "./HeroSection";
+import Testimonial from "./Testimonial";
 import StepsToPlay from "./StepToPlay";
 import FAQ from "./FAQ";
 
 const HomePage = () => {
   return (
-    <>
     <Flex
       direction="column"
       alignItems="center"
@@ -16,11 +19,13 @@ const HomePage = () => {
     >
       <HeroSection />
       <Features />
+
+      <EarnMore title={"Earn more with Halaplay"} />
+      <Benefits title={"Halaplay Benefits"} />
       <StepsToPlay />
       <FAQ />
+      <Testimonial title={"What our users say"} />
     </Flex>
-    
-    </>
   );
 };
 export default HomePage;

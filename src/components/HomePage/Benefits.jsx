@@ -1,12 +1,15 @@
-import { defaultCarouselSettings, EARN_MORE } from "@/constants/sharedData";
+import {
+  defaultCarouselSettings,
+  FANTASY_BENEFITS,
+} from "@/constants/sharedData";
 import Carousel from "@/patterns/Carousel";
 import SimpleCard from "@/patterns/SimpleCard";
 import SimpleCardCarousel from "@/patterns/SimpleCardCarousel";
 import { Box, Heading } from "@chakra-ui/react";
 
-const EarnMore = ({ title }) => {
+const Benefits = ({ title }) => {
   const getSlides = () => {
-    let slides = EARN_MORE.map((card, index) => {
+    let slides = FANTASY_BENEFITS.map((card, index) => {
       return <SimpleCard index={index} {...card} />;
     });
     return slides;
@@ -15,10 +18,10 @@ const EarnMore = ({ title }) => {
     <Box p="5" w="100%">
       <Heading my="2em">{title}</Heading>
       <SimpleCardCarousel
-        cards={EARN_MORE}
+        cards={FANTASY_BENEFITS}
         settings={defaultCarouselSettings}
       />
     </Box>
   );
 };
-export default EarnMore;
+export default Benefits;
