@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 const TestimonialCard = ({ children }) => {
   return (
-    <Box w={["320px", "400px"]}>
+    <Box w={["auto"]}>
       <TestimonialContent>
         <TestimonialHeading>{children.title}</TestimonialHeading>
         <TestimonialText>{children.text}</TestimonialText>

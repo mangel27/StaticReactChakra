@@ -18,11 +18,36 @@ const Gateway = () => {
           Our Supporting Payment Gateway
         </Text>
         <SimpleGrid columns={5} spacing={5} py={2}>
-          <Image src="assets/img/google-pay.png" w={[30, 50]} p={1}></Image>
-          <Image src="assets/img/phonpay.png" w={[30, 50]} p={1}></Image>
-          <Image src="assets/img/amazonpay.png" w={[30, 50]} p={1}></Image>
-          <Image src="assets/img/paytm.png" w={[30, 50]} p={1}></Image>
-          <Image src="assets/img/payu.png" w={[30, 50]} p={1}></Image>
+          <Image
+            objectFit="contain"
+            src="assets/img/google-pay.png"
+            w={[30, 50]}
+            p={1}
+          ></Image>
+          <Image
+            objectFit="contain"
+            src="assets/img/phonpay.png"
+            w={[30, 50]}
+            p={1}
+          ></Image>
+          <Image
+            objectFit="contain"
+            src="assets/img/amazonpay.png"
+            w={[30, 50]}
+            p={1}
+          ></Image>
+          <Image
+            objectFit="cover"
+            src="assets/img/paytm.png"
+            w={[30, 50]}
+            p={1}
+          ></Image>
+          <Image
+            objectFit="contain"
+            src="assets/img/payu.png"
+            w={[30, 50]}
+            p={1}
+          ></Image>
         </SimpleGrid>
         <Text
           color="gray.600"

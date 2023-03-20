@@ -6,7 +6,7 @@ import { Box, Heading } from "@chakra-ui/react";
 const SimpleCardCarousel = ({ cards, settings, ...rest }) => {
   const getSlides = () => {
     let slides = cards.map((card, index) => {
-      return <SimpleCard w="300px" index={index} {...card} />;
+      return <SimpleCard  index={index} {...card} />;
     });
     return slides;
   };

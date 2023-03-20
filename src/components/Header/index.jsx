@@ -53,9 +53,10 @@ const Header = () => {
               base: "center",
               md: "left",
             })}
-            w={"75px"}
+            objectFit="contain"
+            w={"150px"}
             h={"75px"}
-            src="https://d15boxbdv4z6lv.cloudfront.net/1_small_100.png"
+            src="/assets/hp_logo.png"
           />
 
           <Flex display={{ base: "none", md: "flex" }} ml={10} mt={6}>
@@ -63,37 +64,12 @@ const Header = () => {
           </Flex>
         </Flex>
 
-        {/* <Stack
-            flex={{ base: 1, md: 0 }}
-            justify="flex-end"
-            direction="row"
-            spacing={6}
-          >
-            <Button
-              as="a"
-              fontSize="sm"
-              fontWeight={400}
-              variant="link"
-              color="white"
-              href="#"
-            >
-              Sign In
-            </Button>
-            <Button
-              as="a"
-              display={{ base: "none", md: "inline-flex" }}
-              fontSize="sm"
-              fontWeight={600}
-              color="white"
-              bg="pink.400"
-              href="#"
-              _hover={{
-                bg: "pink.300",
-              }}
-            >
-              Sign Up
-            </Button>
-          </Stack> */}
+        <Stack
+          flex={{ base: 1, md: 0 }}
+          justify="flex-end"
+          direction="row"
+          spacing={6}
+        ></Stack>
       </Flex>
 
       <Collapse in={isOpen} animateOpacity>

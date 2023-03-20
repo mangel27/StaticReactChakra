@@ -10,14 +10,19 @@ import {
 
 const Mobile = (props) => {
   return (
-    <SimpleGrid columns={1} pacing={0} bg="purple.500" w="100%">
+    <SimpleGrid columns={1} pacing={0} bg="rgb(89,37,211)" w="100%">
       <Flex justifyContent={"center"} px={4}>
         <Box p={2} pl={2} color={useColorModeValue("white", "gray.200")}>
           <Text fontSize={"sm"} fontWeight={"medium"}>
             Its always better with App
           </Text>
-          <Text fontSize={"md"} fontWeight={"medium"} mt={1}>
-            Download App & Get Rs250 off on League Join
+          <Text
+            fontSize={"md"}
+            color={"rgb(254, 235, 75)"}
+            fontWeight={"medium"}
+            mt={1}
+          >
+            Download App & Get ₹250 off on League Join
           </Text>
         </Box>
         <Box pl={2} pt={2} color={useColorModeValue("white", "gray.200")}>

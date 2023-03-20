@@ -101,13 +101,12 @@ export const TESTIMONIAL_DATA = [
     { id: 3, title: "Won 7 Lakhs", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
 ]
 export const defaultCarouselSettings = {
-                    dots: true,
+                    dots: false,
                     infinite: false,
                     swipeToSlide: true,
                     speed: 500,
                     autoplay: false,
     slidesToShow: 3,
-
                     slidesToScroll: 1,
                     variableWidth:true,
                     initialSlide: 0,
@@ -126,17 +125,26 @@ export const defaultCarouselSettings = {
                         {
                             breakpoint: 600,
                             settings: {
+                                dots:true,
                                 slidesToShow: 2,
+                                className: "center",
+                                  variableWidth:false,
                                 slidesToScroll: 2,
-                                initialSlide: 2
+                                initialSlide: 2,
+                                centerMode: true,
+                                infinite:true,
                             }
                         },
                         {
                             breakpoint: 480,
                             settings: {
+                                dots: true,
+                                  className: "center",
+                                infinite: true,
+                                variableWidth:false,
                                 slidesToShow: 1,
                                 slidesToScroll: 1,
-                                centerMode: true,                    centerPadding:'20px',
+                                centerMode: true,
                             }
                         }
                     ]

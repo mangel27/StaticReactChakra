@@ -10,12 +10,12 @@ import { Box, Heading } from "@chakra-ui/react";
 const Benefits = ({ title }) => {
   const getSlides = () => {
     let slides = FANTASY_BENEFITS.map((card, index) => {
-      return <SimpleCard index={index} {...card} />;
+      return <SimpleCard w="auto" index={index} {...card} />;
     });
     return slides;
   };
   return (
-    <Box overflow={"hidden"} px="5" my="1em" w="100%">
+    <Box overflow={"hidden"} p="5" my="1em" w="100%">
       <Heading mb="1em">{title}</Heading>
       <SimpleCardCarousel
         cards={FANTASY_BENEFITS}

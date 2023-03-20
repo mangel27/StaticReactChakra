@@ -20,13 +20,14 @@ const Footer = () => {
         <Box py={10}>
           <Flex justify="center">
             <Image
-              w={"75px"}
+              w={"150px"}
               h={"75px"}
-              src="https://d15boxbdv4z6lv.cloudfront.net/1_small_100.png"
+              objectFit="contain"
+              src="/assets/hp_logo.png"
             />
           </Flex>
           <Text pt={6} fontSize={"2xl"} fontWeight="500" textAlign={"center"}>
-            Halaplay Technology Pvt. Ltd.
+            Halaplay Technologies Pvt. Ltd.
           </Text>
         </Box>
         <Box align="center">
@@ -38,17 +39,21 @@ const Footer = () => {
             py={5}
           >
             <Stack textAlign={"justify"}>
-              <Link href={"#"}>How to Play</Link>
-              <Link href={"#"}>Point System</Link>
-              <Link href={"#"}>Offer</Link>
-              <Link href={"#"}>Blog</Link>
+              <Link href={"https://india.halaplay.com/home"}>How to Play</Link>
+              <Link href={"https://india.halaplay.com/rules"}>
+                Point System
+              </Link>
+              <Link href={"https://india.halaplay.com/home"}>Offer</Link>
+              <Link href={"https://play.halaplay.com/"}>Blog</Link>
             </Stack>
 
             <Stack align={"flex-end"}>
-              <Link href={"#"}>About us</Link>
-              <Link href={"#"}>Support</Link>
-              <Link href={"#"}>T&C</Link>
-              <Link href={"#"}>FAQ</Link>
+              <Link href={"https://india.halaplay.com/about-us"}>About us</Link>
+              <Link href={"https://india.halaplay.com/contact"}>Support</Link>
+              <Link href={"https://india.halaplay.com/terms-conditions"}>
+                T&C
+              </Link>
+              <Link href={"https://india.halaplay.com/home"}>FAQ</Link>
             </Stack>
           </SimpleGrid>
         </Box>
