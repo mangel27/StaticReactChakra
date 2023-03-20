@@ -32,7 +32,7 @@ const Footer = () => {
         >
           <Stack display="flex" alignItems="center">
             <Text color="gray.500" fontSize="xl" fontWeight="bold" pb={6}>
-              Halaplay Technology Pvt. Ltd.
+              HalaPlay Technologies Pvt. Ltd.
             </Text>
           </Stack>
 
@@ -45,6 +45,7 @@ const Footer = () => {
                 <LinkItem text="How to Play" />
                 <LinkItem text="Point System" />
                 <LinkItem text="Offer" />
+                <LinkItem text="Blog" />
               </List>
             </Box>
             <Box
@@ -56,7 +57,6 @@ const Footer = () => {
                 <LinkItem text="Support" />
                 <LinkItem text="T&C" />
                 <LinkItem text="FAQ" />
-                <LinkItem text="Blog" />
               </List>
             </Box>
           </Flex>

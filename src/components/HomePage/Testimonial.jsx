@@ -15,8 +15,8 @@ const Testimonial = ({ title }) => {
     return slides;
   };
   return (
-    <Box p="5" overflow={"hidden"} w="100%">
-      <Heading my="2em">{title}</Heading>
+    <Box px="5" my="1em" poverflow={"hidden"} w="100%">
+      <Heading mb="1em">{title}</Heading>
 
       <Carousel slides={getSlides()} settings={defaultCarouselSettings} />
     </Box>

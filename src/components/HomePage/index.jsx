@@ -20,8 +20,8 @@ const HomePage = () => {
       <HeroSection />
       <Download />
       <Features />
-      <EarnMore title={"Earn more with Halaplay"} />
-      <Benefits title={"Halaplay Benefits"} />
+      <EarnMore title={"Earn more with HalaPlay"} />
+      <Benefits title={"HalaPlay Benefits"} />
       <StepsToPlay />
       <FAQ />
       <Testimonial title={"What our users say"} />

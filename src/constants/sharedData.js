@@ -43,7 +43,7 @@ export const FANTASY_BENEFITS = [{
 },
 {
     title: "Signup Offer",
-    text: "Get Rs 250 Discount on Registration"
+    text: "Get ₹250 Discount on Registration"
     //icon: TbCricket
 },
 {
@@ -89,7 +89,7 @@ export const FAQ_ITEMS = [
         question: "Which contest to join?",
          answer: "As a fantasy game platform, we offer a variety of contests for users to join based on their interests and preferences. We recommend exploring the different types of contests available on our platform, such as daily, weekly, or season-long contests, and choosing the one that aligns with your game strategy and level of involvement. Users can also filter contests based on entry fees, prize pools, and number of participants to find the one that fits their needs."
     },
-     
+
     {
         question: "Is it legal to play Fantasy Cricket?",
          answer: "As a fantasy game platform, we strive to operate within legal and ethical boundaries. The legality of fantasy cricket may vary depending on the jurisdiction and local laws. In many countries, fantasy cricket is considered a game of skill rather than a game of chance, which makes it legal to play. However, we advise users to review their local laws and regulations to ensure compliance with any relevant rules or restrictions. As a responsible platform, we also take measures to promote fair play and prevent any fraudulent or illegal activities on our platform."
@@ -136,8 +136,7 @@ export const defaultCarouselSettings = {
                             settings: {
                                 slidesToShow: 1,
                                 slidesToScroll: 1,
-                                centerMode: true,
-                    centerPadding:'10px',
+                                centerMode: true,                    centerPadding:'20px',
                             }
                         }
                     ]
