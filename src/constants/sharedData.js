@@ -16,7 +16,7 @@ export const NAV_ITEMS = [
         label: 'Offers',
     },
 ];
-export const EARN_MORE = [{
+export const FANTASY_BENEFITS = [{
     title: "Instant Withdrawal",
     text: "Enjoy lightning fast withdrawal experience"
     // icon: TbCricket
@@ -36,7 +36,7 @@ export const EARN_MORE = [{
     text: "Join multiple leagues from single request"
     // icon: TbCricket
 }]
-export const FANTASY_BENEFITS = [{
+export const EARN_MORE = [{
     title: "Deposit Offer",
     text: "Get League Join offer on 1st Deposit"
     // icon: TbCricket

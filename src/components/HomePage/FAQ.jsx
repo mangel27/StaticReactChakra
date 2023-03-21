@@ -58,7 +58,9 @@ const FAQ = (props) => {
   const [currentOpen, setCurrentOpen] = useState(-1);
   return (
     <Box w={["100%", "80%"]} py={3} px={6}>
-      <Heading mb={6}>FAQ</Heading>
+      <Heading textAlign={"center"} mb={6}>
+        FAQ
+      </Heading>
 
       {FAQ_ITEMS.map((faq, index) => (
         <FAQRow

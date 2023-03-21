@@ -16,7 +16,9 @@ const Testimonial = ({ title }) => {
   };
   return (
     <Box px="5" overflow={"hidden"} w="100%">
-      <Heading mb="1em">{title}</Heading>
+      <Heading textAlign={"center"} mb="1em">
+        {title}
+      </Heading>
       <Box mx="auto" w="80%">
         <Carousel slides={getSlides()} settings={defaultCarouselSettings} />
       </Box>

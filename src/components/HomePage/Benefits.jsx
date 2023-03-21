@@ -16,7 +16,9 @@ const Benefits = ({ title }) => {
   };
   return (
     <Box overflow={"hidden"} px="5" w="100%">
-      <Heading mb="0.5em">{title}</Heading>
+      <Heading textAlign={"center"} mb="0.5em">
+        {title}
+      </Heading>
       <SimpleCardCarousel
         cards={FANTASY_BENEFITS}
         settings={defaultCarouselSettings}
