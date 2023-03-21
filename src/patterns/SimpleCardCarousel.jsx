@@ -6,16 +6,10 @@ import { Box, Heading } from "@chakra-ui/react";
 const SimpleCardCarousel = ({ cards, settings, ...rest }) => {
   const getSlides = () => {
     let slides = cards.map((card, index) => {
-      return <SimpleCard  index={index} {...card} />;
+      return <SimpleCard index={index} {...card} />;
     });
     return slides;
   };
-  return (
-    <Carousel
-      slides={getSlides()}
-      settings={settings ? settings : defaultCarouselSettings}
-      {...rest}
-    />
-  );
+  return <Carousel slides={getSlides()} {...rest} />;
 };
 export default SimpleCardCarousel;

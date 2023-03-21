@@ -14,7 +14,7 @@ const HomePage = () => {
       direction="column"
       alignItems="center"
       justifyContent="flex-start"
-      mb={8}
+      mb={4}
       w="full"
     >
       <HeroSection />

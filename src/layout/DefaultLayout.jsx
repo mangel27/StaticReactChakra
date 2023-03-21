@@ -9,7 +9,14 @@ const DefaultLayout = ({ children }) => {
       <Header />
       <Box as="main">{children}</Box>
       <Footer />
-      <Box id="myPopup" display="none" position="sticky" bottom="0" w="full">
+      <Box
+        id="myPopup"
+        zIndex={9999}
+        display="none"
+        position="sticky"
+        bottom="0"
+        w="full"
+      >
         <Download />
       </Box>
     </Box>

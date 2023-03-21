@@ -12,8 +12,8 @@ const EarnMore = ({ title }) => {
     return slides;
   };
   return (
-    <Box p="5" my="1em" overflow={"hidden"} w="100%">
-      <Heading mb="1em">{title}</Heading>
+    <Box px="5" py="3" my="0.5em" overflow={"hidden"} w="100%">
+      <Heading mb="0.5em">{title}</Heading>
       <SimpleCardCarousel
         cards={EARN_MORE}
         settings={defaultCarouselSettings}

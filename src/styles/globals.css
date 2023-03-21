@@ -17,13 +17,6 @@
   display: none;
 }
 /* the slides */
-.slick-slide {
-  margin: 0 10px;
-}
-/* the parent */
-.slick-list {
-  margin: 0 -10px;
-}
 
 .swiper {
   width: 100%;
@@ -41,7 +34,10 @@
   justify-content: center;
   align-items: center;
 }
-
+.swiper-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 .swiper-slide img {
   display: block;
   width: 100%;

@@ -6,35 +6,37 @@ import "swiper/css/pagination";
 const Carousel = ({ slides, settings, ...rest }) => {
   return (
     <Swiper
-      pagination={{
-        dynamicBullets: true,
-        clickable: true,
-      }}
       spaceBetween={80}
       centeredSlides={true}
       centeredSlidesBounds={true}
       className="mySwiper"
+      pagination={{ dynamicBullets: true, clickable: true }}
       breakpoints={{
-        "@0.00": {
+        640: {
           slidesPerView: 1,
+          pagination: {
+            enabled: true,
+          },
           spaceBetween: 10,
+          modules: [Pagination],
         },
-        "@0.75": {
+        768: {
           slidesPerView: 2,
           spaceBetween: 20,
+          pagination: {
+            enabled: true,
+          },
         },
-        "@1.00": {
-          slidesPerView: 3,
-          spaceBetween: 40,
-        },
-        "@1.50": {
+
+        1024: {
           slidesPerView: 4,
           spaceBetween: 50,
+          pagination: {
+            enabled: false,
+          },
         },
       }}
       modules={[Pagination]}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>{slide}</SwiperSlide>

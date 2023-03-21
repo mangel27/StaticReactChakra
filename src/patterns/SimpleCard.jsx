@@ -16,7 +16,7 @@ const SimpleCard = ({ title, text, index, ...rest }) => {
       height={"150px"}
       {...rest}
     >
-      <Text fontWeight={500} fontSize="md">
+      <Text fontWeight={700} textShadow={"1px 1px 1px #000"} fontSize="lg">
         {title}
       </Text>
       <Text>{text}</Text>

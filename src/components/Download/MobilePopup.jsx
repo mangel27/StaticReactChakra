@@ -10,7 +10,13 @@ import {
 
 const Mobile = (props) => {
   return (
-    <SimpleGrid columns={1} pacing={0} bg="rgb(89,37,211)" w="100%">
+    <SimpleGrid
+      zIndex={9999}
+      columns={1}
+      pacing={0}
+      bg="rgb(89,37,211)"
+      w="100%"
+    >
       <Flex justifyContent={"center"} px={4}>
         <Box p={2} pl={2} color={useColorModeValue("white", "gray.200")}>
           <Text fontSize={"sm"} fontWeight={"medium"}>
@@ -25,12 +31,12 @@ const Mobile = (props) => {
             Download App & Get ₹250 off on League Join
           </Text>
         </Box>
-        <Box pl={2} pt={2} color={useColorModeValue("white", "gray.200")}>
+        <Box pl={2} pt={1} color={useColorModeValue("white", "gray.200")}>
           <Link>
-            <Image src="assets/img/istore.png" w={120} p={1}></Image>
+            <Image src="assets/img/istore.png" w={150} p={3}></Image>
           </Link>
           <Link>
-            <Image src="assets/img/playstore.png" w={120} p={1}></Image>
+            <Image src="assets/img/playstore.png" w={150} p={3}></Image>
           </Link>
         </Box>
       </Flex>

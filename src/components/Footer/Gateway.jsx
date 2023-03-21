@@ -12,7 +12,7 @@ import {
 
 const Gateway = () => {
   return (
-    <Box borderTop="1px solid" borderColor="gray.100" py="10">
+    <Box borderTop="1px solid" borderColor="gray.100" py="5">
       <Stack display="flex" alignItems="center">
         <Text color="gray.800" fontSize="md">
           Our Supporting Payment Gateway

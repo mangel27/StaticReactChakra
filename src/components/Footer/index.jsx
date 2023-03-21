@@ -17,16 +17,16 @@ const Footer = () => {
         bg={useColorModeValue("gray.50", "gray.900")}
         color={useColorModeValue("gray.700", "gray.200")}
       >
-        <Box py={10}>
+        <Box py={3}>
           <Flex justify="center">
             <Image
               w={"150px"}
-              h={"75px"}
+              h={"60px"}
               objectFit="contain"
               src="/assets/hp_logo.png"
             />
           </Flex>
-          <Text pt={6} fontSize={"2xl"} fontWeight="500" textAlign={"center"}>
+          <Text fontSize={"2xl"} fontWeight="500" textAlign={"center"}>
             Halaplay Technologies Pvt. Ltd.
           </Text>
         </Box>

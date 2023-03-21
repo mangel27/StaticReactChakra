@@ -57,7 +57,11 @@ export const FANTASY_BENEFITS = [{
     // icon: TbCricket
 }]
 export const cardColors = [
-    "green.300", "red.300", "blue.300", "yellow.300", "purple.300", "pink.300", "orange.300", "cyan.300", "teal.300", "gray.300"
+"rgb(112,111,211)",
+ "rgb(22,160,133)",
+"rgb(41,128,185)",
+
+"rgb(140,122,230)"
 ]
 export const FAQ_ITEMS = [
     {

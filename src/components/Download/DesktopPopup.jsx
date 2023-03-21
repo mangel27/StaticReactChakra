@@ -11,7 +11,7 @@ import {
 const Desktop = () => {
   return (
     <SimpleGrid columns={1} spacing={0} bg="rgb(89,37,211)" w="100%">
-      <Flex justifyContent={"center"}>
+      <Flex justifyContent={"space-around"}>
         <Box pl={4} p={6} color={useColorModeValue("white", "gray.200")}>
           <Link>
             <Image src="assets/img/playstore.png" w={140} p={1}></Image>
