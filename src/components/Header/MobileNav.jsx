@@ -10,11 +10,13 @@ import {
   useColorModeValue,
   useDisclosure,
 } from "@chakra-ui/react";
-
+import { useRouter } from 'next/router';
 import { NAV_ITEMS } from "@/constants/sharedData";
 
 const MobileNavItem = ({ label, children, href }) => {
   const { isOpen, onToggle } = useDisclosure();
+  const router = useRouter();
+  const isActive = router.asPath === href;
 
   return (
     <Stack spacing={4} onClick={children && onToggle}>
@@ -27,10 +29,11 @@ const MobileNavItem = ({ label, children, href }) => {
         _hover={{
           textDecoration: "none",
         }}
+        fontWeight={isActive ? 900 : 500}
+        fontSize={isActive ? 40 : 'md'}
       >
         <Text
-          fontWeight={600}
-          color={useColorModeValue("white", "gray.200")}
+          color={useColorModeValue("white", "gray.100")}
         >
           {label}
         </Text>
@@ -65,18 +68,21 @@ const MobileNavItem = ({ label, children, href }) => {
     </Stack>
   );
 };
+
 const MobileNav = () => {
+
   return (
     <Stack
       bg={useColorModeValue("rgb(89,37,211)", "gray.800")}
       p={4}
       display={{ md: "none" }}
     >
-      <Text align="center" color="white" textDecoration={'underline'} fontSize='35px' fontWeight={'900'}>Home</Text>
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
       ))}
     </Stack>
   );
 };
+
+
 export default MobileNav;

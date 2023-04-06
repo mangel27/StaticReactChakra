@@ -44,13 +44,13 @@ const Header = () => {
             aria-label="Toggle Navigation"
           />
         </Flex>
-        <Flex p={2}  px={["90px", "0"]}>
+        <Flex p={2} px={["90px", "0"]}>
           <Image
             w={["140px","230px"]}
             h={["50px", "75px"]}
             src="/assets/img/logo.png"
           />
-          <Flex display={{ base: "none", md: "flex" }} ml={700} mt={6}>
+          <Flex display={{ base: "none", md: "flex" }} ml={600} mt={6}>
             <DesktopNav />
           </Flex>
         </Flex>

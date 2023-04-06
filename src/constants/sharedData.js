@@ -2,8 +2,12 @@
 
 export const NAV_ITEMS = [
     {
+        label: 'Home',
+        href : '/'
+    },
+    {
         label: 'Blogs',
-
+        href : '/blogs'
     },
     {
         label: 'Point System',
