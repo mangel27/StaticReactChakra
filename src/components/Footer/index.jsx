@@ -20,9 +20,9 @@ const Footer = () => {
         <Box py={10}>
           <Flex justify="center">
             <Image
-              w={"75px"}
-              h={"75px"}
-              src="https://d15boxbdv4z6lv.cloudfront.net/1_small_100.png"
+              w={"175px"}
+              h={"80px"}
+              src="/assets/img/logo.png"
             />
           </Flex>
           <Text pt={6} fontSize={"2xl"} fontWeight="500" textAlign={"center"}>

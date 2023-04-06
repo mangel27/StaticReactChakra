@@ -28,9 +28,6 @@ const Header = () => {
         minH="60px"
         py={{ base: 2 }}
         px={{ base: 4 }}
-        borderBottom={1}
-        borderStyle="solid"
-        borderColor={useColorModeValue("gray.200", "gray.900")}
         align="center"
       >
         <Flex
@@ -47,18 +44,13 @@ const Header = () => {
             aria-label="Toggle Navigation"
           />
         </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
+        <Flex p={2}  px={["90px", "0"]}>
           <Image
-            alignSelf={useBreakpointValue({
-              base: "center",
-              md: "left",
-            })}
-            w={"75px"}
-            h={"75px"}
-            src="https://d15boxbdv4z6lv.cloudfront.net/1_small_100.png"
+            w={["140px","230px"]}
+            h={["50px", "75px"]}
+            src="/assets/img/logo.png"
           />
-
-          <Flex display={{ base: "none", md: "flex" }} ml={10} mt={6}>
+          <Flex display={{ base: "none", md: "flex" }} ml={700} mt={6}>
             <DesktopNav />
           </Flex>
         </Flex>

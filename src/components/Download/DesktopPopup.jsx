@@ -23,7 +23,7 @@ const Desktop = () => {
           </Text>
           <Text
             fontSize={"lg"}
-            color={"rgb(254, 235, 75)"}
+            color={"yellow"}
             fontWeight={"medium"}
           >
             Download App & Get ₹250 off on League Join

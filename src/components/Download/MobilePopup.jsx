@@ -16,7 +16,7 @@ const Mobile = (props) => {
           <Text fontSize={"sm"} fontWeight={"medium"}>
             Its always better with App
           </Text>
-          <Text fontSize={"md"} fontWeight={"medium"} mt={1}>
+          <Text fontSize={"md"} color={"yellow"} fontWeight={"medium"} mt={1}>
             Download App & Get Rs250 off on League Join
           </Text>
         </Box>
