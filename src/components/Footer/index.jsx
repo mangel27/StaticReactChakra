@@ -39,8 +39,10 @@ const Footer = () => {
             py={5}
           >
             <Stack textAlign={"justify"}>
-              <Link href={"https://india.halaplay.com/home"}>How to Play</Link>
-              <Link href={"https://india.halaplay.com/rules"}>
+              <Link href={"https://mindia.halaplay.com/responsible-gaming"}>
+                Responsible Gaming
+              </Link>
+              <Link href={"https://mindia.halaplay.com/responsible-gaming"}>
                 Point System
               </Link>
               <Link href={"https://india.halaplay.com/home"}>Offer</Link>
@@ -48,12 +50,20 @@ const Footer = () => {
             </Stack>
 
             <Stack align={"flex-end"}>
-              <Link href={"https://india.halaplay.com/about-us"}>About us</Link>
-              <Link href={"https://india.halaplay.com/contact"}>Support</Link>
-              <Link href={"https://india.halaplay.com/terms-conditions"}>
+              <Link
+                href={
+                  "https://apps.apple.com/in/app/halaplay-fantasy-sports/id1426253591."
+                }
+              >
+                About us
+              </Link>
+              <Link href={"https://mindia.halaplay.com/privacypolicy"}>
+                Privacy Policy
+              </Link>
+              <Link href={"https://mindia.halaplay.com/terms-conditions"}>
                 T&C
               </Link>
-              <Link href={"https://india.halaplay.com/home"}>FAQ</Link>
+              <Link href={"https://india.halaplay.com/faqs"}>FAQ</Link>
             </Stack>
           </SimpleGrid>
         </Box>

@@ -11,9 +11,10 @@ const HeroSection = () => {
   return (
     <Flex
       w={"full"}
-      h={"50vh"}
-      backgroundImage={"url(https://d15boxbdv4z6lv.cloudfront.net/main_bg.jpg)"}
+      h={"60vh"}
+      backgroundImage={"/assets/img/bgimg.png"}
       backgroundSize={"cover"}
+      backgroundRepeat={"no-repeat"}
       backgroundPosition={"center center"}
     >
       <VStack
@@ -25,7 +26,7 @@ const HeroSection = () => {
         <Stack maxW={"2xl"} align={"flex-start"} spacing={6}>
           <Text
             color={"white"}
-            fontWeight={700}
+            fontWeight={600}
             textAlign="center"
             lineHeight={1.2}
             fontSize={useBreakpointValue({
@@ -33,7 +34,10 @@ const HeroSection = () => {
               md: "4xl",
             })}
           >
-            Play Fantasy Sports and Win upto 10 Lakh Daily
+            Play Fantasy Sports and Win upto <br></br>
+            <Text as="span" fontWeight={900} fontSize={["35px", "50px"]}>
+              ₹ 1,00,000 Daily
+            </Text>
           </Text>
         </Stack>
       </VStack>

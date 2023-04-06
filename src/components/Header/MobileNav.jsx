@@ -22,7 +22,7 @@ const MobileNavItem = ({ label, children, href }) => {
         py={2}
         as={Link}
         href={href ?? "#"}
-        justify="space-between"
+        justify="center"
         align="center"
         _hover={{
           textDecoration: "none",
@@ -30,7 +30,7 @@ const MobileNavItem = ({ label, children, href }) => {
       >
         <Text
           fontWeight={600}
-          color={useColorModeValue("gray.600", "gray.200")}
+          color={useColorModeValue("white", "gray.200")}
         >
           {label}
         </Text>
@@ -68,10 +68,11 @@ const MobileNavItem = ({ label, children, href }) => {
 const MobileNav = () => {
   return (
     <Stack
-      bg={useColorModeValue("white", "gray.800")}
+      bg={useColorModeValue("rgb(89,37,211)", "gray.800")}
       p={4}
       display={{ md: "none" }}
     >
+      <Text align="center" color="white" textDecoration={'underline'} fontSize='35px' fontWeight={'900'}>Home</Text>
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
       ))}

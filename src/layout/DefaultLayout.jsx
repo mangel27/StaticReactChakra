@@ -29,7 +29,7 @@ if (typeof document !== "undefined") {
 
   if (popupWindow) {
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 1000) {
+      if (window.pageYOffset > 100) {
         popupWindow.style.display = "block";
       } else {
         popupWindow.style.display = "none";
