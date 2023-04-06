@@ -5,21 +5,39 @@ import {
   Text,
   VStack,
   useBreakpointValue,
+  Image,
 } from "@chakra-ui/react";
 
 const HeroSection = () => {
   return (
     <Flex
       w={"full"}
-      h={"60vh"}
-      backgroundImage={"/assets/img/bgimg.png"}
+      h={["40vh", "60vh"]}
+      backgroundImage={["/assets/img/bgimg2.png", "/assets/img/bgimg.png"]}
       backgroundSize={"cover"}
       backgroundRepeat={"no-repeat"}
       backgroundPosition={"center center"}
+      pos="relative"
     >
+      {/* <Image
+        src={"/assets/img/bgimg2.png"}
+        width="100%"
+        height={"100%"}
+        pos="relative"
+        display={["block", "none"]}
+      />
+      <Image
+        src={"/assets/img/bgimg.png"}
+        width="100%"
+        height={"100%"}
+        pos="relative"
+        display={["none", "block"]}
+      /> */}
       <VStack
         w={"full"}
         justify={"center"}
+        // pos="absolute"
+        // top={"40%"}
         px={useBreakpointValue({ base: 4, md: 8 })}
         // bgGradient={"linear(to-r, blackAlpha.600, transparent)"}
       >
