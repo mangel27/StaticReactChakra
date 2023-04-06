@@ -1,5 +1,6 @@
 
-
+import { FiFacebook, FiTwitter, FiLinkedin, FiYoutube, FiInstagram } from "react-icons/fi";
+import { TbBrandTelegram } from "react-icons/tb";
 export const NAV_ITEMS = [
     {
         label: 'Blogs',
@@ -18,50 +19,59 @@ export const NAV_ITEMS = [
 ];
 export const FANTASY_BENEFITS = [{
     title: "Instant Withdrawal",
-    text: "Enjoy lightning fast withdrawal experience"
+    text: "Enjoy lightning fast withdrawal experience",
+    icon:"/assets/icons/withdraw.svg"
     // icon: TbCricket
 },
 {
     title: "Flexible Team Creation",
-    text: "Now you can select only 1 player from Bat, Bwl, AllR, WK "
+    text: "Now you can select only 1 player from Bat, Bwl, AllR, WK ",
+    icon:"/assets/icons/flexi.svg"
     //icon: TbCricket
 },
 {
     title: "VIP",
-    text: "Pay lowest entry fee & get upto 97% winnings"
+    text: "Pay lowest entry fee & get upto 97% winnings",
+    icon:"/assets/icons/vip.svg"
     // icon: TbCricket
 },
 {
     title: "Auto Join",
-    text: "Join multiple leagues from single request"
+    text: "Join multiple leagues from single request",
+    icon:"/assets/icons/autojoin.svg"
     // icon: TbCricket
 }]
 export const EARN_MORE = [{
     title: "Deposit Offer",
-    text: "Get League Join offer on 1st Deposit"
-    // icon: TbCricket
+    text: "Get League Join offer on 1st Deposit",
+    icon:"/assets/icons/deposit.svg"
 },
 {
     title: "Signup Offer",
-    text: "Get ₹250 Discount on Registration"
+    text: "Get ₹250 Discount on Registration",
+    icon:"/assets/icons/signup.svg"
     //icon: TbCricket
 },
 {
     title: "Refer & Earn",
-    text: "Earn upto 13000 everytime you refer friend"
+    text: "Earn upto 13000 everytime you refer friend",
+    icon:"/assets/icons/refer.svg"
     // icon: TbCricket
 },
 {
     title: "4+1 Offer",
-    text: "Join with 4 & get 5th Entry Free"
+    text: "Join with 4 & get 5th Entry Free",
+    icon:"/assets/icons/4+1.svg"
     // icon: TbCricket
 }]
 export const cardColors = [
 "rgb(112,111,211)",
  "rgb(22,160,133)",
 "rgb(41,128,185)",
-
 "rgb(140,122,230)"
+]
+export const earnmoreColors = [
+    "#8B22D0","#EB6DA5","#DCB660","#2980B9"
 ]
 export const FAQ_ITEMS = [
     {
@@ -152,4 +162,42 @@ export const defaultCarouselSettings = {
                             }
                         }
                     ]
-                }
+}
+
+export const FOLLOW_DATA = [
+    {
+        title: "Facebook",
+        icon: FiFacebook,
+        link: "https://www.facebook.com/fantasycricketapp"
+    },
+    {
+        title: "Twitter",
+        icon: FiTwitter,
+        link: "https://twitter.com/fantasycricketap"
+    },
+    {
+        title: "Instagram",
+        icon: FiInstagram,
+        link: "https://www.instagram.com/fantasycricketapp/"
+
+    },
+
+    {
+        title: "Linkedin",
+        icon: FiLinkedin,
+        link: "https://www.linkedin.com/company/fantasycricketapp"
+
+    },
+      {
+        title: "Youtube",
+        icon: FiYoutube,
+        link: "https://www.youtube.com/channel/UCZ1Z2Z3Z4Z5Z6Z7Z8Z9Z10"
+    },
+    {
+        title: "Telegram",
+        icon: TbBrandTelegram,
+        link: "https://t.me/fantasycricketapp"
+    },
+
+
+];

@@ -5,7 +5,8 @@ import '../src/styles/globals.css'
 
 export default function App({ Component, pageProps }) {
   return <ChakraProvider>
-    <DefaultLayout>    <Component {...pageProps} />
+    <DefaultLayout>
+      <Component {...pageProps} />
       </DefaultLayout>
 
   </ChakraProvider>

@@ -1,19 +1,12 @@
 import {
   defaultCarouselSettings,
   FANTASY_BENEFITS,
+  cardColors,
 } from "@/constants/sharedData";
-import Carousel from "@/patterns/Carousel";
-import SimpleCard from "@/patterns/SimpleCard";
 import SimpleCardCarousel from "@/patterns/SimpleCardCarousel";
 import { Box, Heading } from "@chakra-ui/react";
 
 const Benefits = ({ title }) => {
-  const getSlides = () => {
-    let slides = FANTASY_BENEFITS.map((card, index) => {
-      return <SimpleCard w="auto" index={index} {...card} />;
-    });
-    return slides;
-  };
   return (
     <Box overflow={"hidden"} px="5" w="100%">
       <Heading textAlign={"center"} mb="0.5em">
@@ -21,6 +14,7 @@ const Benefits = ({ title }) => {
       </Heading>
       <SimpleCardCarousel
         cards={FANTASY_BENEFITS}
+        bgColor={cardColors}
         settings={defaultCarouselSettings}
       />
     </Box>
