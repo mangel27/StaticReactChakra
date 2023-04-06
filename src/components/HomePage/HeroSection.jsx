@@ -48,13 +48,13 @@ const HeroSection = () => {
             textAlign="center"
             lineHeight={1.2}
             fontSize={useBreakpointValue({
-              base: "3xl",
+              base: "2xl",
               md: "4xl",
             })}
           >
             Play Fantasy Sports and Win upto <br></br>
-            <Text as="span" fontWeight={900} fontSize={["35px", "50px"]}>
-              ₹ 1,00,000 Daily
+            <Text as="span" fontWeight={900} fontSize={["30px", "50px"]}>
+              ₹ 10,00,000 Daily
             </Text>
           </Text>
         </Stack>

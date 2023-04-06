@@ -52,10 +52,10 @@ const FollowUs = () => {
           fontWeight={600}
           fontSize={["22px", "26px"]}
           textDecor={"underline"}
-          href="mailto:support@myteam11.com"
+          href="mailto:care@halaplay.com"
           as={NextLink}
         >
-          support@myteam11.com
+          care@halaplay.com
         </Link>
       </Box>
     </Box>

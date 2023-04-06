@@ -186,22 +186,22 @@ export const FOLLOW_DATA = [
 
     },
 
-    {
-        title: "Linkedin",
-        icon: FiLinkedin,
-        link: "#"
+    // {
+    //     title: "Linkedin",
+    //     icon: FiLinkedin,
+    //     link: "#"
 
-    },
-      {
-        title: "Youtube",
-        icon: FiYoutube,
-        link: "#"
-    },
-    {
-        title: "Telegram",
-        icon: TbBrandTelegram,
-        link: "#"
-    },
+    // },
+    //   {
+    //     title: "Youtube",
+    //     icon: FiYoutube,
+    //     link: "#"
+    // },
+    // {
+    //     title: "Telegram",
+    //     icon: TbBrandTelegram,
+    //     link: "#"
+    // },
 
 
 ];
