@@ -22,16 +22,14 @@ const MobileNavItem = ({ label, children, href }) => {
         py={2}
         as={Link}
         href={href ?? "#"}
+        _activLink={{ textDecor: "underline" }}
         justify="center"
         align="center"
         _hover={{
           textDecoration: "none",
         }}
       >
-        <Text
-          fontWeight={600}
-          color={useColorModeValue("white", "gray.200")}
-        >
+        <Text fontWeight={600} color={useColorModeValue("white", "gray.200")}>
           {label}
         </Text>
         {children && (
@@ -72,7 +70,7 @@ const MobileNav = () => {
       p={4}
       display={{ md: "none" }}
     >
-      <Text align="center" color="white" textDecoration={'underline'} fontSize='35px' fontWeight={'900'}>Home</Text>
+      {/* <Text align="center" color="white" textDecoration={'underline'} fontSize='35px' fontWeight={'900'}>Home</Text> */}
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
       ))}

@@ -11,14 +11,17 @@ import {
   Collapse,
   useColorModeValue,
   useBreakpointValue,
+  Link,
   useDisclosure,
 } from "@chakra-ui/react";
 
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
+import { useRouter } from "next/router";
 
 const Header = () => {
   const { isOpen, onToggle } = useDisclosure();
+  const router = useRouter();
   return (
     <Box>
       <Flex
@@ -50,12 +53,14 @@ const Header = () => {
               base: "center",
               md: "left",
             })}
+            onClick={() => router.push("/")}
+            cursor="pointer"
             objectFit="contain"
             w={["140px", "230px"]}
             h={["50px", "75px"]}
             src="/assets/hp_logo.png"
           />
-          <Flex display={{ base: "none", md: "flex" }} ml={700} mt={6}>
+          <Flex display={{ base: "none", md: "flex" }} ml={10} mt={6}>
             <DesktopNav />
           </Flex>
         </Flex>

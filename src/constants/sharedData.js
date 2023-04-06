@@ -4,17 +4,21 @@ import { TbBrandTelegram } from "react-icons/tb";
 export const NAV_ITEMS = [
     {
         label: 'Blogs',
+        href:'/blog'
 
     },
     {
         label: 'Point System',
+        href:'https://mindia.halaplay.com/rules'
 
     },
     {
-        label: 'How to Play',
+        label: 'Responsible Gaming',
+        href:'https://mindia.halaplay.com/responsible-gaming'
     },
     {
         label: 'Offers',
+        href:'#'
     },
 ];
 export const FANTASY_BENEFITS = [{
@@ -168,35 +172,35 @@ export const FOLLOW_DATA = [
     {
         title: "Facebook",
         icon: FiFacebook,
-        link: "https://www.facebook.com/fantasycricketapp"
+        link: "https://www.facebook.com/HalaPlayOfficial"
     },
     {
         title: "Twitter",
         icon: FiTwitter,
-        link: "https://twitter.com/fantasycricketap"
+        link: "https://twitter.com/HalaPlayDotCom"
     },
     {
         title: "Instagram",
         icon: FiInstagram,
-        link: "https://www.instagram.com/fantasycricketapp/"
+        link: "https://www.instagram.com/halaplay_official/"
 
     },
 
     {
         title: "Linkedin",
         icon: FiLinkedin,
-        link: "https://www.linkedin.com/company/fantasycricketapp"
+        link: "#"
 
     },
       {
         title: "Youtube",
         icon: FiYoutube,
-        link: "https://www.youtube.com/channel/UCZ1Z2Z3Z4Z5Z6Z7Z8Z9Z10"
+        link: "#"
     },
     {
         title: "Telegram",
         icon: TbBrandTelegram,
-        link: "https://t.me/fantasycricketapp"
+        link: "#"
     },
 
 

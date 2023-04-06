@@ -9,8 +9,10 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import Gateway from "./Gateway";
+import { useRouter } from "next/router";
 
 const Footer = () => {
+  const router = useRouter();
   return (
     <>
       <Box
@@ -18,7 +20,11 @@ const Footer = () => {
         color={useColorModeValue("gray.700", "gray.200")}
       >
         <Box py={3}>
-          <Flex justify="center">
+          <Flex
+            onClick={() => router.push("/")}
+            cursor="pointer"
+            justify="center"
+          >
             <Image
               w={"150px"}
               h={"60px"}
