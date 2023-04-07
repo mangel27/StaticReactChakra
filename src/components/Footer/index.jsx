@@ -45,23 +45,17 @@ const Footer = () => {
             py={5}
           >
             <Stack textAlign={"justify"}>
-              <Link
-                href={
-                  "https://apps.apple.com/in/app/halaplay-fantasy-sports/id1426253591."
-                }
-              >
-                About us
-              </Link>
+              <Link href={"/about-us"}>About us</Link>
 
               <Link href={"https://play.halaplay.com/"}>Blog</Link>
               <Link href={"https://mindia.halaplay.com/rules"}>
                 Point System
               </Link>
-              <Link href={"https://india.halaplay.com/home"}>Offer</Link>
+              <Link href={"#"}>Offer</Link>
             </Stack>
 
             <Stack align={"flex-end"} textAlign="end">
-              <Link href={"https://india.halaplay.com/faqs"}>FAQ</Link>
+              <Link href={"/faqs"}>FAQ</Link>
               <Link href={"https://mindia.halaplay.com/privacypolicy"}>
                 Privacy Policy
               </Link>
