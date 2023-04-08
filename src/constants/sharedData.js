@@ -373,17 +373,22 @@ export const FAQ_ITEMS = [
     },
 ]
 export const TESTIMONIAL_DATA = [
-    { id: 1, title: "Won 7 Lakhs", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
-    { id: 2, title: "Won 7 Lakhs", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
-    { id: 3, title: "Won 7 Lakhs", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
+    { id: 1, title: "Won 7 Lakhs", icon:"/assets/testimonials/1.png",name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
+    { id: 2, title: "Won 7 Lakhs",icon:"/assets/testimonials/2.png", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
+    { id: 3, title: "Won 7 Lakhs",icon:"/assets/testimonials/3.png", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
+    { id: 1, title: "Won 7 Lakhs",icon:"/assets/testimonials/4.png", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
+    { id: 2, title: "Won 7 Lakhs",icon:"/assets/testimonials/5.png", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
+    { id: 3, title: "Won 7 Lakhs",icon:"/assets/testimonials/6.png", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
 ]
+export const testimonialSettings = {
+};
 export const defaultCarouselSettings = {
                     dots: false,
                     infinite: false,
                     swipeToSlide: true,
                     speed: 500,
                     autoplay: false,
-    slidesToShow: 3,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     variableWidth:true,
                     initialSlide: 0,

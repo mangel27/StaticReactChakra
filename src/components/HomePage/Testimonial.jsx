@@ -1,7 +1,4 @@
-import {
-  defaultCarouselSettings,
-  TESTIMONIAL_DATA,
-} from "@/constants/sharedData";
+import { testimonialSettings, TESTIMONIAL_DATA } from "@/constants/sharedData";
 import TestimonialCard from "@/patterns/TestimonialCard";
 import SimpleCardCarousel from "@/patterns/SimpleCardCarousel";
 import { Box, Heading } from "@chakra-ui/react";
@@ -20,7 +17,7 @@ const Testimonial = ({ title }) => {
         {title}
       </Heading>
       <Box mx="auto" w="80%">
-        <Carousel slides={getSlides()} settings={defaultCarouselSettings} />
+        <Carousel slides={getSlides()} settings={testimonialSettings} />
       </Box>
     </Box>
   );

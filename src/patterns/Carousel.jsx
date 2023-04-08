@@ -7,8 +7,9 @@ const Carousel = ({ slides, settings, ...rest }) => {
   return (
     <Swiper
       spaceBetween={80}
-      centeredSlides={true}
-      centeredSlidesBounds={true}
+      // centeredSlides={true}
+      // centeredSlidesBounds={true}
+
       className="mySwiper"
       pagination={{ dynamicBullets: true, clickable: true }}
       breakpoints={{
@@ -32,7 +33,7 @@ const Carousel = ({ slides, settings, ...rest }) => {
           slidesPerView: 4,
           spaceBetween: 50,
           pagination: {
-            enabled: false,
+            enabled: true,
           },
         },
       }}
