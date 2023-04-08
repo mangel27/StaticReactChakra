@@ -32,10 +32,10 @@ const Mobile = (props) => {
           </Text>
         </Box>
         <Box pl={2} pt={1} color={useColorModeValue("white", "gray.200")}>
-          <Link>
+          <Link href="https://apps.apple.com/in/app/halaplay-fantasy-sports/id1426253591">
             <Image src="assets/img/istore.png" w={150} p={3}></Image>
           </Link>
-          <Link>
+          <Link href="https://d3mebndoedfycp.cloudfront.net/HalaPlay_Pro.apk">
             <Image src="assets/img/playstore.png" w={150} p={3}></Image>
           </Link>
         </Box>

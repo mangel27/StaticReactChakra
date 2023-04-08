@@ -26,9 +26,12 @@ const TestimonialContent = ({ children }) => {
       bg={useColorModeValue("white", "gray.800")}
       boxShadow={"lg"}
       p={8}
+      minH={"300px"}
+      maxH={"300px"}
       rounded={"xl"}
       align={"center"}
       pos={"relative"}
+      //justify={"space-around"}
       _after={{
         content: `""`,
         w: 0,

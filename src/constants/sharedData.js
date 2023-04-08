@@ -75,7 +75,7 @@ export const cardColors = [
 "rgb(140,122,230)"
 ]
 export const earnmoreColors = [
-    "#8B22D0","#EB6DA5","#DCB660","#2980B9"
+    "#8B22D0","#EB6DA5","rgb(255, 82, 82)","#2980B9"
 ]
 export const FAQ_ITEMS_PAGE = [
     {
@@ -373,12 +373,12 @@ export const FAQ_ITEMS = [
     },
 ]
 export const TESTIMONIAL_DATA = [
-    { id: 1, title: "Won 7 Lakhs", icon:"/assets/testimonials/1.png",name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
-    { id: 2, title: "Won 7 Lakhs",icon:"/assets/testimonials/2.png", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
-    { id: 3, title: "Won 7 Lakhs",icon:"/assets/testimonials/3.png", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
-    { id: 1, title: "Won 7 Lakhs",icon:"/assets/testimonials/4.png", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
-    { id: 2, title: "Won 7 Lakhs",icon:"/assets/testimonials/5.png", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
-    { id: 3, title: "Won 7 Lakhs",icon:"/assets/testimonials/6.png", name: "Rahul", text: "Fantasy cricket is the best platform to play fantasy cricket. I have been playing on this platform since last 2 years and I have never faced any issue. I have won many times and I have also won big prizes. I would recommend this platform to all my friends and family members." },
+    { id: 1, title: "Won 20 Lakhs", icon:"/assets/testimonials/1.png",name: "akshaypatel7729", text: "The HalaPlay VIP Pass has been hugely beneficial for me. I have made big investments, and my winnings have increased." },
+    { id: 2, title: "Won 24 Lakhs",icon:"/assets/testimonials/2.png", name: "OOTY GANESAN", text: "I find HalaPlay Season Passes very cost effective and beneficial for a recurring player. They help you play much more than what you would have actually played had you invested the same amount in the leagues normally. I’d recommend this feature to each and every Fantasy Sports player." },
+    { id: 3, title: "Won 13 Lakhs",icon:"/assets/testimonials/3.png", name: "DEVE1977", text: "Frankly speaking, it is a part of my life now. It motivates me to fight each and every day, the regular excitement is very essential to lead a happy life and I get that from Fantasy Cricket so yes undoubtedly, this is going to be a long term thing for me" },
+    { id: 4, title: "Won 25 Lakhs",icon:"/assets/testimonials/4.png", name: "shankarshingare", text: "It has been pretty satisfying till now since the day I started playing on HalaPlay. As mentioned, I used to play on other platforms before but never really got the success as compared to what I got here." },
+    { id: 5, title: "Won 7 Lakhs",icon:"/assets/testimonials/5.png", name: "GSR1994", text: "I like the HalaPlay VIP Pass very much. A very less platform fee is charged and can win the maximum amount. I also enjoy Reverse fantasy, which is a unique feature of HalaPlay" },
+    { id: 6, title: "Won 16 Lakhs",icon:"/assets/testimonials/6.png", name: "Chiru93", text: "My all-time favourite League is the Mile High Club. But nowadays I prefer playing in H2H leagues because of the exclusive feature of 0% platform fee in those leagues, only on HalaPlay." },
 ]
 export const testimonialSettings = {
 };

@@ -3,10 +3,7 @@ import ReactMarkdown from "react-markdown";
 import ChakraUIRenderer from "chakra-ui-markdown-renderer";
 
 const AboutUS = () => {
-  const content = `* New Point System
-
-
-Made in India, Played by India - HalaPlay is India’s most loved Daily Fantasy Sports destination trusted by users. We give you an opportunity to use your skill of the game and join exciting contests for fantasy cricket to win real money!
+  const content = `Made in India, Played by India - HalaPlay is India’s most loved Daily Fantasy Sports destination trusted by users. We give you an opportunity to use your skill of the game and join exciting contests for fantasy cricket to win real money!
 
 
 Put your cricket skill to the test by making fantasy teams - where you create your own virtual squad of real players and get points from their real world performances. Customize your teams based on form, statistics and head-to-head battles & join contests with a chance to win real cash prizes in the fantasy cricket league! It’s that simple.
@@ -17,11 +14,10 @@ If you are the type who don’t want to be limited by Batsmen, Bowler, All-round
 
 
 With our user-friendly interface, exciting offer, heavy discounts, real cash games and a fun gaming experience, play fantasy cricket like never before. Download the HalaPlay app now!
+Get started now, here’s how!\n\n
 
 
-Get started now, here’s how!
-
-Select Fantasy cricket on the HalaPlay app
+\n\nSelect Fantasy cricket on the HalaPlay app
 
 Browse & pick matches from upcoming section
 
@@ -63,7 +59,7 @@ A few more reasons to pick HalaPlay & start playing Daily Fantasy Games online:
     p: (props) => {
       const { children } = props;
       return (
-        <Text m={2} fontWeight={400} textIndent={2} lineHeight={1.5}>
+        <Text m={2} fontWeight={400}>
           {children}{" "}
         </Text>
       );
