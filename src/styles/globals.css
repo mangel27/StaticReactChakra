@@ -37,6 +37,7 @@
 .swiper-wrapper {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 1em;
 }
 .swiper-slide img {
   display: block;

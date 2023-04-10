@@ -1653,7 +1653,12 @@
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
   "version" "3.3.4"
 
-"next@13.2.4":
+"next-seo@^6.0.0":
+  "integrity" "sha512-jKKt1p1z4otMA28AyeoAONixVjdYmgFCWwpEFtu+DwRHQDllVX3RjtyXbuCQiUZEfQ9rFPBpAI90vDeLZlMBdg=="
+  "resolved" "https://registry.npmjs.org/next-seo/-/next-seo-6.0.0.tgz"
+  "version" "6.0.0"
+
+"next@^8.1.1-canary.54 || >=9.0.0", "next@13.2.4":
   "integrity" "sha512-g1I30317cThkEpvzfXujf0O4wtaQHtDCLhlivwlTJ885Ld+eOgcz7r3TGQzeU+cSRoNHtD8tsJgzxVdYojFssw=="
   "resolved" "https://registry.npmjs.org/next/-/next-13.2.4.tgz"
   "version" "13.2.4"
@@ -1750,7 +1755,7 @@
   "resolved" "https://registry.npmjs.org/react-collapsible/-/react-collapsible-2.10.0.tgz"
   "version" "2.10.0"
 
-"react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=18", "react-dom@~15 || ~16 || ~17 || ~18", "react-dom@18.2.0":
+"react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.0.0", "react-dom@>=18", "react-dom@~15 || ~16 || ~17 || ~18", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1839,7 +1844,7 @@
     "invariant" "^2.2.4"
     "tslib" "^2.0.0"
 
-"react@*", "react@^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16", "react@>=16.8.0", "react@>=18", "react@~15 || ~16 || ~17 || ~18", "react@18.2.0":
+"react@*", "react@^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16", "react@>=16.0.0", "react@>=16.8.0", "react@>=18", "react@~15 || ~16 || ~17 || ~18", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"

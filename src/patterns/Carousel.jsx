@@ -7,6 +7,10 @@ const Carousel = ({ slides, settings, ...rest }) => {
   return (
     <Swiper
       spaceBetween={80}
+      style={{
+        "--swiper-pagination-bullet-size": "10px",
+        "--swiper-pagination-bullet-width": "10px",
+      }}
       // centeredSlides={true}
       // centeredSlidesBounds={true}
 

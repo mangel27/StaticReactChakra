@@ -1,11 +1,23 @@
 import { Box } from "@chakra-ui/react";
+import Head from "next/head";
 import Header from "@/components/Header";
+import { defaultSEO } from "@/constants/seoData";
 import Footer from "@/components/Footer";
 import Download from "@/components/Download/Download";
 
 const DefaultLayout = ({ children }) => {
   return (
     <Box margin="0" transition="0.5s ease-out">
+      <Head>
+        <title>{defaultSEO.title}</title>
+        <meta property="og:title" content={defaultSEO.title} />
+        <meta name="twitter:title" content={defaultSEO.title} />
+        <meta name="description" content={defaultSEO.description} />
+        <meta property="og:description" content={defaultSEO.description} />
+        <meta name="twitter:description" content={defaultSEO.description} />
+        <meta name="keywords" content={defaultSEO.keywords} />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <Header />
       <Box as="main">{children}</Box>
       <Footer />

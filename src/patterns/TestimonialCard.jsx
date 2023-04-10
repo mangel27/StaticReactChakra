@@ -75,7 +75,6 @@ const TestimonialText = ({ children }) => {
 };
 
 const TestimonialAvatar = ({ icon, name, title }) => {
-  console.log(icon);
   return (
     <Flex align={"center"} mt={8} direction={"column"}>
       <Avatar src={icon} mb={2} />
