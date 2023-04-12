@@ -58,7 +58,7 @@ export const EARN_MORE = [{
 },
 {
     title: "Refer & Earn",
-    text: "Earn upto 13000 everytime you refer friend",
+    text: "Have Friends? Let your friends make some money",
     icon:"/assets/icons/refer.svg"
     // icon: TbCricket
 },
@@ -82,14 +82,14 @@ export const FAQ_ITEMS_PAGE = [
         sectionName: "FANTASY FAQ",
     sectionContent:[
     {
-        question: "What is Daily Fantansy Sports?",
+        question: "What is Daily Fantasy Sports?",
         answer: "Daily fantasy sports (DFS) are a subset of fantasy sport games. It's played over short time period instead of entire season. Fantasy players compete against others by building a team of professional athletes from a particular league or competition while remaining under a salary cap, and earn points based on the actual performance of the players in real-world competitions. It's structured in the form of paid contests where winners receive a share of a pre-determined pot funded by their entry fees. "
     },
 
     {
         question: "How do I play the Fantasy Game?",
-        answer: ` Follow these simple steps to play the Fantasy sports game of skill and win cash legally!\n- Register / Log in on Halaplay.
-        \n- Click on the particular match you want to join in Match center section or directly select from leagues in the league centre section.
+        answer: ` Follow these simple steps to play the Fantasy sports game of skill and win cash legally!\n- Register / Log in on HalaPlay.
+        \n- Click on the particular match you want to join in Match centre section or directly select from leagues in the league centre section.
 
        \n - There are multiple formats of leagues available to choose from with detailed information mentioned therein.
 
@@ -100,10 +100,6 @@ export const FAQ_ITEMS_PAGE = [
        \n - Once the Live match starts, your Fantasy Team starts earning points on the basis of actual performance of the players selected by you. Final points, rankings and winners are declared after the end of the match.`
     },
 
-     {
-        question: "What are the type of Leagues available ?",
-        answer: "Normal and reverse fantasy leagues differ in the way you will create your team. For normal leagues, you have to use your skill to create a team with best performing players, while for the reverse fantasy leagues, you will have to create a team with the players not expected to perform well in the match. Their scoring rules also differ."
-    },
 
     {
         question: "What are Public & Private Leagues?",
@@ -118,13 +114,11 @@ export const FAQ_ITEMS_PAGE = [
 
            \n2. You can select maximum of 7 players from a particular team.
 
-            \n3. For football, you need to complete a team of 11 players with 3 to 5 defenders, 3 to 5 mid-fielders, 1 to 4 forward and 1 goal-keeper.
+             \n3. For Cricket, you need to complete a team of 11 players with 1 to 8 bowlers, 1 to 8 batsmen, 1 to 8 all-rounder and 1 to 8 wicket-keeper.
 
-             \n4. For Cricket, you need to complete a team of 11 players with 3 to 5 bowlers, 3 to 5 batsmen, 1-3 all-rounder and 1 wicket-keeper.
+              \n4. Captain gets 2X the points in Normal Fantasy.
 
-              \n5. Captain gets 2X the points in Normal Fantasy and 1/2 the points in Reverse Fantasy. (If captain gets negative points in reverse fantasy then his points will become double. Eg -5 will become -10 in reverse.)
-
-               \n6. Take care while drafting your team for normal and reverse fantasy`
+               \n5. Take care while drafting your team for normal fantasy.`
     },
 
     {
@@ -134,7 +128,7 @@ export const FAQ_ITEMS_PAGE = [
 
     {
         question: "What if few of my players do not play in the match?",
-         answer: "The player who does not feature in the starting 11 in the matches does not get any Fantasy Points. While in reverse fantasy, the player who does not play will get the maximum points scored by any player in that particular match, as fantasy team with minimum points win in this format. "
+         answer: "The player who does not feature in the starting 11 in the matches does not get any Fantasy Points."
         },
      {
         question: "How many entries can I have in a league?",
@@ -165,14 +159,14 @@ export const FAQ_ITEMS_PAGE = [
          answer: "If there is a tie between 2 or more gamers, then the prize money is divided equally between the fantasy players. If there are 2 winners tied for the 3rd position, the sum of the 3rd and 4th position prize money will be distributed equally between these 2 winners and the next highest scorer will be awarded the prize money for the 5th position.  "
         },
              {
-        question: "How can I see other gamers' Fantasy Team(s)?",
-         answer: "Once the match starts, you can download the PDF containing all gamers' team lineups. "
+        question: "How can I see other gamers Fantasy Team(s)?",
+         answer: "Once the match starts, you can download the PDF containing all gamers team lineups. "
         },
                {
         question: "How can I create my own League?",
          answer: `You need to decide a few things first -
 
-         \na. Normal or Reverse Fantasy ?
+         \na. Normal Fantasy ?
 
          \nb. Private or Public League ?
 
@@ -202,7 +196,7 @@ export const FAQ_ITEMS_PAGE = [
 
          \n2. Upload your PAN number and PAN card image
 
-        \n 3. Upload your bank details and bank account proof - bank statement. `
+        \n 3. Upload your bank details and bank account proof - bank statement.`
         },
                               {
         question: "What are the reasons for rejection of verification documents ?",
@@ -214,7 +208,7 @@ export const FAQ_ITEMS_PAGE = [
 
         \n 3. PAN card details do not match with the data entered during verification request.
 
-        \n 4. Bank Account details are incorrect or Bank statemtent details do not match. `
+        \n 4. Bank Account details are incorrect or Bank statement details do not match. `
         }
     ]
 },
@@ -222,8 +216,8 @@ export const FAQ_ITEMS_PAGE = [
         sectionName: "FINANCIAL FAQ",
     sectionContent:[
     {
-        question: "What is the use of Bonus on Halaplay?",
-        answer: `Bonus on Halaplay can be used to participate in halaplay created leagues only.Bonus money cannot be withdrawn by the user at any time on his journey on halaplay as it is an incentive by the company to use and experience the platform.
+        question: "What is the use of Bonus on HalaPlay?",
+        answer: `Bonus on HalaPlay can be used to participate in halaPlay created leagues only.Bonus money cannot be withdrawn by the user at any time on his journey on halaPlay as it is an incentive by the company to use and experience the platform.
 
 		\nIn case of joining leagues with bonus amount the following cases can arise:
 
@@ -240,7 +234,7 @@ export const FAQ_ITEMS_PAGE = [
 
     {
         question: "How will I be informed if I win a Cash prize?",
-        answer: "Immediately after match gets over, we start processing cash prize. If you win any Paid League, the Cash will be credited automatically into your HalaPlay account which you can withdraw anytime. We will also inform you via mail."
+        answer: "Immediately after match gets over, we start processing cash prize. If you win any Paid League, the Cash will be credited automatically into your HalaPlay account which you can withdraw anytime. We will also inform you via mail and Push."
     },
 
      {
@@ -260,7 +254,7 @@ export const FAQ_ITEMS_PAGE = [
 
     {
         question: "How do I withdraw money from my HalaPlay account balance?",
-         answer: "You can withdraw money only from the Winnings Account in your account balance once your account is verified. It will be deposited into your bank account within 3 working days. To withdraw money from HalaPlay, PAN Card verification is mandatory. You can raise withdrawal request after uploading PAN Card details. Withdrawal will be processed upon successful verification of PAN Card."
+         answer: "You can withdraw money only from the Winnings Account in your account balance once your account is verified. It will be deposited into your bank account within 1 working days. To withdraw money from HalaPlay, PAN Card verification is mandatory. You can raise withdrawal request after uploading PAN Card details. Withdrawal will be processed upon successful verification of PAN Card."
     },
 
     {
@@ -283,18 +277,15 @@ export const FAQ_ITEMS_PAGE = [
         question: "Do I have to pay taxes when I withdraw money to my bank account?",
          answer: "Taxes are deducted at source wherever applicable and paid out by us, as per the Income Tax Act 1961. Winners will be provided TDS certificates in respect of such tax deductions, if applicable. However, you shall be responsible for payment of any other applicable tax, including but not limited to, income tax, gift tax, etc. in respect of the Cash Prizes money won. Please consult a Tax expert for further assistance.For more information please check our\n [Terms and condition](https://mindia.halaplay.com/terms-conditions)\n"
         },
-             {
-        question: "What are the taxes applicable if I win more than Rs.10,000?",
-         answer: "As per the Income Tax Act 1961 if your individual winnings for a single league is more than Rs.10,000, a tax of 30.9% will be deducted. The remaining amount (69.10%) will be credited to your winnings balance. For e.g. If you win Rs.1,00,000, a tax of Rs.30,900 will be deducted and your actual winnings are Rs.69,100."
-        },
+
                {
         question: "Why was my withdrawal rejected?",
-         answer: `Withdrawals by users are subject to terms and conditions agreed by them earlier. Cases where there is any suspicious or misleading activity in any league or by the user himself the withdrawal may be rejected by Halaplay. In extreme conditions Halaplay also reserves the right to suspend any user's account.
+         answer: `Withdrawals by users are subject to terms and conditions agreed by them earlier. Cases where there is any suspicious or misleading activity in any league or by the user himself the withdrawal may be rejected by HalaPlay. In extreme conditions HalaPlay also reserves the right to suspend any user's account.
 
 
 				\nCases which will lead to withdrawal rejections are:
-				\n-Bank account you gave is registered with other halaplay account.
-				\n-PAN Number you gave is registered with other halaplay account.
+				\n-Bank account you gave is registered with other halaPlay account.
+				\n-PAN Number you gave is registered with other halaPlay account.
 				\n-Bank account name is not same as your account name.
 				\n-Pan card name is not same as bank account name.
 				\nIn case of any queries please contact us at care@halaplay.com `
@@ -310,7 +301,7 @@ export const FAQ_ITEMS_PAGE = [
     sectionContent:[
     {
         question: "Is the paid version of Fantasy Sports legal in India?",
-        answer: `Yes, please review the \n [Terms and condition]( https://mindia.halaplay.com/terms-conditions ) \non our website for more details. In India, only people from Assam, Arunachal Pradesh, Odisha, Telangana, Sikkim, Andhra Pradesh and Nagaland are prohibited from playing on HalaPlay.`
+        answer: `Yes, please review the \n [Terms and condition](https://mindia.halaplay.com/terms-conditions) \n on our website for more details. In India, only people from Assam, Arunachal Pradesh, Odisha, Telangana, Sikkim, Andhra Pradesh and Nagaland are prohibited from playing on HalaPlay.`
     },
 
     {
@@ -325,7 +316,7 @@ export const FAQ_ITEMS_PAGE = [
 
     {
         question: "Which sports I can play on?",
-         answer: "We are currently supporting all ODI, Test, T20s International Matches and few domestic leagues in cricket. Also, we cover EPL, La Liga, ISL, Champions Trophy, Euro Cup, World Cup matches in football."
+         answer: "We are currently supporting all ODI, Test, T20s International Matches and few domestic leagues in cricket."
     },
 
     {
@@ -373,12 +364,12 @@ export const FAQ_ITEMS = [
     },
 ]
 export const TESTIMONIAL_DATA = [
-    { id: 1, title: "Won 20 Lakhs", icon:"/assets/testimonials/1.png",name: "akshaypatel7729", text: "The HalaPlay VIP Pass has been hugely beneficial for me. I have made big investments, and my winnings have increased." },
-    { id: 2, title: "Won 24 Lakhs",icon:"/assets/testimonials/2.png", name: "OOTY GANESAN", text: "I find HalaPlay Season Passes very cost effective and beneficial for a recurring player. They help you play much more than what you would have actually played had you invested the same amount in the leagues normally. I’d recommend this feature to each and every Fantasy Sports player." },
-    { id: 3, title: "Won 13 Lakhs",icon:"/assets/testimonials/3.png", name: "DEVE1977", text: "Frankly speaking, it is a part of my life now. It motivates me to fight each and every day, the regular excitement is very essential to lead a happy life and I get that from Fantasy Cricket so yes undoubtedly, this is going to be a long term thing for me" },
-    { id: 4, title: "Won 25 Lakhs",icon:"/assets/testimonials/4.png", name: "shankarshingare", text: "It has been pretty satisfying till now since the day I started playing on HalaPlay. As mentioned, I used to play on other platforms before but never really got the success as compared to what I got here." },
-    { id: 5, title: "Won 7 Lakhs",icon:"/assets/testimonials/5.png", name: "GSR1994", text: "I like the HalaPlay VIP Pass very much. A very less platform fee is charged and can win the maximum amount. I also enjoy Reverse fantasy, which is a unique feature of HalaPlay" },
-    { id: 6, title: "Won 16 Lakhs",icon:"/assets/testimonials/6.png", name: "Chiru93", text: "My all-time favourite League is the Mile High Club. But nowadays I prefer playing in H2H leagues because of the exclusive feature of 0% platform fee in those leagues, only on HalaPlay." },
+    { id: 1, title: "Won  ₹20 Lakhs", icon:"/assets/testimonials/1.png",name: "akshaypatel7729", text: "The HalaPlay VIP Pass has been hugely beneficial for me. I have made big investments, and my winnings have increased." },
+    { id: 2, title: "Won  ₹24 Lakhs",icon:"/assets/testimonials/2.png", name: "OOTY GANESAN", text: "I find HalaPlay Season Passes very cost effective and beneficial for a recurring player. They help you play much more than what you would have actually played had you invested the same amount in the leagues normally. I’d recommend this feature to each and every Fantasy Sports player." },
+    { id: 3, title: "Won  ₹13 Lakhs",icon:"/assets/testimonials/3.png", name: "DEVE1977", text: "Frankly speaking, it is a part of my life now. It motivates me to fight each and every day, the regular excitement is very essential to lead a happy life and I get that from Fantasy Cricket so yes undoubtedly, this is going to be a long term thing for me" },
+    { id: 4, title: "Won  ₹25 Lakhs",icon:"/assets/testimonials/4.png", name: "shankarshingare", text: "It has been pretty satisfying till now since the day I started playing on HalaPlay. As mentioned, I used to play on other platforms before but never really got the success as compared to what I got here." },
+    { id: 5, title: "Won  ₹7 Lakhs",icon:"/assets/testimonials/5.png", name: "GSR1994", text: "I like the HalaPlay VIP Pass very much. A very less platform fee is charged and can win the maximum amount. I also enjoy Reverse fantasy, which is a unique feature of HalaPlay" },
+    { id: 6, title: "Won  ₹16 Lakhs",icon:"/assets/testimonials/6.png", name: "Chiru93", text: "My all-time favourite League is the Mile High Club. But nowadays I prefer playing in H2H leagues because of the exclusive feature of 0% platform fee in those leagues, only on HalaPlay." },
 ]
 export const testimonialSettings = {
 };

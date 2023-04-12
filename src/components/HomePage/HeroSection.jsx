@@ -54,7 +54,7 @@ const HeroSection = () => {
           >
             Play Fantasy Sports and Win upto <br></br>
             <Text as="span" fontWeight={900} fontSize={["30px", "50px"]}>
-              ₹ 10,00,000 Daily
+              ₹10,00,000 Daily
             </Text>
           </Text>
         </Stack>

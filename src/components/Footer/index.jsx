@@ -51,7 +51,7 @@ const Footer = () => {
               <Link href={"https://mindia.halaplay.com/rules"}>
                 Point System
               </Link>
-              <Link href={"#"}>Offer</Link>
+              <Link href={"#"}>Offers</Link>
             </Stack>
 
             <Stack align={"flex-end"} textAlign="end">
