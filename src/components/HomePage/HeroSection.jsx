@@ -1,11 +1,11 @@
 import {
   Stack,
   Flex,
-  Button,
+  Heading,
   Text,
   VStack,
   useBreakpointValue,
-  Image,
+  Box,
 } from "@chakra-ui/react";
 
 const HeroSection = () => {
@@ -42,7 +42,7 @@ const HeroSection = () => {
         // bgGradient={"linear(to-r, blackAlpha.600, transparent)"}
       >
         <Stack maxW={"2xl"} align={"flex-start"} spacing={6}>
-          <Text
+          <Box
             color={"white"}
             fontWeight={600}
             textAlign="center"
@@ -52,11 +52,12 @@ const HeroSection = () => {
               md: "4xl",
             })}
           >
-            Play Fantasy Sports and Win upto <br></br>
+            <Heading as="h1">Play Fantasy Sports and Win upto</Heading>{" "}
+            <br></br>
             <Text as="span" fontWeight={900} fontSize={["30px", "50px"]}>
               ₹10,00,000 Daily
             </Text>
-          </Text>
+          </Box>
         </Stack>
       </VStack>
     </Flex>

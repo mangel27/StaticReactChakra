@@ -13,7 +13,7 @@ const Testimonial = ({ title }) => {
   };
   return (
     <Box px="5" overflow={"hidden"} w="100%">
-      <Heading textAlign={"center"} mb="1em">
+      <Heading as="h4" textAlign={"center"} mb="1em">
         {title}
       </Heading>
       <Box mx="auto" w="80%">

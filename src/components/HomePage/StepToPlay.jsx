@@ -41,7 +41,7 @@ const StepsToPlay = (props) => {
       textAlign={"center"}
       bg={useColorModeValue("white", "gray.200")}
     >
-      <Heading>Steps To Play</Heading>
+      <Heading as="h3">Easy Steps to Play Online Fantasy Games</Heading>
       <SimpleGrid columns={[1, 3]} pt={10} spacing={6}>
         <StepTile1 />
         <StepTile2 />

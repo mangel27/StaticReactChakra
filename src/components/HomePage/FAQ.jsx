@@ -32,6 +32,7 @@ const FAQRow = (props) => {
         trigger={
           <Flex align="center" w="100%">
             <Text
+              as="h3"
               fontSize={["16px", "16px", "16px", "18px"]}
               color="grey.900"
               textAlign="left"
@@ -59,7 +60,7 @@ const FAQ = (props) => {
   return (
     <Box w={["100%", "80%"]} py={3} px={6}>
       <Heading textAlign={"center"} mb={6}>
-        FAQ
+        Fantasy Games – FAQs
       </Heading>
 
       {FAQ_ITEMS.map((faq, index) => (

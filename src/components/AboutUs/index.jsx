@@ -72,9 +72,9 @@ A few more reasons to pick HalaPlay & start playing Daily Fantasy Games online:
   };
   return (
     <Box p={5} bg="#f0f3f8">
-      <Heading my="2" mx="auto" textAlign={"center"}>
+      <Heading my="2" mx="auto" as="h1" textAlign={"center"}>
         {" "}
-        About Us
+        About HalaPlay
       </Heading>
       <ReactMarkdown
         skipHtml={false}

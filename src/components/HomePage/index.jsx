@@ -21,7 +21,7 @@ const HomePage = () => {
       <HeroSection />
       <Download />
       <Features />
-      <EarnMore title={"Earn more with HalaPlay"} />
+      <EarnMore title={"Play Fantasy Game Online & Earn More"} />
       <Benefits title={"HalaPlay Benefits"} />
       <StepsToPlay />
       <FAQ />

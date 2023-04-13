@@ -9,7 +9,7 @@ import { Box, Heading } from "@chakra-ui/react";
 const Benefits = ({ title }) => {
   return (
     <Box overflow={"hidden"} px="5" w="100%">
-      <Heading textAlign={"center"} mb="0.5em">
+      <Heading as="h3" textAlign={"center"} mb="0.5em">
         {title}
       </Heading>
       <SimpleCardCarousel

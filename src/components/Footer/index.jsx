@@ -47,8 +47,10 @@ const Footer = () => {
             <Stack textAlign={"justify"}>
               <Link href={"/about-us"}>About us</Link>
 
-              <Link href={"https://play.halaplay.com/"}>Blog</Link>
-              <Link href={"https://mindia.halaplay.com/rules"}>
+              <Link rel="nofollow" href={"https://play.halaplay.com/"}>
+                Blog
+              </Link>
+              <Link rel="nofollow" href={"https://mindia.halaplay.com/rules"}>
                 Point System
               </Link>
               <Link href={"#"}>Offers</Link>
@@ -56,14 +58,23 @@ const Footer = () => {
 
             <Stack align={"flex-end"} textAlign="end">
               <Link href={"/faqs"}>FAQ</Link>
-              <Link href={"https://mindia.halaplay.com/privacypolicy"}>
+              <Link
+                rel="nofollow"
+                href={"https://mindia.halaplay.com/privacypolicy"}
+              >
                 Privacy Policy
               </Link>
-              <Link href={"https://mindia.halaplay.com/terms-conditions"}>
+              <Link
+                rel="nofollow"
+                href={"https://mindia.halaplay.com/terms-conditions"}
+              >
                 T&C
               </Link>
 
-              <Link href={"https://mindia.halaplay.com/responsible-gaming"}>
+              <Link
+                rel="nofollow"
+                href={"https://mindia.halaplay.com/responsible-gaming"}
+              >
                 Responsible Gaming
               </Link>
             </Stack>

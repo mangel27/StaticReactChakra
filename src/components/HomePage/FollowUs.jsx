@@ -33,6 +33,7 @@ const FollowUs = () => {
           FOLLOW_DATA.map((item, index) => {
             return (
               <Link
+                rel="nofollow"
                 as={NextLink}
                 key={index + "follow"}
                 href={item.link}
@@ -49,6 +50,7 @@ const FollowUs = () => {
         </Text>
         <Link
           mt="1em"
+          rel="nofollow"
           fontWeight={600}
           fontSize={["22px", "26px"]}
           textDecor={"underline"}

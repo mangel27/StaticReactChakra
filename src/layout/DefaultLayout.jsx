@@ -16,7 +16,10 @@ const DefaultLayout = ({ children }) => {
         <meta property="og:description" content={defaultSEO.description} />
         <meta name="twitter:description" content={defaultSEO.description} />
         <meta name="keywords" content={defaultSEO.keywords} />
+        <meta property="og:url" content={defaultSEO.url} />
+
         <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href={defaultSEO.url} />
       </Head>
       <Header />
       <Box as="main">{children}</Box>

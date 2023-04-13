@@ -56,7 +56,7 @@ const TestimonialContent = ({ children }) => {
 
 const TestimonialHeading = ({ children }) => {
   return (
-    <Heading as={"h3"} fontSize={"xl"}>
+    <Heading as={"b"} fontSize={"xl"}>
       {children}
     </Heading>
   );
