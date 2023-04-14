@@ -11,6 +11,7 @@ import {
   PopoverTrigger,
   PopoverContent,
   useColorModeValue,
+  Button,
 } from "@chakra-ui/react";
 
 import { NAV_ITEMS } from "@/constants/sharedData";
@@ -69,7 +70,7 @@ const DesktopNav = () => {
               <Link
                 p={2}
                 href={navItem.href ?? "#"}
-                fontSize="sm"
+                fontSize="lg"
                 fontWeight={500}
                 color={linkColor}
                 _hover={{
@@ -100,6 +101,7 @@ const DesktopNav = () => {
           </Popover>
         </Box>
       ))}
+      {/* <Button color='black' bg={'white'} my="auto" size='md'> Get App </Button> */}
     </Stack>
   );
 };

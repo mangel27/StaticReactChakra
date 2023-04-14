@@ -12,12 +12,12 @@ import { HiOutlineUserGroup } from "react-icons/hi";
 import { ImTicket } from "react-icons/im";
 const FeatureItem = [
   {
-    statNumber: "18 Million+",
+    statNumber: "10 Million+",
     statLabel: "Registered Users",
     icon: <TiDownload size="30px" />,
   },
   {
-    statNumber: "3 Crore+",
+    statNumber: "10 Lakh+",
     statLabel: "in Winning daily",
     icon: <HiOutlineUserGroup size="30px" />,
   },
@@ -40,10 +40,10 @@ const FeatureCard = (props) => {
           pl={{ base: 2, md: 4 }}
           color={useColorModeValue("white", "gray.200")}
         >
-          <StatNumber fontSize={["md", "2xl"]} fontWeight={"medium"}>
+          <StatNumber fontSize={["sm", "2xl"]} fontWeight={"medium"}>
             {statNumber}
           </StatNumber>
-          <StatLabel fontSize={["sm", "md"]} fontWeight={"medium"}>
+          <StatLabel fontSize={["10px", "md"]} fontWeight={"medium"}>
             {statLabel}
           </StatLabel>
         </Box>

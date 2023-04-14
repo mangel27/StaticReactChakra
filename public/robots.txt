@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://tiny-tulumba-6cc1cf.netlify.app
+
+# Sitemaps
+Sitemap: https://tiny-tulumba-6cc1cf.netlify.app/sitemap.xml

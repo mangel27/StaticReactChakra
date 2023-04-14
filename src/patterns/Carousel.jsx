@@ -1,24 +1,52 @@
 import React from "react";
-import Slider from "react-slick";
-import { Box, Center } from "@chakra-ui/react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
 const Carousel = ({ slides, settings, ...rest }) => {
-  const defaultSettings = {
-    ...settings,
-  };
-
   return (
-    <Box {...rest}>
-      <Slider {...defaultSettings}>
-        {slides.map((slide, index) => (
-          <Center w="200px" key={index} height="100%">
-            {slide}
-          </Center>
-        ))}
-      </Slider>
-    </Box>
+    <Swiper
+      spaceBetween={80}
+      style={{
+        "--swiper-pagination-bullet-size": "10px",
+        "--swiper-pagination-bullet-width": "10px",
+      }}
+      // centeredSlides={true}
+      // centeredSlidesBounds={true}
+
+      className="mySwiper"
+      pagination={{ dynamicBullets: true, clickable: true }}
+      breakpoints={{
+        640: {
+          slidesPerView: 1,
+          pagination: {
+            enabled: true,
+          },
+          spaceBetween: 10,
+          modules: [Pagination],
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          pagination: {
+            enabled: true,
+          },
+        },
+
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          pagination: {
+            enabled: true,
+          },
+        },
+      }}
+      modules={[Pagination]}
+    >
+      {slides.map((slide, index) => (
+        <SwiperSlide key={index}>{slide}</SwiperSlide>
+      ))}
+    </Swiper>
   );
 };
 

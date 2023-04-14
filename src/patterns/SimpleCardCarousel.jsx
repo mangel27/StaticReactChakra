@@ -3,19 +3,19 @@ import Carousel from "@/patterns/Carousel";
 import SimpleCard from "@/patterns/SimpleCard";
 import { Box, Heading } from "@chakra-ui/react";
 
-const SimpleCardCarousel = ({ cards, settings, ...rest }) => {
+const SimpleCardCarousel = ({ cards, bgColor, settings, ...rest }) => {
   const getSlides = () => {
     let slides = cards.map((card, index) => {
-      return <SimpleCard w="300px" index={index} {...card} />;
+      return (
+        <SimpleCard
+          bgColor={bgColor ? bgColor[index] : null}
+          index={index}
+          {...card}
+        />
+      );
     });
     return slides;
   };
-  return (
-    <Carousel
-      slides={getSlides()}
-      settings={settings ? settings : defaultCarouselSettings}
-      {...rest}
-    />
-  );
+  return <Carousel slides={getSlides()} {...rest} />;
 };
 export default SimpleCardCarousel;
