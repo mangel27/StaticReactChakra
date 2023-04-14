@@ -7,13 +7,13 @@ import {
   IconButton,
   Button,
   Stack,
-  Image,
   Collapse,
   useColorModeValue,
   useBreakpointValue,
   Link,
   useDisclosure,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";

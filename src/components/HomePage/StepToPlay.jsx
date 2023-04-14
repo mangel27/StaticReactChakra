@@ -3,10 +3,10 @@ import {
   Heading,
   Text,
   useColorModeValue,
-  Image,
   Center,
   SimpleGrid,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 const StepTile1 = () => {
   return (

@@ -4,12 +4,13 @@ import {
   SimpleGrid,
   Stack,
   Text,
-  Image,
+  
   Flex,
   useColorModeValue,
 } from "@chakra-ui/react";
 import Gateway from "./Gateway";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const Footer = () => {
   const router = useRouter();

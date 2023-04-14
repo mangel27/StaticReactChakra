@@ -3,10 +3,10 @@ import {
   Flex,
   SimpleGrid,
   useColorModeValue,
-  Image,
   Text,
   Link,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 const Mobile = (props) => {
   return (

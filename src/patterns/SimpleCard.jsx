@@ -1,5 +1,6 @@
-import { Stack, Text, Box, useColorModeValue, Image } from "@chakra-ui/react";
+import { Stack, Text, Box, useColorModeValue } from "@chakra-ui/react";
 import { cardColors } from "@/constants/sharedData";
+import Image from "next/image";
 
 const SimpleCard = ({ title, text, index, bgColor, icon, ...rest }) => {
   return (

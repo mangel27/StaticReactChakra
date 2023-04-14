@@ -1,14 +1,12 @@
 import {
   Box,
-  Image,
-  Flex,
+ 
   Stack,
-  List,
-  ListItem,
-  Link,
+ 
   Text,
   SimpleGrid,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 const Gateway = () => {
   return (
