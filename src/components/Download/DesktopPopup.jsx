@@ -7,6 +7,7 @@ import {
   Text,
   Link,
 } from "@chakra-ui/react";
+import NextImage from "next/image";
 
 const Desktop = () => {
   return (
@@ -17,7 +18,19 @@ const Desktop = () => {
             rel="nofollow"
             href="https://d3mebndoedfycp.cloudfront.net/HalaPlay_Pro.apk"
           >
-            <Image src="assets/img/playstore.png" w={140} p={1}></Image>
+            <Box
+              w="140px"
+              pos="relative"
+              height="50px"
+              p={1}
+              overflow={"hidden"}
+            >
+              <NextImage
+                style={{ objectFit: "contain" }}
+                src="/assets/img/playstore.png"
+                fill={true}
+              />
+            </Box>
           </Link>
         </Box>
         <Box pt={4} pl={4} color={useColorModeValue("white", "gray.200")}>
@@ -28,12 +41,24 @@ const Desktop = () => {
             Download App & Get ₹250 off on League Join
           </Text>
         </Box>
-        <Box pl={4} pt={4} color={useColorModeValue("white", "gray.200")}>
+        <Box pl={4} p={6} color={useColorModeValue("white", "gray.200")}>
           <Link
             rel="nofollow"
             href="https://apps.apple.com/in/app/halaplay-fantasy-sports/id1426253591"
           >
-            <Image src="assets/img/istore.png" w={140} p={1}></Image>
+            <Box
+              w="140px"
+              pos="relative"
+              height="50px"
+              p={1}
+              overflow={"hidden"}
+            >
+              <NextImage
+                style={{ objectFit: "contain" }}
+                src="/assets/img/istore.png"
+                fill={true}
+              />
+            </Box>
           </Link>
         </Box>
       </Flex>

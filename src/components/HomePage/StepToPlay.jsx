@@ -7,25 +7,53 @@ import {
   Center,
   SimpleGrid,
 } from "@chakra-ui/react";
+import NextImage from "next/image";
 
 const StepTile1 = () => {
   return (
-    <Box>
-      <Image src="/assets/img/step1.png"></Image>
+    <Box
+      pos="relative"
+      w={["100%", "250px", "250px", "470px"]}
+      h={["150px", "150px", "250px", "230px"]}
+      overflow={"hidden"}
+    >
+      <NextImage
+        style={{ objectFit: "contain" }}
+        fill
+        src="/assets/img/step1.png"
+      />
     </Box>
   );
 };
 const StepTile2 = () => {
   return (
-    <Box>
-      <Image src="/assets/img/step2.png"></Image>
+    <Box
+      pos="relative"
+      w={["100%", "250px", "250px", "470px"]}
+      h={["150px", "150px", "250px", "230px"]}
+      overflow={"hidden"}
+    >
+      <NextImage
+        style={{ objectFit: "contain" }}
+        fill
+        src="/assets/img/step2.png"
+      />
     </Box>
   );
 };
 const StepTile3 = () => {
   return (
-    <Box>
-      <Image src="/assets/img/step3.png"></Image>
+    <Box
+      pos="relative"
+      w={["100%", "250px", "250px", "470px"]}
+      h={["150px", "150px", "250px", "230px"]}
+      overflow={"hidden"}
+    >
+      <NextImage
+        style={{ objectFit: "contain" }}
+        fill
+        src="/assets/img/step3.png"
+      />
     </Box>
   );
 };

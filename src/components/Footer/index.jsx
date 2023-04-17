@@ -8,6 +8,7 @@ import {
   Flex,
   useColorModeValue,
 } from "@chakra-ui/react";
+import NextImage from "next/image";
 import Gateway from "./Gateway";
 import { useRouter } from "next/router";
 
@@ -25,12 +26,13 @@ const Footer = () => {
             cursor="pointer"
             justify="center"
           >
-            <Image
-              w={"150px"}
-              h={"60px"}
-              objectFit="contain"
-              src="/assets/hp_logo.png"
-            />
+            <Box w={"150px"} pos="relative" overflow={"hidden"} h={"60px"}>
+              <NextImage
+                fill
+                style={{ objectFit: "contain" }}
+                src="/assets/hp_logo.png"
+              />
+            </Box>
           </Flex>
           <Text fontSize={"2xl"} fontWeight="500" textAlign={"center"}>
             Halaplay Technologies Pvt. Ltd.

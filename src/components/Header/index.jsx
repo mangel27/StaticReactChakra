@@ -14,6 +14,7 @@ import {
   Link,
   useDisclosure,
 } from "@chakra-ui/react";
+import NextImage from "next/image";
 
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
@@ -48,18 +49,25 @@ const Header = () => {
           />
         </Flex>
         <Flex p={2} px={["90px", "0"]}>
-          <Image
+          <Box
             alignSelf={useBreakpointValue({
               base: "center",
               md: "left",
             })}
             onClick={() => router.push("/")}
             cursor="pointer"
-            objectFit="contain"
             w={["140px", "230px"]}
             h={["50px", "75px"]}
-            src="/assets/hp_logo.png"
-          />
+            pos="relative"
+            overflow={"hidden"}
+          >
+            <NextImage
+              fill
+              style={{ objectFit: "contain" }}
+              src="/assets/hp_logo.png"
+            />
+          </Box>
+          {/* <Image objectFit="contain" src="/assets/hp_logo.png" /> */}
           <Flex display={{ base: "none", md: "flex" }} ml={10} mt={6}>
             <DesktopNav />
           </Flex>
