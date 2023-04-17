@@ -1,6 +1,6 @@
 import { NextSeo } from "next-seo";
 
-const SEOContainer = ({ seoData={getSeoValues} }) => {
+const SEOContainer = ({seoData}) => {
     return (
         seoData && (
             <NextSeo
