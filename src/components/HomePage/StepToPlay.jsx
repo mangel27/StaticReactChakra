@@ -3,29 +3,29 @@ import {
   Heading,
   Text,
   useColorModeValue,
-  Image,
   Center,
   SimpleGrid,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 const StepTile1 = () => {
   return (
     <Box>
-      <Image src="/assets/img/step1.png"></Image>
+      <Image src="/assets/img/step1.png" width="50" height="50"></Image>
     </Box>
   );
 };
 const StepTile2 = () => {
   return (
     <Box>
-      <Image src="/assets/img/step2.png"></Image>
+      <Image src="/assets/img/step2.png"  width="50" height="50"></Image>
     </Box>
   );
 };
 const StepTile3 = () => {
   return (
     <Box>
-      <Image src="/assets/img/step3.png"></Image>
+      <Image src="/assets/img/step3.png"  width="50" height="50"></Image>
     </Box>
   );
 };

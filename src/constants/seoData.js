@@ -5,3 +5,4 @@ export const  defaultSEO = {
     keywords:"Fantasy Cricket, Cricket, Fantasy Football, Football, Fantasy Sports, IPL Fantasy, IPL, Fantasy Leagues,Fantasy Kabaddi, Kabaddi",
     url: "https://tiny-tulumba-6cc1cf.netlify.app"
 };
+

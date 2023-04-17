@@ -7,13 +7,13 @@ import {
   IconButton,
   Button,
   Stack,
-  Image,
   Collapse,
   useColorModeValue,
   useBreakpointValue,
   Link,
   useDisclosure,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
@@ -47,7 +47,7 @@ const Header = () => {
             aria-label="Toggle Navigation"
           />
         </Flex>
-        <Flex p={2} px={["90px", "0"]}>
+        <Flex p={2} px={["90px", "0"]} alignItems="center">
           <Image
             alignSelf={useBreakpointValue({
               base: "center",
@@ -55,12 +55,11 @@ const Header = () => {
             })}
             onClick={() => router.push("/")}
             cursor="pointer"
-            objectFit="contain"
-            w={["140px", "230px"]}
-            h={["50px", "75px"]}
+            width="140"
+            height="75"
             src="/assets/hp_logo.png"
           />
-          <Flex display={{ base: "none", md: "flex" }} ml={10} mt={6}>
+          <Flex display={{ base: "none", md: "flex" }} ml={10}>
             <DesktopNav />
           </Flex>
         </Flex>

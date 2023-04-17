@@ -1,5 +1,6 @@
-import { Stack, Text, Box, useColorModeValue, Image } from "@chakra-ui/react";
+import { Stack, Text, Image, useColorModeValue } from "@chakra-ui/react";
 import { cardColors } from "@/constants/sharedData";
+// import Image from "next/image";
 
 const SimpleCard = ({ title, text, index, bgColor, icon, ...rest }) => {
   return (
@@ -17,7 +18,7 @@ const SimpleCard = ({ title, text, index, bgColor, icon, ...rest }) => {
       height={["160px", "180px"]}
       {...rest}
     >
-      <Image alt="title" src={icon} mx="auto" width={"50px!important"} />
+     <Image alt="title" src={icon} mx="auto" width={"50px!important"} />
       <Text
         fontWeight={600}
         textShadow={"1px 1px 1px #000"}

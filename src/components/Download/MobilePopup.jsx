@@ -3,10 +3,10 @@ import {
   Flex,
   SimpleGrid,
   useColorModeValue,
-  Image,
   Text,
   Link,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 const Mobile = (props) => {
   return (
@@ -41,13 +41,13 @@ const Mobile = (props) => {
             rel="nofollow"
             href="https://apps.apple.com/in/app/halaplay-fantasy-sports/id1426253591"
           >
-            <Image src="assets/img/istore.png" w={160} p={1}></Image>
+            <Image src="/assets/img/istore.png" width="160" height="50" p={1}></Image>
           </Link>
           <Link
             rel="nofollow"
             href="https://d3mebndoedfycp.cloudfront.net/HalaPlay_Pro.apk"
           >
-            <Image src="assets/img/playstore.png" w={160} p={1}></Image>
+            <Image src="/assets/img/playstore.png" width="160"height="50" p={1}></Image>
           </Link>
         </Box>
       </Flex>

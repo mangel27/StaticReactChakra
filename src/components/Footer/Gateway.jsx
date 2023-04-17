@@ -1,14 +1,12 @@
 import {
   Box,
-  Image,
-  Flex,
+ 
   Stack,
-  List,
-  ListItem,
-  Link,
+ 
   Text,
   SimpleGrid,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 const Gateway = () => {
   return (
@@ -20,32 +18,32 @@ const Gateway = () => {
         <SimpleGrid columns={5} spacing={5} py={2}>
           <Image
             objectFit="contain"
-            src="assets/img/google-pay.png"
-            w={[30, 50]}
+            src="/assets/img/google-pay.png"
+           width="50" height="50"
             p={1}
           ></Image>
           <Image
             objectFit="contain"
-            src="assets/img/phonpay.png"
-            w={[30, 50]}
+            src="/assets/img/phonpay.png"
+           width="50" height="50"
             p={1}
           ></Image>
           <Image
             objectFit="contain"
-            src="assets/img/amazonpay.png"
-            w={[30, 50]}
+            src="/assets/img/amazonpay.png"
+           width="50" height="50"
             p={1}
           ></Image>
           <Image
             objectFit="cover"
-            src="assets/img/paytm.png"
-            w={[30, 50]}
+            src="/assets/img/paytm.png"
+           width="50" height="50"
             p={1}
           ></Image>
           <Image
             objectFit="contain"
-            src="assets/img/payu.png"
-            w={[30, 50]}
+            src="/assets/img/payu.png"
+           width="50" height="50"
             p={1}
           ></Image>
         </SimpleGrid>

@@ -4,12 +4,13 @@ import {
   SimpleGrid,
   Stack,
   Text,
-  Image,
+  
   Flex,
   useColorModeValue,
 } from "@chakra-ui/react";
 import Gateway from "./Gateway";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const Footer = () => {
   const router = useRouter();
@@ -26,8 +27,8 @@ const Footer = () => {
             justify="center"
           >
             <Image
-              w={"150px"}
-              h={"60px"}
+              width="150"
+              height="60"
               objectFit="contain"
               src="/assets/hp_logo.png"
             />
