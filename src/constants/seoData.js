@@ -31,11 +31,11 @@ export const aboutus_SEO = {
         "HalaPlay is India’s most loved Daily Fantasy Sports destination. Best opportunity to use your skill of the game and join exciting contests for fantasy game to win real money!",
     image: "/assets/hp_logo.png",
     keywords:"Halaplay, fantasy sports, cricket, football, basketball, kabaddi, win big, cash prizes, India's leading, daily contests, safe, secure, user-friendly, real moneys",
-    url: "https://tiny-tulumba-6cc1cf.netlify.app",
+    url: "https://tiny-tulumba-6cc1cf.netlify.app/about-us",
     openGraph: {
         type: "website",
         locale: "en_IE",
-        url: "https://tiny-tulumba-6cc1cf.netlify.app",
+        url: "https://tiny-tulumba-6cc1cf.netlify.app/about-us",
         site_name: "About HalaPlay – Your Daily Fantasy Sports Destination",
         images: [
             {
