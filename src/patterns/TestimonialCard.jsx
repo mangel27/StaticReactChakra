@@ -1,13 +1,12 @@
-import { ReactNode } from "react";
 import {
   Box,
   Flex,
   Heading,
-  Avatar,
   Stack,
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
+import NextImage from "next/image";
 const TestimonialCard = ({ children }) => {
   return (
     <Box w={"auto"}>
@@ -77,7 +76,16 @@ const TestimonialText = ({ children }) => {
 const TestimonialAvatar = ({ icon, name, title }) => {
   return (
     <Flex align={"center"} mt={8} direction={"column"}>
-      <Avatar size={"md"} src={icon} mb={2} />
+      {/* <Avatar size={"md"} src={icon} mb={2} /> */}
+      <Box
+        borderRadius={"full"}
+        pos="relative"
+        overflow={"hidden"}
+        boxSize={"50px"}
+        mb={2}
+      >
+        <NextImage fill style={{ objectFit: "cover" }} src={icon} />
+      </Box>
       <Stack spacing={-1} align={"center"}>
         <Text fontWeight={600}>{name}</Text>
         <Text fontSize={"sm"} color={useColorModeValue("gray.600", "gray.400")}>
