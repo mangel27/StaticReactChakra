@@ -29,6 +29,7 @@ const Footer = () => {
             <Box w={"150px"} pos="relative" overflow={"hidden"} h={"60px"}>
               <NextImage
                 fill
+                alt="halaplay_logo"
                 style={{ objectFit: "contain" }}
                 src="/assets/hp_logo.png"
               />

@@ -19,6 +19,7 @@ const StepTile1 = () => {
     >
       <NextImage
         style={{ objectFit: "contain" }}
+        alt="step1"
         fill
         src="/assets/img/step1.png"
       />
@@ -34,6 +35,7 @@ const StepTile2 = () => {
       overflow={"hidden"}
     >
       <NextImage
+        alt="step2"
         style={{ objectFit: "contain" }}
         fill
         src="/assets/img/step2.png"
@@ -50,6 +52,7 @@ const StepTile3 = () => {
       overflow={"hidden"}
     >
       <NextImage
+        alt="step3"
         style={{ objectFit: "contain" }}
         fill
         src="/assets/img/step3.png"

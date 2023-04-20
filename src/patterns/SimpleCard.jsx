@@ -17,7 +17,7 @@ const SimpleCard = ({ title, text, index, bgColor, icon, ...rest }) => {
       height={["160px", "180px"]}
       {...rest}
     >
-      <Image alt="title" src={icon} mx="auto" width={"50px!important"} />
+      <Image alt={title} src={icon} mx="auto" width={"50px!important"} />
       <Text
         fontWeight={600}
         textShadow={"1px 1px 1px #000"}

@@ -27,6 +27,7 @@ const Desktop = () => {
             >
               <NextImage
                 style={{ objectFit: "contain" }}
+                alt="playstore_halaplay"
                 src="/assets/img/playstore.png"
                 fill={true}
               />
@@ -55,6 +56,7 @@ const Desktop = () => {
             >
               <NextImage
                 style={{ objectFit: "contain" }}
+                alt="istore_halaplay"
                 src="/assets/img/istore.png"
                 fill={true}
               />

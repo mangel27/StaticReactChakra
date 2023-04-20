@@ -22,6 +22,7 @@ const Gateway = () => {
           <Box pos="relative" p={1} w={["30px", "50px"]} h={["30px", "50px"]}>
             <NextImage
               style={{ objectFit: "contain" }}
+              alt="gpay"
               src="/assets/img/google-pay.png"
               fill={true}
             />
@@ -29,12 +30,14 @@ const Gateway = () => {
           <Box pos="relative" p={1} w={["30px", "50px"]} h={["30px", "50px"]}>
             <NextImage
               style={{ objectFit: "contain" }}
+              alt="phonpay"
               src="/assets/img/phonpay.png"
               fill={true}
             />
           </Box>
           <Box pos="relative" p={1} w={["30px", "50px"]} h={["30px", "50px"]}>
             <NextImage
+              alt="amazonpay"
               style={{ objectFit: "contain" }}
               src="/assets/img/amazonpay.png"
               fill={true}
@@ -42,6 +45,7 @@ const Gateway = () => {
           </Box>
           <Box pos="relative" p={1} w={["30px", "50px"]} h={["30px", "50px"]}>
             <NextImage
+              alt="paytm"
               style={{ objectFit: "contain" }}
               src="/assets/img/paytm.png"
               fill={true}
@@ -49,6 +53,7 @@ const Gateway = () => {
           </Box>
           <Box pos="relative" p={1} w={["30px", "50px"]} h={["30px", "50px"]}>
             <NextImage
+              alt="payu"
               style={{ objectFit: "contain" }}
               src="/assets/img/payu.png"
               fill={true}

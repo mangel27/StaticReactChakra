@@ -63,6 +63,7 @@ const Header = () => {
           >
             <NextImage
               fill
+              alt="halaplay_logo"
               style={{ objectFit: "contain" }}
               src="/assets/hp_logo.png"
             />

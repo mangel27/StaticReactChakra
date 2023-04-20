@@ -84,7 +84,7 @@ const TestimonialAvatar = ({ icon, name, title }) => {
         boxSize={"50px"}
         mb={2}
       >
-        <NextImage fill style={{ objectFit: "cover" }} src={icon} />
+        <NextImage alt={name} fill style={{ objectFit: "cover" }} src={icon} />
       </Box>
       <Stack spacing={-1} align={"center"}>
         <Text fontWeight={600}>{name}</Text>

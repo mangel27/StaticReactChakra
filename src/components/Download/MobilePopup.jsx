@@ -51,6 +51,7 @@ const Mobile = (props) => {
             >
               <NextImage
                 //  style={{ objectFit: "cover" }}
+                alt="istore_halaplay"
                 src="/assets/img/istore.png"
                 fill
               />
@@ -70,6 +71,7 @@ const Mobile = (props) => {
             >
               <NextImage
                 // style={{ objectFit: "cover" }}
+                alt="playstore_halaplay"
                 src="/assets/img/playstore.png"
                 fill
               />
