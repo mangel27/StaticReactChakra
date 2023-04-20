@@ -40,6 +40,15 @@ const Mobile = (props) => {
         >
           <Link
             rel="nofollow"
+            onClick={() => {
+              ga.event({
+                action: "download_click",
+                params: {
+                  event_category: "istore_download_click",
+                  event_label: "istore_download_click",
+                },
+              });
+            }}
             href="https://apps.apple.com/in/app/halaplay-fantasy-sports/id1426253591"
           >
             <Box
@@ -60,6 +69,15 @@ const Mobile = (props) => {
           </Link>
           <Link
             rel="nofollow"
+            onClick={() => {
+              ga.event({
+                action: "download_click",
+                params: {
+                  event_category: "palystore_download_click",
+                  event_label: "palystore_download_click",
+                },
+              });
+            }}
             href="https://d3mebndoedfycp.cloudfront.net/HalaPlay_Pro.apk"
           >
             <Box

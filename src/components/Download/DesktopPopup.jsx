@@ -8,12 +8,26 @@ import {
   Link,
 } from "@chakra-ui/react";
 import NextImage from "next/image";
+import * as ga from "../../lib/ga";
 
 const Desktop = () => {
   return (
     <SimpleGrid columns={1} spacing={0} bg="rgb(89,37,211)" w="100%">
       <Flex justifyContent={"space-around"}>
-        <Box pl={4} p={6} color={useColorModeValue("white", "gray.200")}>
+        <Box
+          pl={4}
+          p={6}
+          color={useColorModeValue("white", "gray.200")}
+          onClick={() => {
+            ga.event({
+              action: "download_click",
+              params: {
+                event_category: "palystore_download_click",
+                event_label: "palystore_download_click",
+              },
+            });
+          }}
+        >
           <Link
             rel="nofollow"
             href="https://d3mebndoedfycp.cloudfront.net/HalaPlay_Pro.apk"
@@ -42,7 +56,20 @@ const Desktop = () => {
             Download App & Get ₹250 off on League Join
           </Text>
         </Box>
-        <Box pl={4} p={6} color={useColorModeValue("white", "gray.200")}>
+        <Box
+          pl={4}
+          p={6}
+          color={useColorModeValue("white", "gray.200")}
+          onClick={() => {
+            ga.event({
+              action: "download_click",
+              params: {
+                event_category: "istore_download_click",
+                event_label: "istore_download_click",
+              },
+            });
+          }}
+        >
           <Link
             rel="nofollow"
             href="https://apps.apple.com/in/app/halaplay-fantasy-sports/id1426253591"
