@@ -2,7 +2,7 @@ import {
   Box,
   Flex,
   SimpleGrid,
-  Stat,
+  Text,
   StatLabel,
   StatNumber,
   useColorModeValue,
@@ -31,24 +31,27 @@ const FeatureItem = [
 const FeatureCard = (props) => {
   const { statNumber, statLabel, icon } = props;
   return (
-    <Stat px={{ base: 2, md: 6 }} py={"5"} shadow={"xl"}>
-      <Flex justifyContent={"center"}>
-        <Box my={"auto"} color={useColorModeValue("white", "gray.200")}>
-          {icon}
-        </Box>
-        <Box
-          pl={{ base: 2, md: 4 }}
-          color={useColorModeValue("white", "gray.200")}
-        >
-          <StatNumber fontSize={["sm", "2xl"]} fontWeight={"medium"}>
-            {statNumber}
-          </StatNumber>
-          <StatLabel fontSize={["10px", "md"]} fontWeight={"medium"}>
-            {statLabel}
-          </StatLabel>
-        </Box>
-      </Flex>
-    </Stat>
+    <Flex
+      // px={{ base: 2, md: 6 }}
+      py={"5"}
+      shadow={"xl"}
+      justifyContent={"center"}
+    >
+      <Box my={"auto"} color={useColorModeValue("white", "gray.200")}>
+        {icon}
+      </Box>
+      <Box
+        pl={{ base: 2, md: 4 }}
+        color={useColorModeValue("white", "gray.200")}
+      >
+        <Text fontSize={["sm", "2xl"]} fontWeight={"medium"}>
+          {statNumber}
+        </Text>
+        <Text fontSize={["10px", "md"]} fontWeight={"medium"}>
+          {statLabel}
+        </Text>
+      </Box>
+    </Flex>
   );
 };
 const Features = () => {

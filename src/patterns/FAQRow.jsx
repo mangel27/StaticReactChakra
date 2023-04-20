@@ -42,6 +42,7 @@ const FAQRow = (props) => {
         open={currentOpen === index}
         transitionTime={200}
         onOpen={() => setExpanded(true)}
+        triggerElementProps={{ id: "question" + index }}
         handleTriggerClick={() => {
           if (currentOpen === index) setCurrentOpen(-1);
           else setCurrentOpen(index);
@@ -67,6 +68,7 @@ const FAQRow = (props) => {
           {row.answer}
         </Text> */}
         <ReactMarkdown
+          id={"answer" + index}
           skipHtml={false}
           components={ChakraUIRenderer(markdowntheme)}
         >
