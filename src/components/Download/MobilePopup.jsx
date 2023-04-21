@@ -33,7 +33,7 @@ const Mobile = (props) => {
           </Text>
         </Box>
         <Box
-          pl={2}
+          //pl={2}
           py={1}
           m="auto"
           color={useColorModeValue("white", "gray.200")}
