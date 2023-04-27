@@ -53,7 +53,7 @@ const Footer = () => {
               <Link rel="nofollow" href={"https://play.halaplay.com/"}>
                 Blog
               </Link>
-              <Link rel="nofollow" href={"https://mindia.halaplay.com/rules"}>
+              <Link rel="nofollow" href={"/point-system"}>
                 Point System
               </Link>
               <Link href={"#"}>Offers</Link>
@@ -63,20 +63,20 @@ const Footer = () => {
               <Link href={"/faqs"}>FAQ</Link>
               <Link
                 rel="nofollow"
-                href={"https://mindia.halaplay.com/privacypolicy"}
+                href={"/privacy-policy"}
               >
                 Privacy Policy
               </Link>
               <Link
                 rel="nofollow"
-                href={"https://mindia.halaplay.com/terms-conditions"}
+                href={"/terms-condition"}
               >
                 T&C
               </Link>
 
               <Link
                 rel="nofollow"
-                href={"https://mindia.halaplay.com/responsible-gaming"}
+                href={"/responsible-gaming"}
               >
                 Responsible Gaming
               </Link>

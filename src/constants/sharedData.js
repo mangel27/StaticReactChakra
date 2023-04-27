@@ -9,7 +9,7 @@ export const NAV_ITEMS = [
     },
     {
         label: 'Point System',
-        href:'https://mindia.halaplay.com/rules'
+        href:'/point-system'
 
     },
     {
