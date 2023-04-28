@@ -21,14 +21,16 @@ const Gateway = () => {
         <SimpleGrid columns={5} spacing={5} py={2}>
           <Box pos="relative" p={1} w={["30px", "50px"]} h={["30px", "50px"]}>
             <NextImage
+              title="google-pay"
               style={{ objectFit: "contain" }}
-              alt="gpay"
+              alt="google-pay"
               src="/assets/img/google-pay.png"
               fill={true}
             />
           </Box>
           <Box pos="relative" p={1} w={["30px", "50px"]} h={["30px", "50px"]}>
             <NextImage
+              title="phonpay"
               style={{ objectFit: "contain" }}
               alt="phonpay"
               src="/assets/img/phonpay.png"
@@ -37,6 +39,7 @@ const Gateway = () => {
           </Box>
           <Box pos="relative" p={1} w={["30px", "50px"]} h={["30px", "50px"]}>
             <NextImage
+              title="amazonpay"
               alt="amazonpay"
               style={{ objectFit: "contain" }}
               src="/assets/img/amazonpay.png"
@@ -45,6 +48,7 @@ const Gateway = () => {
           </Box>
           <Box pos="relative" p={1} w={["30px", "50px"]} h={["30px", "50px"]}>
             <NextImage
+              title="paytm"
               alt="paytm"
               style={{ objectFit: "contain" }}
               src="/assets/img/paytm.png"
@@ -53,6 +57,7 @@ const Gateway = () => {
           </Box>
           <Box pos="relative" p={1} w={["30px", "50px"]} h={["30px", "50px"]}>
             <NextImage
+              title="payu"
               alt="payu"
               style={{ objectFit: "contain" }}
               src="/assets/img/payu.png"

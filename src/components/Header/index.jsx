@@ -66,10 +66,10 @@ const Header = () => {
               title="halaplay_logo"
               alt="halaplay_logo"
               style={{ objectFit: "contain" }}
-              src="/assets/hp_logo.png"
+              src="/assets/halaplay_logo.png"
             />
           </Box>
-          {/* <Image objectFit="contain" src="/assets/hp_logo.png" /> */}
+          {/* <Image objectFit="contain" src="/assets/halaplay_logo.png" /> */}
           <Flex display={{ base: "none", md: "flex" }} ml={10} mt={6}>
             <DesktopNav />
           </Flex>

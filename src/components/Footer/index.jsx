@@ -30,8 +30,9 @@ const Footer = () => {
               <NextImage
                 fill
                 alt="halaplay_logo"
+                title="halaplay_logo"
                 style={{ objectFit: "contain" }}
-                src="/assets/hp_logo.png"
+                src="/assets/halaplay_logo.png"
               />
             </Box>
           </Flex>

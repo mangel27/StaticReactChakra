@@ -5,7 +5,13 @@ const Privacy = () => {
     <>
       <Box p={5} bg="#f0f3f8">
       <div style={{height:'100%'}}>
-        <Heading>Privacy Policy</Heading>
+      <Heading
+          pl={5}
+          as="h1"
+          pb={5}
+        >
+          Privacy Policy
+        </Heading>
       <div className='hala-body-with-header'>
         <div style={{flex:1, padding:10}}>
           <ol style={{paddingLeft: 20,listStyleType:'disc'}}>

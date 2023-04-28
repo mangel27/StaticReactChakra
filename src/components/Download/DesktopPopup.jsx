@@ -40,9 +40,10 @@ const Desktop = () => {
               overflow={"hidden"}
             >
               <NextImage
+                title="playstore_halaplay"
                 style={{ objectFit: "contain" }}
                 alt="playstore_halaplay"
-                src="/assets/img/playstore.png"
+                src="/assets/img/playstore_halaplay.png"
                 fill={true}
               />
             </Box>
@@ -82,9 +83,10 @@ const Desktop = () => {
               overflow={"hidden"}
             >
               <NextImage
+                title="istore_halaplay"
                 style={{ objectFit: "contain" }}
                 alt="istore_halaplay"
-                src="/assets/img/istore.png"
+                src="/assets/img/istore_halaplay.png"
                 fill={true}
               />
             </Box>

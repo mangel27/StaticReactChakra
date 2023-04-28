@@ -62,7 +62,7 @@ const Mobile = (props) => {
                 //  style={{ objectFit: "cover" }}
                 title="istore_halaplay"
                 alt="istore_halaplay"
-                src="/assets/img/istore.png"
+                src="/assets/img/istore_halaplay.png"
                 fill
               />
             </Box>
@@ -89,9 +89,10 @@ const Mobile = (props) => {
               overflow={"hidden"}
             >
               <NextImage
+                title="playstore_halaplay"
                 // style={{ objectFit: "cover" }}
                 alt="playstore_halaplay"
-                src="/assets/img/playstore.png"
+                src="/assets/img/playstore_halaplay.png"
                 fill
               />
             </Box>

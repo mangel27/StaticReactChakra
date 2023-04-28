@@ -5,7 +5,11 @@ const TermsCondition = () => {
     <>
       <Box p={5} bg="#f0f3f8">
         <div style={{ height: "100%" }}></div>
-        <Heading variant="title" color="inherit" style={{ flex: 1 }}>
+        <Heading
+          pl={5}
+          as="h1"
+          pb={5}
+        >
           Terms & Conditions
         </Heading>
         <div className="hala-body-with-header">
