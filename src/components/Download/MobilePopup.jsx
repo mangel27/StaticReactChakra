@@ -60,6 +60,7 @@ const Mobile = (props) => {
             >
               <NextImage
                 //  style={{ objectFit: "cover" }}
+                title="istore_halaplay"
                 alt="istore_halaplay"
                 src="/assets/img/istore.png"
                 fill
