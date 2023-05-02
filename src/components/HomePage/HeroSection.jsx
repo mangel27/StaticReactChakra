@@ -52,7 +52,10 @@ const HeroSection = () => {
               md: "4xl",
             })}
           >
-            <Heading as="h1">Play Fantasy Sports and Win upto</Heading>{" "}
+            <Flex flexWrap="wrap" justifyContent={"center"}>
+              <Heading as="h1">Play Fantasy Sports</Heading>{" "}
+              <Text> &nbsp;and Win upto</Text>
+            </Flex>
             <br></br>
             <Text as="span" fontWeight={900} fontSize={["30px", "50px"]}>
               ₹10,00,000 Daily
