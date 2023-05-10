@@ -35,12 +35,13 @@ export default {
         site: "@HalaPlayDotCom",
         cardType: "summary_large_image",
         creator: "@HalaPlayDotCom",
-        player: "https://www.youtube.com/c/halaplay",
         image:"/assets/seo_logo.png"
     },
     additionalMetaTags: [
 
-
+        {
+            name: "twitter:player",
+        content:"https://www.youtube.com/c/halaplay"},
        { name: 'keywords',
         content: "Halaplay, fantasy sports, cricket, football, basketball, kabaddi, win big, cash prizes, India's leading, daily contests, safe, secure, user-friendly,real moneys"
         }]
@@ -54,7 +55,9 @@ export const aboutus_SEO = {
     url: getCurrentURL(),
     canonical: getCurrentURL(),
        additionalMetaTags: [
-
+ {
+            name: "twitter:player",
+        content:"https://www.youtube.com/c/halaplay"},
 
        { name: 'keywords',
         content: "Halaplay, fantasy sports, cricket, football, basketball, kabaddi, win big, cash prizes, India's leading, daily contests, safe, secure, user-friendly,real moneys"
@@ -79,9 +82,9 @@ export const aboutus_SEO = {
     twitter: {
         handle: "@HalaPlayDotCom",
         site: "@HalaPlayDotCom",
+
         cardType: "summary_large_image",
         creator: "@HalaPlayDotCom",
-        player: "https://www.youtube.com/c/halaplay",
         image:"/assets/seo_logo.png"
     }
 }
@@ -95,7 +98,9 @@ export const rules_SEO = {
     canonical: getCurrentURL(),
        additionalMetaTags: [
 
-
+ {
+            name: "twitter:player",
+        content:"https://www.youtube.com/c/halaplay"},
        { name: 'keywords',
         content: "Halaplay, fantasy sports, cricket, football, basketball, kabaddi, win big, cash prizes, India's leading, daily contests, safe, secure, user-friendly,real moneys"
 
@@ -118,7 +123,6 @@ export const rules_SEO = {
         site: "@HalaPlayDotCom",
         cardType: "summary_large_image",
         creator: "@HalaPlayDotCom",
-        player: "https://www.youtube.com/c/halaplay",
         image:"/assets/seo_logo.png"
     }
 }
