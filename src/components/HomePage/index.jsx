@@ -7,7 +7,7 @@ import Testimonial from "./Testimonial";
 import StepsToPlay from "./StepToPlay";
 import FAQ from "./FAQ";
 import Download from "../Download/Download";
-import FollowUs from "./FollowUs";
+import FollowUs from "../Footer/FollowUs";
 
 const HomePage = () => {
   return (
@@ -26,7 +26,7 @@ const HomePage = () => {
       <StepsToPlay />
       <FAQ />
       <Testimonial title={"What our users say"} />
-      <FollowUs />
+      {/* <FollowUs /> */}
     </Flex>
   );
 };

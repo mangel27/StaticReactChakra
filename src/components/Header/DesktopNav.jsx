@@ -69,7 +69,7 @@ const DesktopNav = () => {
             <PopoverTrigger>
               <Link
                 p={2}
-                href={navItem.href ?? "#"}
+                href={navItem.href ?? "/"}
                 fontSize="lg"
                 fontWeight={500}
                 color={linkColor}

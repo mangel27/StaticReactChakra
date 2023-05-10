@@ -4,7 +4,7 @@ import { TbBrandTelegram } from "react-icons/tb";
 export const NAV_ITEMS = [
     {
         label: 'Blogs',
-        href:'https://play.halaplay.com/'
+        href:'/'
 
     },
     {
@@ -18,7 +18,7 @@ export const NAV_ITEMS = [
     },
     {
         label: 'Offers',
-        href:'#'
+        href:'/'
     },
 ];
 export const FANTASY_BENEFITS = [{

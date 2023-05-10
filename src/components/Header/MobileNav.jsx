@@ -21,7 +21,7 @@ const MobileNavItem = ({ label, children, href }) => {
       <Flex
         py={2}
         as={Link}
-        href={href ?? "#"}
+        href={href ?? "/"}
         _activLink={{ textDecor: "underline" }}
         justify="center"
         align="center"

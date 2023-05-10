@@ -11,11 +11,13 @@ import {
 import NextImage from "next/image";
 import Gateway from "./Gateway";
 import { useRouter } from "next/router";
+import FollowUs from "./FollowUs";
 
 const Footer = () => {
   const router = useRouter();
   return (
     <>
+      <FollowUs />
       <Box
         bg={useColorModeValue("gray.50", "gray.900")}
         color={useColorModeValue("gray.700", "gray.200")}
@@ -29,8 +31,8 @@ const Footer = () => {
             <Box w={"150px"} pos="relative" overflow={"hidden"} h={"60px"}>
               <NextImage
                 fill
-                alt="halaplay_logo"
-                title="halaplay_logo"
+                alt="halaplay"
+                title="halaplay"
                 style={{ objectFit: "contain" }}
                 src="/assets/halaplay_logo.png"
               />
@@ -51,34 +53,25 @@ const Footer = () => {
             <Stack textAlign={"justify"}>
               <Link href={"/about-us"}>About us</Link>
 
-              <Link rel="nofollow" href={"https://play.halaplay.com/"}>
+              <Link rel="nofollow" href={"/"}>
                 Blog
               </Link>
               <Link rel="nofollow" href={"/point-system"}>
                 Point System
               </Link>
-              <Link href={"#"}>Offers</Link>
+              <Link href={"/"}>Offers</Link>
             </Stack>
 
             <Stack align={"flex-end"} textAlign="end">
               <Link href={"/faqs"}>FAQ</Link>
-              <Link
-                rel="nofollow"
-                href={"/privacy-policy"}
-              >
+              <Link rel="nofollow" href={"/privacy-policy"}>
                 Privacy Policy
               </Link>
-              <Link
-                rel="nofollow"
-                href={"/terms-condition"}
-              >
+              <Link rel="nofollow" href={"/terms-condition"}>
                 T&C
               </Link>
 
-              <Link
-                rel="nofollow"
-                href={"/responsible-gaming"}
-              >
+              <Link rel="nofollow" href={"/responsible-gaming"}>
                 Responsible Gaming
               </Link>
             </Stack>
