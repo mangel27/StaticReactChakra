@@ -71,6 +71,7 @@ const DesktopNav = () => {
                 p={2}
                 href={navItem.href ?? "/"}
                 fontSize="lg"
+                target={navItem?.href.startsWith("http") ? "_blank" : "_self"}
                 fontWeight={500}
                 color={linkColor}
                 _hover={{

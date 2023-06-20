@@ -4,7 +4,7 @@ import { TbBrandTelegram } from "react-icons/tb";
 export const NAV_ITEMS = [
     {
         label: 'Blogs',
-        href:'/'
+        href:'https://play.halaplay.com/'
 
     },
     {
@@ -65,7 +65,7 @@ export const EARN_MORE = [{
 {
     title: "4+1 Offer",
     text: "Join with 4 & get 5th Entry Free",
-    icon:"/assets/icons/4+1.svg"
+    icon:"/assets/icons/4plus1.svg"
     // icon: TbCricket
 }]
 export const cardColors = [

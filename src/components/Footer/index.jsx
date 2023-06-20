@@ -53,8 +53,12 @@ const Footer = () => {
             <Stack textAlign={"justify"}>
               <Link href={"/about-us"}>About us</Link>
 
-              <Link rel="nofollow" href={"/"}>
-                Blog
+              <Link
+                rel="nofollow"
+                href={"https://play.halaplay.com/"}
+                target="_blank"
+              >
+                Blogs
               </Link>
               <Link rel="nofollow" href={"/point-system"}>
                 Point System

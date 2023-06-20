@@ -22,6 +22,7 @@ const MobileNavItem = ({ label, children, href }) => {
         py={2}
         as={Link}
         href={href ?? "/"}
+        target={href?.startsWith("http") ? "_blank" : "_self"}
         _activLink={{ textDecor: "underline" }}
         justify="center"
         align="center"
