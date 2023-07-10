@@ -5,11 +5,7 @@ const TermsCondition = () => {
     <>
       <Box p={5} bg="#f0f3f8">
         <div style={{ height: "100%" }}></div>
-        <Heading
-          pl={5}
-          as="h1"
-          pb={5}
-        >
+        <Heading pl={5} as="h1" pb={5}>
           Terms & Conditions
         </Heading>
         <div className="hala-body-with-header">
@@ -18,15 +14,15 @@ const TermsCondition = () => {
               <li>
                 <Text>
                   These are the HalaPlay Platforms Terms and Conditions of Use
-                  (‘Terms’) which form an agreement between HALAPLAY
+                  ('Terms') which form an agreement between HALAPLAY
                   TECHNOLOGIES PRIVATE LIMITED (referred hereinafter as the
-                  ‘Company’, ‘HalaPlay’, ‘us’, ‘we’ or ‘our’) and you, the user
-                  (hereinafter referred as ‘you’, ‘your’, or ‘User’ or ‘Member’,
-                  as defined below) of the www.Halaplay.com website (‘Website’)
-                  and the Halaplay mobile application (‘App’) including any
+                  'Company', 'HalaPlay', 'us', 'we' or 'our') and you, the user
+                  (hereinafter referred as 'you', 'your', or 'User' or 'Member',
+                  as defined below) of the www.Halaplay.com website ('Website')
+                  and the Halaplay mobile application ('App') including any
                   subdomains of the Website, or related top-level domains
                   including www.Halaplay.com, mobile sites, apps, APIs and
-                  widgets (hereinafter collectively referred as ‘Platforms’).
+                  widgets (hereinafter collectively referred as 'Platforms').
                   These Platforms are operated by HalaPlay Technologies Pvt.
                   Ltd. and offer online sports fantasy games / leagues This user
                   agreement (the "Agreement"), which includes those terms and
@@ -87,11 +83,11 @@ const TermsCondition = () => {
                   of our Platforms.
                 </Text>
                 <Text>
-                  4. Pay to play, Real Money (as defined below) DFS (“Real Money
-                  Games” and together with the Play Money Fantasy, the “Games”)
+                  4. Pay to play, Real Money (as defined below) DFS ("Real Money
+                  Games" and together with the Play Money Fantasy, the "Games")
                   and other related services in relation thereto (together with
-                  the Games, hereinafter referred to as the “Services”). For the
-                  purposes of these Terms, “Real Money” shall mean and refer to
+                  the Games, hereinafter referred to as the "Services"). For the
+                  purposes of these Terms, "Real Money" shall mean and refer to
                   any actual money in the currency of Indian Rupees that is
                   generally accepted as payment for goods and services.{" "}
                 </Text>
@@ -119,7 +115,7 @@ const TermsCondition = () => {
                   information, the User will be solely liable in such instance
                   and the Company reserves the right to terminate the User
                   Account without any further notice and refund any unused real
-                  money credited into such User’s account and forfeit any
+                  money credited into such User's account and forfeit any
                   winnings as the case may be. The Company or the Platform
                   operated by the Company will not be liable for players' breach
                   of applicable State laws
@@ -158,7 +154,7 @@ const TermsCondition = () => {
                   operating of the paid Services is prohibited, which states
                   include, but not be limited to Meghalaya, Telangana, Andhra
                   Pradesh, Arunachal Pradesh, Assam, Odisha, Nagaland & Sikkim
-                  (“Excluded States”). You hereby confirm that you are not a
+                  ("Excluded States"). You hereby confirm that you are not a
                   resident of the Excluded States and that you will not now and
                   in the future, access the Services to play the Real Money
                   Games/Play Money Games from outside India or from within the
@@ -179,7 +175,7 @@ const TermsCondition = () => {
                   11. HalaPlay complies with the guidelines mentioned under
                   Google Play Developer Program Policy & will validate the user
                   location before registering. New or registered user on the app
-                  won’t be allowed to play cash games or deposit from restricted
+                  won't be allowed to play cash games or deposit from restricted
                   location.We make no representation or warranty with respect to
                   the legality or otherwise of the accessing and use of the
                   Services in your location of residence and it is solely your
@@ -209,7 +205,7 @@ const TermsCondition = () => {
                   14. You further understand and agree that the Company is not
                   in the business of soliciting deposits and any funds present
                   and/or credited in your User Account shall not constitute
-                  “deposits” as defined under the Companies Act, 2013 and the
+                  "deposits" as defined under the Companies Act, 2013 and the
                   applicable rules thereunder{" "}
                 </Text>
                 <Text>
@@ -226,7 +222,7 @@ const TermsCondition = () => {
                   the Website or otherwise. You should ensure that you have read
                   and understood the rules and regulations of the games,
                   contests, tournaments available through the Platforms, here on
-                  referred to as the “Leagues”. You agree to be bound by and
+                  referred to as the "Leagues". You agree to be bound by and
                   abide by the rules and regulations of each of the Leagues as
                   published and periodically changed by Halaplay.
                 </Text>
@@ -248,7 +244,7 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   18. HalaPlay may offer discounts / bonuses (hereinafter
-                  referred to as ‘discount’) to its players in any form and
+                  referred to as 'discount') to its players in any form and
                   manner as it deems fit depending on existence of ongoing
                   promotional offers. All such discount shall be reflected in a
                   separate wallet.
@@ -276,8 +272,8 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   b. Every bonus/discount/promotional cash back rewards given
-                  comes with a validity Upon expiry the bonus can’t be credited
-                  to player’s account{" "}
+                  comes with a validity Upon expiry the bonus can't be credited
+                  to player's account{" "}
                 </Text>
                 <Text>
                   c. If platform fee has been charged earlier from a player,
@@ -295,7 +291,7 @@ const TermsCondition = () => {
                   22. Halaplay reserves the right to charge a platform fee which
                   would be specified / notified by HalaPlay on its platform. The
                   platform fee and taxes applicable thereon will be debited from
-                  the player’s account balance.
+                  the player's account balance.
                 </Text>
               </li>
               <Divider
@@ -341,7 +337,7 @@ const TermsCondition = () => {
                 <Text>
                   4. In order to access and play the League(s), or fully utilize
                   the Platforms offered by Halaplay, a User is required to
-                  register as a ‘Member’ on the Platforms. You are not
+                  register as a 'Member' on the Platforms. You are not
                   authorized to enter any League(s) on our Platforms or
                   otherwise, until you have been granted an Account (defined
                   below).
@@ -358,7 +354,7 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   7. If you wish to become a registered Member of our Platforms,
-                  you will need to apply for a member account (‘Account’). Each
+                  you will need to apply for a member account ('Account'). Each
                   User is only permitted to open one Member account. Halaplay
                   reserves the right to terminate or suspend any duplicate
                   accounts.{" "}
@@ -666,7 +662,7 @@ const TermsCondition = () => {
                   in-play data and player/team profile. Any changes to the
                   official player statistics or perceived errors after the point
                   scores are made final will not be taken into account and
-                  claims that a Member’s League entry has been affected will not
+                  claims that a Member's League entry has been affected will not
                   be considered.{" "}
                 </Text>
                 <Text>
@@ -746,14 +742,15 @@ const TermsCondition = () => {
                   Deposits, Withdrawals and Member Account Funds:
                 </Text>
                 <Text>
-                  43. The Company is obligated to deduct tax at source ("TDS")
-                  in case of winnings of Rs. 10,000/- or more in a single
-                  League. In such cases, winnings shall be credited to your
-                  Account after deducting TDS at applicable rates as per the
-                  Income Tax act, 1961. Please note that you must possess a
-                  valid PAN and provide your PAN details and proof thereof
-                  immediately upon request, in order to enable us to credit such
-                  winnings and allow for Cash Withdrawals in this respect. These
+                  43. TDS will be deducted at applicable rates which are subject
+                  to change without prior notice to the user. The rate of TDS as
+                  on 01.06.2023 is 30%. As per the provisions of the Income Tax
+                  Act, 1961 and the Rules made thereunder, the TDS is required
+                  to be deducted on net winnings in the manner as may be
+                  prescribed by law. Please note that you must possess a valid
+                  PAN and provide your PAN details and proof thereof immediately
+                  upon request, in order to enable us to credit such winnings
+                  and allow for Cash Withdrawals in this respect. These
                   requirements and provisions may be modified from time to time
                   in accordance with changes to the relevant tax and other laws.{" "}
                 </Text>
@@ -826,14 +823,14 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   52. Any Bonus – Referral or Deposit Bonus will expire in 14
-                  days from the date of credit to the Member’s Account.
+                  days from the date of credit to the Member's Account.
                 </Text>
                 <Text>
                   53. All deposits and refunds, if any, will be done through
                   NEFT, Debit/Credit Cards, UPI, Wallets. Transactions may take
                   up to 5 business days to be completed. Such deposits made to
                   the platform will become available immediately thereafter in
-                  the Member’s Halaplay Account and can be accessed for entering
+                  the Member's Halaplay Account and can be accessed for entering
                   League(s) and games.
                 </Text>
                 <Text>
@@ -841,7 +838,7 @@ const TermsCondition = () => {
                   however the funds will arrive in your nominated bank account
                   on the next working day. This may on occasion take up to 5-7
                   business days. In order to request a withdrawal, you must
-                  first complete HalaPlay’s identity verification, and bank
+                  first complete HalaPlay's identity verification, and bank
                   account verification, which will also require submission of
                   your PAN card and bank account details.
                 </Text>
@@ -861,14 +858,14 @@ const TermsCondition = () => {
                 <Text>
                   57. Members acknowledge that transactions on the Platforms may
                   take up to 24 hours to be processed. Any amount paid or
-                  transferred into the Member’s account may take up to 24 hours
-                  to reflect in the Member’s Account Balance. Similarly, money
-                  debited from the Member’s Account Balance may take up to 24
-                  hours to reflect in the Member’s Account. Members agree not to
+                  transferred into the Member's account may take up to 24 hours
+                  to reflect in the Member's Account Balance. Similarly, money
+                  debited from the Member's Account Balance may take up to 24
+                  hours to reflect in the Member's Account. Members agree not to
                   raise any complaint or claim against HalaPlay in respect of
                   any such delay, including any lost opportunity to join any
                   League or round due to delay in crediting of transaction
-                  amount into the Member’s Account.
+                  amount into the Member's Account.
                 </Text>
                 <Text>
                   58. You agree, understand and acknowledge that you will use
@@ -931,13 +928,13 @@ const TermsCondition = () => {
                   will be required to verify their e-mail address & phone number
                   along with following documents:
                 </Text>
-                <Text>i. Upload photo of the Member’s original PAN card.</Text>
+                <Text>i. Upload photo of the Member's original PAN card.</Text>
                 <Text>
-                  ii. Member’s bank account details and upload proof of the same
+                  ii. Member's bank account details and upload proof of the same
                   (Bank passbook/Account Statement/ Canceled Cheque).
                 </Text>
                 <Text>
-                  iii. Upload photo of Member’s Aadhar card/Driving
+                  iii. Upload photo of Member's Aadhar card/Driving
                   license/Passport/Voter id
                 </Text>
                 <Text>
@@ -997,10 +994,10 @@ const TermsCondition = () => {
                   Member. Upon such forfeiture, such prize money will be carried
                   forward to any other prize money pool as per the discretion of
                   Halaplay. Further HalaPlay may, at its sole and absolute
-                  discretion, suspend or terminate such Member’s Account. Any
-                  deposit & winning amount remaining unused in the Member’s
+                  discretion, suspend or terminate such Member's Account. Any
+                  deposit & winning amount remaining unused in the Member's
                   Account on the date of deactivation or deletion shall be
-                  reimbursed to the Member by an online transfer to the Member’s
+                  reimbursed to the Member by an online transfer to the Member's
                   bank account on record with HalaPlay; subject to the
                   processing fee (if any) applicable on such transfers as set
                   out herein.
@@ -1016,7 +1013,7 @@ const TermsCondition = () => {
                   non-contestable.
                 </Text>
                 <Text>
-                  61. All prizes shall be subject to deduction of tax (“TDS”) as
+                  61. All prizes shall be subject to deduction of tax ("TDS") as
                   per the Income Tax Act 1961. Winners will be provided TDS
                   certificates in respect of such tax deductions. The winners
                   shall be responsible for payment of any other applicable tax,
@@ -1031,7 +1028,7 @@ const TermsCondition = () => {
                   forfeiture, such prize money will be carried forward to any
                   other prize money pool as per the discretion of Halaplay.
                   Further, HalaPlay may, at its sole and absolute discretion,
-                  suspend or terminate such Member’s Account.
+                  suspend or terminate such Member's Account.
                 </Text>
                 <Text>
                   63. To the extent permitted by law, HalaPlay makes no
@@ -1182,7 +1179,7 @@ const TermsCondition = () => {
                 <Text>
                   79. Any Member deemed to be a fraud Member for any reason, for
                   example, found depositing or withdrawing from/to a fraudulent
-                  account, is subject to legal action from the Company’s
+                  account, is subject to legal action from the Company's
                   management including but not limited to the confiscation of
                   the Member's Account Balance and locking of the Member's
                   Account.
@@ -1265,7 +1262,7 @@ const TermsCondition = () => {
                   a. be considered to be, unlawful, threatening, abusive,
                   bigoted, hateful, libellous, tortious, blasphemous, false or
                   misleading, discriminatory, defamatory, obscene, vulgar,
-                  offensive, excessively violent; invasive of another’ privacy,
+                  offensive, excessively violent; invasive of another' privacy,
                   publicity, contract or other rights; pornographic or inclusive
                   of nudity, paedophilic, profane, sexually explicit; indecent,
                   racially, ethnically objectionable, disparaging, relating or
@@ -1392,7 +1389,7 @@ const TermsCondition = () => {
                   business plans, data banks, information related to technology
                   and process, the technology developed including the software
                   and methodology of usage from here on referred to as
-                  ‘Intellectual Property’.
+                  'Intellectual Property'.
                 </Text>
                 <Text>
                   91. Halaplay merely permits the User to use the Intellectual
@@ -1500,7 +1497,7 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   102. Our Platforms contain content provided to us by other
-                  parties (‘Third Party Content’). This includes the information
+                  parties ('Third Party Content'). This includes the information
                   relating to sport, fantasy sport, and player news and player
                   statistics.
                 </Text>
@@ -1558,13 +1555,13 @@ const TermsCondition = () => {
                   that we are not responsible to you in all such cases. For any
                   Contest, we have the right to cancel and refund the entry
                   fees. In no case, other than a server crash, are we
-                  accountable for any of the User’s disconnections from the
+                  accountable for any of the User's disconnections from the
                   server. We are also not liable for any prospective winnings
                   from any incomplete Contest.
                 </Text>
                 <Text>
                   108. We do not hold any liability to any disconnection, lag,
-                  freeze or interference in the network on the User’s computer
+                  freeze or interference in the network on the User's computer
                   or any other external networks.
                 </Text>
                 <Divider
@@ -1863,7 +1860,7 @@ const TermsCondition = () => {
                 <Text>
                   128. We may change, suspend or discontinue any aspect of the
                   Platforms at any time, including the availability of any
-                  Website’s/App feature, database, or content. We may also
+                  Website's/App feature, database, or content. We may also
                   impose limits on certain features and services or restrict
                   your access to parts or the Platforms, without notice or
                   liability at any time in our exclusive discretion, without
@@ -2011,7 +2008,7 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   146. You understand and acknowledge that once a game/league
-                  has commenced, you’re not being able to play due to slow
+                  has commenced, you're not being able to play due to slow
                   internet connections, faulty hardware or for any other reason
                   not attributable to Us does not entitle You to a refund of the
                   entry fee You may have paid for participation.
@@ -2047,16 +2044,17 @@ const TermsCondition = () => {
                   subscriber/player/registrant on the Website/App.
                 </Text>
                 <Text>
-                  151. The Company is obligated to deduct tax at source ("TDS")
-                  in case of winnings of Rs. 10,000/- or more in any leagues. In
-                  such cases, winnings shall be credited to your Account after
-                  deducting TDS at applicable rates as per the Income TaxAct
-                  1961. Please note that you must possess a valid PAN and
-                  provide your PAN details and proof thereof immediately upon
-                  request, in order to enable us to credit such winnings and
-                  allow for Cash Withdrawals in this respect. These requirements
-                  and provisions may be modified from time to time in accordance
-                  with changes to the relevant tax and other laws.
+                  151. TDS will be deducted at applicable rates which are
+                  subject to change without prior notice to the user. The rate
+                  of TDS as on 01.06.2023 is 30%. As per the provisions of the
+                  Income Tax Act, 1961 and the Rules made thereunder, the TDS is
+                  required to be deducted on net winnings in the manner as may
+                  be prescribed by law. Please note that you must possess a
+                  valid PAN and provide your PAN details and proof thereof
+                  immediately upon request, in order to enable us to credit such
+                  winnings and allow for Cash Withdrawals in this respect. These
+                  requirements and provisions may be modified from time to time
+                  in accordance with changes to the relevant tax and other laws.
                 </Text>
                 <Text>
                   152. You understand that Halaplay does not entertain any
@@ -2124,7 +2122,7 @@ const TermsCondition = () => {
                   meant for entertainment only.
                 </Text>
                 <Text>
-                  Our players’ well-being is of utmost importance to us, and we
+                  Our players' well-being is of utmost importance to us, and we
                   request all our players to follow the best practices listed
                   below to play responsibly.
                 </Text>
@@ -2158,7 +2156,7 @@ const TermsCondition = () => {
                   time spent on other leisure activities.
                 </Text>
                 <Text>
-                  164. Prioritize What’s Important: Never prioritize playing
+                  164. Prioritize What's Important: Never prioritize playing
                   online Daily Fantasy Sports over other important activities
                   that impact daily life. We never encourage our players to
                   consider gameplay as a profession.
@@ -2179,7 +2177,7 @@ const TermsCondition = () => {
                   How HalaPlay practices RESPONSIBLE GAMING?
                 </Text>
                 <Text fontWeight={"bold"} fontSize="xl">
-                  HalaPlay has a dedicated “Responsible Gaming Team” (RG TEAM)
+                  HalaPlay has a dedicated "Responsible Gaming Team" (RG TEAM)
                   to take care of our players and to ensure all our players are
                   playing responsibly. Our team consists of well-trained
                   executives who identify responsible gaming issues & safeguard
@@ -2222,7 +2220,7 @@ const TermsCondition = () => {
                   to add cash, play games, or log in at the HalaPlay platform
                 </Text>
                 <Text>
-                  b. Once confirmed, the request for ‘Self-Exclusion’ is
+                  b. Once confirmed, the request for 'Self-Exclusion' is
                   irreversible for the requested period.
                 </Text>
                 <Text>
@@ -2318,7 +2316,7 @@ const TermsCondition = () => {
                   is changed.
                 </Text>
                 <Text>
-                  189. If Match has “Extension possible” tag and we failed to
+                  189. If Match has "Extension possible" tag and we failed to
                   extend that match in case of extension time then we will
                   cancel that match.
                 </Text>
@@ -2355,7 +2353,7 @@ const TermsCondition = () => {
                   rights in all such content. Each Player specifically agrees to
                   indemnify, save and hold harmless and defend. Us (to the
                   extent of all benefits and awards, cost of litigation,
-                  disbursements, and reasonable attorney’s fees that. We may
+                  disbursements, and reasonable attorney's fees that. We may
                   incur in connection therewith including any direct, indirect
                   or consequential losses, any loss of profit and loss of
                   reputation) from any claims, actions, suits, taxes, damages,
@@ -2432,7 +2430,7 @@ const TermsCondition = () => {
                 <Text>
                   203. In the event of any legal dispute (which may be a legal
                   issue or question) which may arise, the party raising the
-                  dispute shall provide a written notification (“Notification”)
+                  dispute shall provide a written notification ("Notification")
                   to the other party. On receipt of Notification, the parties
                   shall first try to resolve the dispute through discussions. In
                   the event that the parties are unable to resolve the dispute
@@ -2487,189 +2485,72 @@ const TermsCondition = () => {
                   TDS Policy:
                 </Text>
                 <Text>
-                  In line with the provisions contained in Finance Act, 2023 and
-                  in accordance with the relevant provisions of Income Tax Act,
-                  1961 the company shall deduct TDS at the rate as may be
-                  applicable from time to time.
+                  1) All withdrawals and / or balance(s) in the user account
+                  shall be subject to deduction of TDS as per the provisions of
+                  the Income Tax Act, 1961. We reserve the right to deduct any
+                  amount from the amount of withdrawal or balance in user
+                  account to pay TDS.
                 </Text>
                 <Text>
-                  a) All withdrawals and / or balance(s) in the user account
-                  shall be subject to deduction of TDS under the provisions of
-                  the Income Tax Act, 1961.
-                </Text>
-                <Text>
-                  b) TDS will be deducted at 30% on (i) net winnings comprised
-                  in any withdrawal from the user account, and (ii) remaining
-                  amount of net winnings in the user account at the end of the
-                  financial year. Rate of TDS as well as the manner of
-                  computation thereof shall be as per applicable legal
-                  provisions and are subject to change without any prior notice
-                  or intimation to the user
-                </Text>
-                <Text>
-                  For Simplification and illustration purposes appended herewith
-                  is the formulae which shall be applicable:
-                </Text>
-                <Text>
-                  For withdrawals during the year, TDS shall be applicable on
-                  that portion of the withdrawal which is Net Winnings. Net
-                  Winnings in case of Withdrawal is calculated as A – B – C – D
-                  Where,
+                  2) TDS will be deducted at applicable rates which are subject
+                  to change without prior notice to the user. The rate of TDS as
+                  on 01.06.2023 is 30%. As per the provisions of the Income Tax
+                  Act, 1961 and the Rules made thereunder, the TDS is required
+                  to be deducted on net winnings in the manner as may be
+                  prescribed by law. An illustration of manner of computation
+                  for deduction of TDS is given below solely for ease of
+                  reference:
+                  <br />
+                  Illustration:
                 </Text>
                 <ul>
                   <li>
-                    A = Aggregate withdrawals from the user account during the
-                    current year till the date of withdrawal, other than any
-                    amount, by whatever name called, not in the nature of
-                    winnings from playing online game paid by the online gaming
-                    intermediary to the user account
+                    Calculation of net winnings for the first withdrawal during
+                    the financial year shall be done using the formulae- Net
+                    winnings =A-(B+C+E)
                   </li>
                   <li>
-                    B = Aggregate amount deposited in the user account during
-                    the current year upto the date of withdrawal
+                    Calculation of net winnings for every subsequent withdrawal
+                    during the financial year shall be done using the formulae-
+                    Net winnings =A-(B+C+E)
                   </li>
                   <li>
-                    C = Balance in the user account at the beginning of the
-                    current year excluding the bonus given to users.
-                  </li>
-                  <li>
-                    D = Winnings comprised in earlier withdrawals made from the
-                    user account in the current year, on which TDS was deducted
-                    in accordance with the provisions of the section 194 BA{" "}
-                    {"\n"}
+                    Calculation of net winnings at the end of financial year
+                    shall be done using the formulae- Net winnings
+                    =(A+D)-(B+C+E)
+                    <br />
+                    where –
+                    <br />
+                    A = Aggregate amount withdrawn from the user account during
+                    the financial year;
+                    <br />
+                    B = Aggregate amount of non-taxable deposit made in the user
+                    account by the owner of such account during the financial
+                    year;
+                    <br />
+                    C = Opening balance of the user account at the beginning of
+                    the financial year;
+                    <br />
+                    D= Closing balance of the user account at the end of the
+                    financial year; and
+                    <br />
+                    E= Net winnings comprised in the earlier withdrawal or
+                    withdrawals computed under sub-rule (2), or sub-rule (4),
+                    during the financial year if tax has been deducted in
+                    accordance with the provision of Section 194BA of the Act on
+                    winnings comprised in such withdrawal or withdrawals.
                   </li>
                 </ul>
                 <Text>
-                  Note: In case the TDS applicable on net winnings at the time
-                  of withdrawal is lower than the TDS already paid during the
-                  current year, no TDS will be applied, and the user may claim
-                  the refund of the said TDS at the time of filing their annual
-                  returns with Income Tax.
+                  3) The above is purely an illustration and is subject to
+                  change without any notice to the user.
                 </Text>
                 <Text>
-                  c) We reserve our right to modify / change / amend the above
-                  terms in the event of any change in applicable law, any
-                  amendment to the legal provision, issuance of clarification by
-                  the authorities, pronouncement of any relevant court
-                  judgement, etc.
+                  4) Furthermore, the manner of deduction of TDS shall at all
+                  times be governed solely as per the applicable legal
+                  provisions.
                 </Text>
-                <Text>
-                  Some scenarios to illustrate the impact of the new TDS rules
-                  are provided below:
-                </Text>
-                <Text gutterBottom paragraph>
-                  Scenario 1: If Net winnings are less than or zero, then TDS is
-                  not applicable
-                </Text>
-                <ul>
-                  <li>
-                    Total withdrawal in the financial year till date (A) = ₹
-                    10,000 [₹ 8,000 already withdrawn + ₹ 2,000 requested today]
-                  </li>
-                  <li>
-                    Total deposits made in the financial year till date (B) = ₹
-                    8,000
-                  </li>
-                  <li>
-                    Balance in user account at the beginning of current
-                    financial year (C) = ₹ 2,000
-                  </li>
-                  <li>
-                    Withdrawals on which TDS has already been deducted in the
-                    current financial year (D) = ₹ 0
-                  </li>
-                  <li>Net Winnings = A - B – C – D = ₹ 0</li>
-                  <li>Withdrawal requested= ₹ 2,000</li>
-                  <li>Amount credited to your bank account = ₹ 2,000</li>
-                </ul>
               </li>
-              <Text />
-              <Text gutterBottom paragraph>
-                In this scenario your net winnings are 0, so TDS is not
-                applicable on your withdrawal.
-              </Text>
-              <Text gutterBottom paragraph>
-                Scenario 2: If Net winnings are greater than zero, then TDS is
-                applicable.
-              </Text>
-              <Text gutterBottom paragraph>
-                Example:
-              </Text>
-              <ul>
-                <li>
-                  Total withdrawal in the financial year till date (A) = ₹
-                  38,000 [₹ 26,000 already withdrawn + ₹ 12,000 requested today]
-                </li>
-                <li>
-                  Total deposits made in the financial year till date (B) = ₹
-                  15,000
-                </li>
-                <li>
-                  Balance in user account at the beginning of current financial
-                  year (C) = ₹ 15,000
-                </li>
-                <li>
-                  Withdrawals on which TDS has already been deducted in the
-                  current financial year (D) = ₹ 1000
-                </li>
-                <li>Net Winnings = A - B – C – D = ₹ 7,000</li>
-                <li>Withdrawal requested= ₹12,000</li>
-                <li>TDS deducted = 30% x Net Winnings = ₹2,100</li>
-                <li>Amount credited to your bank account = ₹ 9,900</li>
-              </ul>
-              <Text gutterBottom paragraph></Text>
-              <Text gutterBottom paragraph>
-                In this scenario your net winnings is ₹ 7,000, which is greater
-                than 0, so TDS of ₹ 2,100 is deducted from your requested
-                withdrawal and ₹ 9,900 is credited to your bank account.
-              </Text>
-              <Text gutterBottom paragraph>
-                Scenario 3: TDS was deducted on net winnings during the
-                financial year, however, net winnings have reduced since
-              </Text>
-              <Text gutterBottom paragraph>
-                For example: {"\n"}
-                On 25th June 2023
-              </Text>
-              <ul>
-                <li>
-                  Total withdrawal in the financial year till 25th June 2023 (A)
-                  = ₹ 20,000
-                </li>
-                <li>
-                  Total deposits made in the financial year till 25th June 2023
-                  (B) = ₹ 5,000
-                </li>
-                <li>
-                  Balance in user account at the beginning of current financial
-                  year (C) = ₹ 10,000
-                </li>
-                <li>
-                  Withdrawals on which TDS has already been deducted in the
-                  current financial year (D) = ₹ 0
-                </li>
-                <li>Net Winnings = A - B – C – D = ₹ 5,000</li>
-                <li>Withdrawal requested= ₹20,000</li>
-                <li>TDS deducted = 30% x Net Winnings = ₹1,500</li>
-                <li>Amount credited to your bank account = ₹ 18,500</li>
-              </ul>
-              <Text gutterBottom paragraph></Text>
-              <Text gutterBottom paragraph>
-                On any day after 25th June 2023 before the end of FY 2024
-              </Text>
-              <ul>
-                <li>If Net winnings decreases to ₹ 3,000</li>
-                <li>Withdrawal requested = ₹ 100</li>
-                <li>TDS on net winnings = 30% x ₹ 3,000 = ₹ 900</li>
-                <li>
-                  However, TDS of ₹ 1,500 has already been deducted till date &
-                  the user now has a lower TDS liability.
-                </li>
-                <li>
-                  In this case, user may claim a tax refund when filing their
-                  yearly income tax
-                </li>
-              </ul>
             </ol>
           </div>
         </div>
