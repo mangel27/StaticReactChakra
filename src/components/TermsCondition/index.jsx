@@ -19,9 +19,9 @@ const TermsCondition = () => {
                   'Company', 'HalaPlay', 'us', 'we' or 'our') and you, the user
                   (hereinafter referred as 'you', 'your', or 'User' or 'Member',
                   as defined below) of the www.Halaplay.com website ('Website')
-                  and the Halaplay mobile application ('App') including any
+                  and the HalaPlay mobile application ('App') including any
                   subdomains of the Website, or related top-level domains
-                  including www.Halaplay.com, mobile sites, apps, APIs and
+                  including www.halaplay.com, mobile sites, apps, APIs and
                   widgets (hereinafter collectively referred as 'Platforms').
                   These Platforms are operated by HalaPlay Technologies Pvt.
                   Ltd. and offer online sports fantasy games / leagues This user
@@ -49,10 +49,10 @@ const TermsCondition = () => {
                   failure or delay to act or exercise any right or remedy with
                   respect to a breach of any of these Terms by You does not
                   waive Our rights to act with respect to any prior, concurrent,
-                  subsequent, or similar breaches. If a competition or leagues
-                  is organized by Us on the Website/App, it shall be governed by
+                  subsequent, or similar breaches. If a competition or league is
+                  organized by Us on the Website/App, it shall be governed by
                   these Terms and any supplementary terms and conditions which
-                  may be specifically applied for a competition or leagues. If
+                  may be specifically applied for a competition or league. If
                   You do not agree to the following Terms or any future
                   alterations or modifications to these Terms, you may
                   discontinue the use of the Website/App and any Services
@@ -70,8 +70,7 @@ const TermsCondition = () => {
                   to these Terms. You agree and acknowledge that you have
                   completely read and understood these Terms and the Privacy
                   Policy, incorporated herein by reference, as amended from time
-                  to time. 1. The User is any person using, browsing, or
-                  otherwise accessing any content or data on the Platforms.
+                  to time.
                 </Text>
                 <Text>
                   3. We reserve the right to change any of the Terms for using
@@ -107,11 +106,11 @@ const TermsCondition = () => {
                 <Text>
                   6. Excluded States: It may be noted that the state
                   legislations of Meghalaya, Telangana, Andhra Pradesh,
-                  Arunachal Pradesh, Assam, Odisha, Nagaland & Sikkim do not
-                  permit the playing of games of skill for money or require a
-                  license for the same (Excluded States). If any User belonging
-                  to the Excluded States is found to be participating in any
-                  Real Money Games on the Platform or registers by giving false
+                  Arunachal Pradesh, Assam, Odisha, Nagaland & Sikkim (“Excluded
+                  States”) do not permit the playing of games of skill for money
+                  or require a license for the same. If any User belonging to
+                  the Excluded States is found to be participating in any Real
+                  Money Games on the Platform or registers by giving false
                   information, the User will be solely liable in such instance
                   and the Company reserves the right to terminate the User
                   Account without any further notice and refund any unused real
@@ -174,15 +173,15 @@ const TermsCondition = () => {
                 <Text>
                   11. HalaPlay complies with the guidelines mentioned under
                   Google Play Developer Program Policy & will validate the user
-                  location before registering. New or registered user on the app
-                  won't be allowed to play cash games or deposit from restricted
-                  location.We make no representation or warranty with respect to
-                  the legality or otherwise of the accessing and use of the
-                  Services in your location of residence and it is solely your
-                  responsibility to determine whether such accessing and use of
-                  the Services by you is legal. We further warrant in that
-                  respect that the access to the Platform is not intended to
-                  enable you to contravene any applicable law.{" "}
+                  location before registering. New or registered users on the
+                  app won't be allowed to play cash games or deposit from
+                  restricted locations.We make no representation or warranty
+                  with respect to the legality or otherwise of the accessing and
+                  use of the Services in your location of residence and it is
+                  solely your responsibility to determine whether such accessing
+                  and use of the Services by you is legal. We further warrant in
+                  that respect that the access to the Platform is not intended
+                  to enable you to contravene any applicable law.{" "}
                 </Text>
                 <Text>
                   12. You hereby agree that the Games are for entertainment
@@ -194,8 +193,8 @@ const TermsCondition = () => {
                   leagues and you may participate in the Free leagues without
                   crediting any Real Money funds or utilizing any portion of the
                   User Account Balance. However, you are required to complete
-                  your KYC Verification that includes Age, & Location
-                  validation. You understood that only after KYC verification
+                  your KYC Verification which includes Age and Location
+                  validation. You understand that only after KYC verification
                   you are allowed to play free leagues. Any participation in the
                   Games is at your sole option, discretion, and risk. By playing
                   the Games, you acknowledge and agree that you do not find the
@@ -224,7 +223,7 @@ const TermsCondition = () => {
                   contests, tournaments available through the Platforms, here on
                   referred to as the "Leagues". You agree to be bound by and
                   abide by the rules and regulations of each of the Leagues as
-                  published and periodically changed by Halaplay.
+                  published and periodically changed by HalaPlay.
                 </Text>
                 <Text>
                   17. Your use of information on our Platforms including
@@ -272,8 +271,8 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   b. Every bonus/discount/promotional cash back rewards given
-                  comes with a validity Upon expiry the bonus can't be credited
-                  to player's account{" "}
+                  comes with a validity period. Upon expiry of the validity
+                  period. the bonus cannot be credited to player's account.
                 </Text>
                 <Text>
                   c. If platform fee has been charged earlier from a player,
@@ -288,7 +287,7 @@ const TermsCondition = () => {
                   part of the winnings of a member in any game(s) / league(s).{" "}
                 </Text>
                 <Text>
-                  22. Halaplay reserves the right to charge a platform fee which
+                  22. HalaPlay reserves the right to charge a platform fee which
                   would be specified / notified by HalaPlay on its platform. The
                   platform fee and taxes applicable thereon will be debited from
                   the player's account balance.
@@ -303,10 +302,10 @@ const TermsCondition = () => {
                   Description of Platforms Offered
                 </Text>
                 <Text>
-                  1. Halaplay is a technology company which through its
+                  1. HalaPlay is a technology company that, through its
                   platforms aims at providing technology to enable online
                   fantasy sports league(s). Besides providing technology
-                  Platforms to enable online games of skill, Halaplay also
+                  Platforms to enable online games of skill, HalaPlay also
                   creates software and technology to enable playing of online
                   games of skill on multiple technology platforms.{" "}
                 </Text>
@@ -314,12 +313,12 @@ const TermsCondition = () => {
                   2. The Platforms are only intended for playing such games of
                   skill and for entertainment purposes only. By using the
                   Platforms, you acknowledge and agree that you are
-                  participating in a game of skill. Halaplay shall not be
+                  participating in a game of skill. HalaPlay shall not be
                   responsible for any betting or gambling acts that may take
                   place or are undertaken by Users outside the Platforms.{" "}
                 </Text>
                 <Text>
-                  3. Halaplay may charge an entry fee to Users for providing
+                  3. HalaPlay may charge an entry fee to Users for providing
                   such Platforms and for participation in the Leagues hosted on
                   the Platforms. Such entry fees shall be inclusive of
                   contribution to prize money, platform fee and applicable GST.
@@ -336,7 +335,7 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   4. In order to access and play the League(s), or fully utilize
-                  the Platforms offered by Halaplay, a User is required to
+                  the Platforms offered by HalaPlay, a User is required to
                   register as a 'Member' on the Platforms. You are not
                   authorized to enter any League(s) on our Platforms or
                   otherwise, until you have been granted an Account (defined
@@ -345,24 +344,24 @@ const TermsCondition = () => {
                 <Text>
                   5. HalaPlay reserves the right to validate players' accounts.
                   These attempts may be made via App Geo validation, phone call
-                  or email{" "}
+                  or email.
                 </Text>
                 <Text>
                   6. HalaPlay reserve the right to stop players from
-                  Registering/logging in into the App if the validation is
-                  unsuccessful{" "}
+                  Registering/logging into the App if the validation is
+                  unsuccessful.
                 </Text>
                 <Text>
                   7. If you wish to become a registered Member of our Platforms,
                   you will need to apply for a member account ('Account'). Each
-                  User is only permitted to open one Member account. Halaplay
+                  User is only permitted to open one Member account. HalaPlay
                   reserves the right to terminate or suspend any duplicate
                   accounts.{" "}
                 </Text>
                 <Text>
                   8. We offer VIP membership at our platform which will earn you
-                  extra benefits. Special offer You can avail the membership
-                  directly by purchasing it on the platform under VIP page{" "}
+                  extra benefits. You can avail the VIP membership by purchasing
+                  it from the platform under the 'VIP' page.
                 </Text>
                 <Text>
                   9. In order to apply for an Account, you must complete the
@@ -372,11 +371,11 @@ const TermsCondition = () => {
                   will also be required to provide your mobile number for
                   verification purposes and verify such mobile number using a
                   one time passcode sent to your mobile number. Grant of
-                  membership shall be determined by Halaplay or its
+                  membership shall be determined by HalaPlay or its
                   representatives, in their sole discretion. We may refuse to
                   grant an application for an Account made by any person without
                   giving a reason for such refusal. You agree and acknowledge
-                  that the decision of Halaplay in this regard shall be final.{" "}
+                  that the decision of HalaPlay in this regard shall be final.{" "}
                 </Text>
                 <Text>
                   10. You may be required to provide proof of identity at any
@@ -385,19 +384,19 @@ const TermsCondition = () => {
                   authenticity of the account created.{" "}
                 </Text>
                 <Text>
-                  11. To verify the KYC Government issued identity document
-                  reflecting your name age and address such as, Aadhar card,
-                  Voter Id, Driving license, and Passport can be uploaded.
-                  Kindly note we collect: Copy of Aadhar card /Voter Id,
-                  /Driving license / Passport against the Address (for location
-                  verification), with Age Proof (18 years and above) & PAN (for
-                  tax purposes), and bank account details of users{" "}
+                  11. For KYC Verification, the User may upload any Government
+                  issued identity document reflecting your name, age, and
+                  address, including Aadhar card, Voter Id, Driving license, and
+                  Passport. Kindly note we collect: Copy of Aadhar card /Voter
+                  Id, /Driving license / Passport against the Address (for
+                  location verification), with Age Proof (18 years and above) &
+                  PAN (for tax purposes), and bank account details of users{" "}
                 </Text>
                 <Text>
                   12. You agree and acknowledge that if a Member Account is
                   found to be inactive for a continuous period of 330 days, that
                   is, the Member has not participated in any matches for such
-                  continuous period, then Halaplay reserves the right to
+                  continuous period, then HalaPlay reserves the right to
                   terminate or suspend such Account. If the Account Balance of
                   such inactive Account is less than INR 300, the Member shall
                   have no right to redeem or demand the said Account Balance.
@@ -419,7 +418,7 @@ const TermsCondition = () => {
                   us. We reserve the right to request proof of age at any stage
                   to verify that minors are not using the Platforms and we may
                   exclude a person from accessing or using the Platforms, if
-                  proof of age is not provided or if Halaplay suspects that a
+                  proof of age is not provided or if HalaPlay suspects that a
                   person doing so is under the age of 18 years.{" "}
                 </Text>
                 <Text>
@@ -432,8 +431,15 @@ const TermsCondition = () => {
                   16. Upon grant of the Account by us, your Account will be
                   created and you will be able to use our Platforms and play the
                   League(s). You agree and acknowledge that such Account can be
-                  terminated by us by giving notice to you, for any reason
-                  deemed fit by Halaplay.{" "}
+                  suspended / terminated by us by giving notice to you, for any
+                  reason deemed fit by HalaplayHalaPlay, including for violation
+                  of any of the instant terms and conditions or upon receipt of
+                  any complaint relating to any fraudulent activity relating to
+                  your Account. You will be granted a one-time opportunity to
+                  show- cause why your Account should not continue to remain
+                  suspended or be terminated altogether. After considering your
+                  response, along with documents, if any, HalaPlay will take a
+                  decision which shall be final and binding.
                 </Text>
                 <Text>
                   17. You represent and warrant to us that, throughout the
@@ -445,16 +451,16 @@ const TermsCondition = () => {
                   through the account of another Member.{" "}
                 </Text>
                 <Text>
-                  18. You may also be required to verify any credit card / bank
+                  18. You may be required to verify any credit card / bank
                   account you use to deposit funds, and also any bank account
-                  you want to withdraw to.{" "}
+                  you want to withdraw money to.{" "}
                 </Text>
                 <Text>
                   19. By accepting these terms and conditions upon registration
-                  you give consent to Halaplay to disclose your personal
+                  you give consent to HalaPlay to disclose your personal
                   information provided to us to a third-party agency to assist
                   in verifying your identity. The third-party agency may prepare
-                  and provide Halaplay with such an assessment and may use your
+                  and provide HalaPlay with such an assessment and may use your
                   personal information including the names, residential
                   addresses and dates of birth, financial information etc. for
                   the purposes of preparing such an assessment. Please refer to
@@ -474,9 +480,7 @@ const TermsCondition = () => {
                   Pradesh and Nagaland are not allowed to participate in the
                   paid version of the League(s) as the laws of these states ban
                   persons from participating in games of skill where
-                  participants are required to pay to enter. Further to the
-                  same, we also do not offer the paid version of the League(s)
-                  to residents of Sikkim and Nagaland.{" "}
+                  participants are required to pay to enter.
                 </Text>
                 <Text>
                   22. There may be applicable penalties imposed on such users
@@ -485,17 +489,17 @@ const TermsCondition = () => {
                   maybe.{" "}
                 </Text>
                 <Text>
-                  23. Halaplay does not accept membership requests from persons
+                  23. HalaPlay does not accept membership requests from persons
                   residing in the aforesaid Indian states. Users agree and
                   acknowledge that if a User residing in such Indian state
                   becomes a Member by giving false information, the liability
-                  shall be solely on the User and Halaplay reserves the right to
+                  shall be solely on the User and HalaPlay reserves the right to
                   terminate such Account without any notice and such Member
                   shall not have any right to redeem or demand the Account
                   balance of such Account.{" "}
                 </Text>
                 <Text>
-                  24. You agree and accept that Halaplay shall not be liable or
+                  24. You agree and accept that HalaPlay shall not be liable or
                   responsible for the breach of applicable state laws by any
                   User. Users from all Indian states have to always ensure that
                   they are complying with the applicable state laws and we will
@@ -546,7 +550,10 @@ const TermsCondition = () => {
                   of your Account to ensure that there has been no unauthorized
                   use of your Account. If you suspect any unauthorized activity,
                   you must change your password immediately and contact
-                  care@halaplay.com.
+                  care@HalaPlay.com. HalaPlay will not be responsible for any
+                  unauthorised use of your Account or unauthorised withdrawal of
+                  money from your Account due to your failure to secure your
+                  Account.
                 </Text>
               </li>
               <Divider
@@ -607,8 +614,8 @@ const TermsCondition = () => {
                 </Text>
                 <Text>e. Based on who created the League(s)</Text>
                 <Text>
-                  i. Halaplay created League(s) – These will be made available
-                  on the Platforms and identified by the Halaplay logo beside
+                  i. HalaPlay created League(s) – These will be made available
+                  on the Platforms and identified by the HalaPlay logo beside
                   the name of the League(s).
                 </Text>
                 <Text>
@@ -635,16 +642,16 @@ const TermsCondition = () => {
                   debited from your Account Balance maintained with HalaPlay.
                 </Text>
                 <Text>
-                  32. Halaplay reserves the right to charge a Platform Fee. The
+                  32. HalaPlay reserves the right to charge a Platform Fee. The
                   Platform Fee (inclusive of applicable tax thereon) will be
-                  debited from your Account Balance and Halaplay shall issue an
+                  debited from your Account Balance and HalaPlay shall issue an
                   invoice for such debit to you.
                 </Text>
                 <Text>
                   33. Leagues will proceed if entries reach a certain percentage
                   of the League size, declared beforehand. The total prize pool
-                  contributed by entrants or Halaplay will adjust as per the
-                  number of actual entries in the League. Halaplay may also, at
+                  contributed by entrants or HalaPlay will adjust as per the
+                  number of actual entries in the League. HalaPlay may also, at
                   its discretion, guarantee prize pool and League(s) for large
                   tournaments irrespective of the number of entries. HalaPlay
                   reserves the right to resize League(s). For guaranteed
@@ -718,18 +725,17 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   42. If in a transaction performed by you on the Platforms,
-                  money has been charged to your card or bank account and
-                  respective amount is not added in your Halaplay Account within
+                  money has been charged to your card or bank account and the
+                  respective amount is not added to your HalaPlay Account within
                   24 hours of the completion of the transaction, then you shall
-                  inform us by sending an e-mail to care@halaplay.com from your
+                  inform us by sending an e-mail to care@HalaPlay.com from your
                   registered e-mail address. Please include the following
                   details in the e-mail – your mobile number, transaction value,
-                  transaction date and transaction ID. Halaplay will investigate
+                  transaction date and transaction ID. HalaPlay will investigate
                   the incident and, if it is found that money was indeed charged
                   to your card or bank account without delivery of the balance
-                  in your Halaplay Account, then you will be refunded the money
-                  within 7 business days from the date of receipt of your email.
-                  All refunds will be credited to your HalaPlay Account.
+                  in your HalaPlay Account, then the amount will be added to
+                  your HalaPlay account within 7 business days.
                 </Text>
               </li>
               {/* <Divider variant="middle" style={{margin:5,marginBottom:20}} /> */}
@@ -745,14 +751,14 @@ const TermsCondition = () => {
                   43. TDS will be deducted at applicable rates which are subject
                   to change without prior notice to the user. The rate of TDS as
                   on 01.06.2023 is 30%. As per the provisions of the Income Tax
-                  Act, 1961 and the Rules made thereunder, the TDS is required
-                  to be deducted on net winnings in the manner as may be
-                  prescribed by law. Please note that you must possess a valid
-                  PAN and provide your PAN details and proof thereof immediately
-                  upon request, in order to enable us to credit such winnings
-                  and allow for Cash Withdrawals in this respect. These
-                  requirements and provisions may be modified from time to time
-                  in accordance with changes to the relevant tax and other laws.{" "}
+                  Act, 1961 and the Rules made thereunder, TDS is required to be
+                  deducted on net winnings in the manner as may be prescribed by
+                  law. Please note that you must possess a valid PAN and provide
+                  your PAN details and proof thereof immediately upon request,
+                  in order to enable us to credit such winnings and allow for
+                  Cash Withdrawals in this respect. These requirements and
+                  provisions may be modified from time to time in accordance
+                  with changes to the relevant tax and other laws.{" "}
                 </Text>
                 <Text>
                   44. You may withdraw your game winnings using a bank transfer
@@ -761,19 +767,20 @@ const TermsCondition = () => {
                   no limit on withdrawals that you can get in a calendar month.{" "}
                 </Text>
                 <Text>
-                  45. If your payment is rejected or fails due to incorrect bank
-                  account details, the rejected amount will be refunded to your
-                  wallet. You need to raise a fresh withdrawal request and post
-                  updating the correct bank account details.
+                  45. If your withdrawal request is rejected or fails due to
+                  incorrect bank account details, the rejected amount will be
+                  refunded to your wallet. In order to withdraw the amount, You
+                  will have to provide correct bank account details and raise a
+                  fresh withdrawal request.
                 </Text>
                 <Text>
-                  46. Your registration details including Your name, using which
-                  You have registered on the Website/App must correspond with
-                  the name and other details on Your financial instrument used
-                  on the payment system. If this is not the case, we reserve the
-                  right to verify Your details to ensure that the financial
-                  instrument used for the transactions is not being misused. In
-                  this regard:
+                  46. Your registration details, including Your name, using
+                  which You have registered on the Website/App, must correspond
+                  with the name and other details on Your financial instrument
+                  used on the payment system. If this is not the case, we
+                  reserve the right to verify Your details to ensure that the
+                  financial instrument used for the transactions is not being
+                  misused. In this regard:
                 </Text>
                 <Text>
                   a. We may verify Your identification details and age from time
@@ -781,18 +788,18 @@ const TermsCondition = () => {
                   if We detect or have reasonable cause to suspect that You may
                   be involved with identity fraud, we may withhold the purchase
                   in Your account and bar You from further participation in any
-                  tournament available on Halaplay without prejudice to any
+                  tournament available on HalaPlay without prejudice to any
                   other legal recourse We may have apart from notifying the
                   relevant regulatory or law enforcement authorities as deemed
-                  appropriate
+                  appropriate.
                 </Text>
                 <Text>
-                  47. We may specify maximum and minimum limits in the respect
-                  of the amount of money that you may be required to purchase in
+                  47. We may specify maximum and minimum limits in respect of
+                  the amount of money that you may be required to purchase in
                   Your account for the purpose of paying Buy In/entry fees as
                   prescribed to participate in cash tournaments (This is also
                   applicable when we use Responsible Gaming tools in case of
-                  HalaPlay)
+                  HalaPlay).
                 </Text>
                 <Text>
                   48. When You make a payment on the Website/App using any of
@@ -814,7 +821,7 @@ const TermsCondition = () => {
                   rejected by the payment gateway for reasons independent from
                   Our own. You acknowledge and agree that HalaPlay is not liable
                   for any such non-processing or rejection of the payment for
-                  reasons not attributable to or beyond the control of HalaPlay
+                  reasons not attributable to or beyond the control of HalaPlay.
                 </Text>
                 <Text>
                   51. There are four parts to the Account Balance in your
@@ -830,7 +837,7 @@ const TermsCondition = () => {
                   NEFT, Debit/Credit Cards, UPI, Wallets. Transactions may take
                   up to 5 business days to be completed. Such deposits made to
                   the platform will become available immediately thereafter in
-                  the Member's Halaplay Account and can be accessed for entering
+                  the Member's HalaPlay Account and can be accessed for entering
                   League(s) and games.
                 </Text>
                 <Text>
@@ -848,7 +855,7 @@ const TermsCondition = () => {
                   available. If funds are unavailable, it is deducted from the
                   Withdrawable Balance of the Account. The acceptance of these
                   terms and conditions has the effect of giving authority to
-                  Halaplay to withdraw from the Withdrawable Balance.
+                  HalaPlay to withdraw from the Withdrawable Balance.
                 </Text>
                 <Text>
                   56. You agree that once you confirm a transaction on the
@@ -981,7 +988,7 @@ const TermsCondition = () => {
                 <Text>
                   k. In the event that a Member has been declared a winner but
                   has not received any communication from HalaPlay, such Member
-                  may contact HalaPlay at care@halaplay.com
+                  may contact HalaPlay at care@HalaPlay.com
                 </Text>
                 <Text>
                   l. Members playing the paid formats of the League(s) confirm
@@ -993,7 +1000,7 @@ const TermsCondition = () => {
                   disqualify such Member and forfeit any prize won by such
                   Member. Upon such forfeiture, such prize money will be carried
                   forward to any other prize money pool as per the discretion of
-                  Halaplay. Further HalaPlay may, at its sole and absolute
+                  HalaPlay. Further HalaPlay may, at its sole and absolute
                   discretion, suspend or terminate such Member's Account. Any
                   deposit & winning amount remaining unused in the Member's
                   Account on the date of deactivation or deletion shall be
@@ -1026,7 +1033,7 @@ const TermsCondition = () => {
                   shall be entitled, at its sole and absolute discretion, to
                   disqualify such Member and forfeit his/her prize. Upon such
                   forfeiture, such prize money will be carried forward to any
-                  other prize money pool as per the discretion of Halaplay.
+                  other prize money pool as per the discretion of HalaPlay.
                   Further, HalaPlay may, at its sole and absolute discretion,
                   suspend or terminate such Member's Account.
                 </Text>
@@ -1118,7 +1125,7 @@ const TermsCondition = () => {
                   other players, or by communicating with other players which
                   may give undue benefit to You or other players. In case You
                   are found to be involved in such activities, we reserve the
-                  right to withhold all the funds in Your account and make
+                  right to withhold all the funds in Your account and conduct
                   investigations to ascertain the extent of undue benefit
                   derived by You and such others and to cancel and close Your
                   account without any communication to You
@@ -1153,11 +1160,14 @@ const TermsCondition = () => {
                 <Text>
                   76. Our compliance team will track game play of all players
                   and strict action will be taken against any player(s) caught
-                  colluding with other players, misusing bonus policies, dumping
-                  chips, opening multiple accounts under the same name or using
-                  accounts which do not belong to you,. By agreeing to these
-                  Terms, you agree not to indulge in any unfair game practice
-                  that may provide undue advantage to you or any other player.
+                  colluding with other players, misusing bonus policies,
+                  colluding with other players and purposely losing to such
+                  players to transfer funds to such other players (chip
+                  dumping), dumping chips, opening multiple accounts under the
+                  same name or using accounts which do not belong to you. By
+                  agreeing to these Terms, you agree not to indulge in any
+                  unfair game practice that may provide undue advantage to you
+                  or any other player.
                 </Text>
                 <Text>
                   77. We reserve the right to withhold any necessary action, as
@@ -1177,12 +1187,11 @@ const TermsCondition = () => {
                   penalty fee.
                 </Text>
                 <Text>
-                  79. Any Member deemed to be a fraud Member for any reason, for
-                  example, found depositing or withdrawing from/to a fraudulent
-                  account, is subject to legal action from the Company's
-                  management including but not limited to the confiscation of
-                  the Member's Account Balance and locking of the Member's
-                  Account.
+                  79. Any Member deemed to be a fraud Member for any reason,
+                  including but not limited to the activities abovementioned, is
+                  liable to legal action from the Company's management including
+                  but not limited to the confiscation of the Member's Account
+                  Balance and locking of the Member's Account.
                 </Text>
                 <Text>
                   80. Members are also prohibited from opening multiple accounts
@@ -1225,7 +1234,7 @@ const TermsCondition = () => {
                   whether commercial in nature or not;{" "}
                 </Text>
                 <Text>
-                  e. use our Platforms or any content there from in any manner
+                  e. use our Platforms or any content therefrom in any manner
                   which is,in our sole discretion, not reasonable and / or not
                   for the purpose it is made available;{" "}
                 </Text>
@@ -1262,7 +1271,7 @@ const TermsCondition = () => {
                   a. be considered to be, unlawful, threatening, abusive,
                   bigoted, hateful, libellous, tortious, blasphemous, false or
                   misleading, discriminatory, defamatory, obscene, vulgar,
-                  offensive, excessively violent; invasive of another' privacy,
+                  offensive, excessively violent; invasive of another's privacy,
                   publicity, contract or other rights; pornographic or inclusive
                   of nudity, paedophilic, profane, sexually explicit; indecent,
                   racially, ethnically objectionable, disparaging, relating or
@@ -1270,35 +1279,34 @@ const TermsCondition = () => {
                   manner whatsoever.
                 </Text>
                 <Text>
-                  b. Constitute,advocate or encourage conduct that would
+                  b. Constitute, advocate or encourage conduct that would
                   constitute or give rise to a criminal offense, civil liability
                   or other violation of any local, state, national or
-                  international law
+                  international law:
                 </Text>
                 <Text>
-                  i. constitutes or contains false or misleading indications of
+                  c. constitute or contain false or misleading indications of
                   origin or statements of fact;
                 </Text>
                 <Text>
-                  ii. contains any information, software or other material of a
+                  d. contain any information, software or other material of a
                   commercial nature;
                 </Text>
                 <Text>
-                  iii. contains advertising, promotions or commercial
-                  solicitations of any kind;
+                  e. contain advertising, promotions or commercial solicitations
+                  of any kind;
                 </Text>
-                <Text>iv. harasses or harms another person;</Text>
-                <Text>v. exploits or endangers a minor;</Text>
+                <Text>f. harass or harm another person;</Text>
+                <Text>g. exploit or endanger a minor;</Text>
                 <Text>
-                  vi. impersonates or attempt to impersonate any person or
-                  entity;
-                </Text>
-                <Text>
-                  vii. belongs to another person and to which you do not have
-                  any right to
+                  h. impersonate or attempt to impersonate any person or entity;
                 </Text>
                 <Text>
-                  c. threatens the unity, integrity, defense, security or
+                  i. belong to another person and to which you do not have any
+                  right to
+                </Text>
+                <Text>
+                  j. threaten the unity, integrity, defense, security or
                   sovereignty of the territory, friendly relations with foreign
                   states, or public order or causes incitement to the commission
                   of any cognizable offense or prevents investigation of any
@@ -1379,7 +1387,7 @@ const TermsCondition = () => {
                   Intellectual Property:
                 </Text>
                 <Text>
-                  90. Halaplay holds all rights tangible or intangible
+                  90. HalaPlay holds all rights tangible or intangible
                   subsisting in the Platforms and all the services offered on
                   the Website including but not limited to all League(s),
                   materials published on the Website, underlying software,
@@ -1392,7 +1400,7 @@ const TermsCondition = () => {
                   'Intellectual Property'.
                 </Text>
                 <Text>
-                  91. Halaplay merely permits the User to use the Intellectual
+                  91. HalaPlay merely permits the User to use the Intellectual
                   Property to play the League(s) and use other services offered.
                   The User is strictly prohibited from using the Intellectual
                   Property otherwise. The User is not being granted any rights
@@ -1407,7 +1415,7 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   93. You retain all of your ownership rights in your content,
-                  but you hereby grant us a non- exclusive, royalty-free,
+                  but you hereby grant us a non-exclusive, royalty-free,
                   worldwide, irrevocable and sub-licensable license to use,
                   store and copy that content, create derivate works and to
                   distribute and make it available to third parties.
@@ -1497,7 +1505,7 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   102. Our Platforms contain content provided to us by other
-                  parties ('Third Party Content'). This includes the information
+                  parties ('Third Party Content'). This includes information
                   relating to sport, fantasy sport, and player news and player
                   statistics.
                 </Text>
@@ -1510,8 +1518,8 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   104. Please beware of phishing attacks, spoofed emails and
-                  links from external third-party sources but claiming to be
-                  from Halaplay. We are not responsible for such emails/messages
+                  links from external third-party sources claiming to be from
+                  HalaPlay. We are not responsible for such emails/messages
                   and/or any loss arising out of clicking on links contained in
                   them.
                 </Text>
@@ -1543,7 +1551,7 @@ const TermsCondition = () => {
                   commenced, not being able to play due to slow internet
                   connections, faulty hardware, internet connection failure, low
                   computer configuration or for any other reason does not
-                  require us to a refund of the entry fee you may have paid for
+                  require us to a refund the entry fee you may have paid for
                   participation.
                 </Text>
                 <Text>
@@ -1560,7 +1568,7 @@ const TermsCondition = () => {
                   from any incomplete Contest.
                 </Text>
                 <Text>
-                  108. We do not hold any liability to any disconnection, lag,
+                  108. We do not hold any liability for any disconnection, lag,
                   freeze or interference in the network on the User's computer
                   or any other external networks.
                 </Text>
@@ -1574,7 +1582,7 @@ const TermsCondition = () => {
                 <Text>
                   109. By registering, you are considered to have accepted and
                   understood all the Terms. We recommend that you keep a copy of
-                  all transactions, gaming rules, cancellation, and payment
+                  all transactions, gaming rules, cancellations, and payment
                   policies. Our failure or delay to act or exercise any right or
                   remedy with respect to a breach of any of these Terms by you
                   does not amount to surrendering our rights to act with respect
@@ -1598,7 +1606,7 @@ const TermsCondition = () => {
                   Warranty:
                 </Text>
                 <Text>
-                  111. Halaplay disclaims any and all warranties, expressed or
+                  111. HalaPlay disclaims any and all warranties, expressed or
                   implied, in connection with the underlying software of the
                   Platforms, the Website and the League(s), all of which are
                   provided to the User "as is". Your access and use of the
@@ -1610,7 +1618,7 @@ const TermsCondition = () => {
                   fitness for a particular purpose.
                 </Text>
                 <Text>
-                  112. Without limiting the foregoing, Halaplay does not
+                  112. Without limiting the foregoing, HalaPlay does not
                   represent or warrant:
                 </Text>
                 <Text>
@@ -1698,11 +1706,11 @@ const TermsCondition = () => {
                   action arose, or it shall be forever barred.
                 </Text>
                 <Text>
-                  118. You agree and acknowledge that Halaplay does not promise
+                  118. You agree and acknowledge that HalaPlay does not promise
                   or ensure that you will be able to access your Account
                   whenever you want. It is entirely possible that you may not be
                   able to access your Account, or the Platforms provided by
-                  Halaplay at times or for extended periods of time due to, but
+                  HalaPlay at times or for extended periods of time due to, but
                   not limited to, system maintenance and updates.
                 </Text>
                 <Text>
@@ -1710,15 +1718,16 @@ const TermsCondition = () => {
                   organized by us may result in financial loss to you. With full
                   knowledge of the facts and circumstances surrounding the
                   League(s), you are voluntarily participating in the League(s)
-                  and assume all responsibility for it and risk resulting from
-                  your participation, including all risks of financial loss.
-                  Halaplay makes no guarantees, warranties, representations, or
-                  other promises relating to the League(s) and assumes no
-                  liability or responsibility for any financial loss that you
-                  may sustain as a result of participation in the League(s).
+                  and assume all responsibility for it and the risk resulting
+                  from your participation, including all risks of financial
+                  loss. HalaPlay makes no guarantees, warranties,
+                  representations, or other promises relating to the League(s)
+                  and assumes no liability or responsibility for any financial
+                  loss that you may sustain as a result of participation in the
+                  League(s).
                 </Text>
                 <Text>
-                  120. You agree to indemnify and hold Halaplay, its employees,
+                  120. You agree to indemnify and hold HalaPlay, its employees,
                   directors, officers, and agents harmless with respect to any
                   and all claims and costs associated with your participation in
                   the League(s). You acknowledge that you are solely responsible
@@ -1736,7 +1745,7 @@ const TermsCondition = () => {
                 <Text>
                   122. You agree to assume the entire risk as to the results and
                   performance of any software and/or League(s) availed by you on
-                  the Platform. As such, result and performance among other
+                  the Platform, as such result and performance among other
                   things depends on your Internet connection and hardware. You
                   also assume the entire cost of all servicing, repair and/or
                   correction of your hardware when you access, download, or
@@ -1776,7 +1785,7 @@ const TermsCondition = () => {
                   services provided or any statistics shown on the Platforms.
                 </Text>
                 <Text>
-                  124. Halaplay reserves the right to change, modify or delete
+                  124. HalaPlay reserves the right to change, modify or delete
                   the Platforms, information, and Terms listed on the Platforms
                   at any time without prior notice.
                 </Text>
@@ -1790,7 +1799,7 @@ const TermsCondition = () => {
                   Indemnification and Limitation of Liability:
                 </Text>
                 <Text>
-                  125. You clearly understand and agree that Halaplay shall
+                  125. You clearly understand and agree that HalaPlay shall
                   under no circumstances (including, without limitation, in
                   contract, negligence or other tort), be liable for any direct,
                   indirect, ancillary, special, incidental, consequential or
@@ -1798,7 +1807,7 @@ const TermsCondition = () => {
                   injury, claim, loss of data, loss of income, loss of profit or
                   loss of opportunity, loss of or damage to property, damages
                   for monetary loss, goodwill, use, data or other intangible
-                  loss (even if Halaplay has been advised of the possibility of
+                  loss (even if HalaPlay has been advised of the possibility of
                   such damages), resulting from or arising out of the use of or
                   the inability to use the Platforms, even if we have been
                   advised or become aware of the possibility of such damages or
@@ -1839,11 +1848,11 @@ const TermsCondition = () => {
                   use of the Platforms.
                 </Text>
                 <Text>
-                  127. There could be instances where Halaplay is not able to
+                  127. There could be instances where HalaPlay is not able to
                   receive prompt updates about the change in applicable laws of
                   your place of stay. Please ensure that any activities you
                   engage on the Platforms are legal as per the applicable laws.
-                  You agree to indemnify and hold harmless, Halaplay or its
+                  You agree to indemnify and hold harmless, HalaPlay or its
                   Platforms, from any claim, demand, damage, or loss whatsoever
                   coming out due to your non-compliance with the laws of your
                   jurisdiction.
@@ -1874,7 +1883,7 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   129. Upon any termination of this agreement, you shall
-                  immediately discontinue your use and access of the Platforms
+                  immediately discontinue your use and access to the Platforms
                   and destroy all materials obtained from it. You hereby agree
                   and consent to the above and agree and acknowledge that we
                   can, at our sole discretion, exercise our right in relation to
@@ -1885,7 +1894,7 @@ const TermsCondition = () => {
                 <Text>
                   130. You are free to discontinue Your use on the Platform at
                   any time by intimating Us of Your desire to do so by an email
-                  sent to Us at care@halaplay.com If at that time, there is a
+                  sent to Us at care@halaplay.com. If at that time, there is a
                   positive balance in Your cash account, We will pay you the
                   balance by a cheque or through any other means including
                   electronic means as may be determined by Us in a timely
@@ -1942,11 +1951,11 @@ const TermsCondition = () => {
                 <Text>
                   137. Players are requested to bring such content posted by
                   other users to Our notice that they may find offensive,
-                  objectionable or indecent. Halaplay shall remove or act upon
+                  objectionable or indecent. HalaPlay shall remove or act upon
                   such information.
                 </Text>
                 <Text>
-                  138. The decision taken by the HalaPlay management on this
+                  138. The decision taken by the HalaPlay management in this
                   regard shall be final and binding on the Player and the Player
                   specifically agrees that HalaPlay will not incur any liability
                   under any circumstance whatsoever regarding the same
@@ -1999,7 +2008,7 @@ const TermsCondition = () => {
                   144. Your winning a prize is entirely dependent on Your skill
                   as a player vis-a-vis other players in the game/league and
                   subject to the rules of the game/league. To learn more about
-                  the rules, please visit the support section on platform
+                  the rules, please visit the support section on the platform.
                 </Text>
                 <Text>
                   145. You acknowledge that Your participation in any
@@ -2057,7 +2066,7 @@ const TermsCondition = () => {
                   in accordance with changes to the relevant tax and other laws.
                 </Text>
                 <Text>
-                  152. You understand that Halaplay does not entertain any
+                  152. You understand that HalaPlay does not entertain any
                   refund or cancellation for any subscription fee, service fee
                   or deposit made.
                 </Text>
@@ -2195,7 +2204,7 @@ const TermsCondition = () => {
                   our team will help you out to play responsibly.
                 </Text>
                 <Text>
-                  168. Guidance: Our team also identifies who have issues
+                  168. Guidance: Our team also identifies those have issues
                   following responsible gaming frequently and guides them
                   accordingly.
                 </Text>
@@ -2242,12 +2251,12 @@ const TermsCondition = () => {
                     Rules for match cancellation and Winning Declaration :
                   </Text>
                   <Text>
-                    174. When Player is missing in Halaplay squad for example
+                    174. When Player is missing in HalaPlay squad for example
                     Player A is playing in a match but in HalaPlay squad it is
                     not listed in that case we will declare the winning.
                   </Text>
                   <Text>
-                    175. When points of any player is not updating during live
+                    175. When points of any players are not updating during live
                     match than it will be updated after match is completed.
                   </Text>
                   <Text>
@@ -2278,11 +2287,11 @@ const TermsCondition = () => {
                   <Text>
                     181. In case during review there are more than 22 players
                     playing in any match for unknown reason, we will give points
-                    to all playing players except substitute player (Depending
-                    on series rule).
+                    to all playing players except the substitute players
+                    (Depending on series rule).
                   </Text>
                   <Text>
-                    182. For substitute player we won't be giving any points.
+                    182. For substitute players, we won't be giving any points.
                   </Text>
                   <Text>
                     183. Player playing as concussion replacement and available
@@ -2291,7 +2300,7 @@ const TermsCondition = () => {
                 </li>
 
                 <Text gutterBottom variant="title">
-                  When we are going to Cancel the match and refund amount ?
+                  When we cancel the match and refund amount?
                 </Text>
                 <Text>
                   184. In case of wrong lineup by HalaPlay (Before Match goes
@@ -2302,14 +2311,13 @@ const TermsCondition = () => {
                   Match goes Live).
                 </Text>
                 <Text>
-                  186. In case of lineup change was done before the match went
-                  live but later we found wrong player was marked in lineup then
-                  we will cancel the match.
+                  186. In case lineup change was done before the match went live
+                  but later we found the wrong player was marked in lineup.
                 </Text>
                 <Text>
-                  187. In case of match live status delayed on HalaPlay app (if
-                  match goes live officially but on Halaplay you are able to
-                  edit teams or join leagues).
+                  187. In case live status is delayed on HalaPlay app (if match
+                  goes live officially but on HalaPlay you are able to edit
+                  teams or join leagues).
                 </Text>
                 <Text>
                   188. If we were not able to extend the match time and lineup
@@ -2375,11 +2383,11 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   196. Players understand that they do not obtain any rights,
-                  legal or equitable, in any material incorporating the Content
+                  legal or equitable, in any material incorporating the Content.
                 </Text>
                 <Text>
                   197. Each Player declares that he/she shall not assert any
-                  moral rights in the Content at a later date
+                  moral rights in the Content at a later date.
                 </Text>
                 <Text>
                   198. Each Player acknowledges that HalaPlay shall not be
@@ -2405,7 +2413,7 @@ const TermsCondition = () => {
                 </Text>
                 <Text>
                   200. You accept that any complaints and disputes shall
-                  confidential both You agree that you shall not disclose the
+                  confidential. You agree that you shall not disclose the
                   existence, nature or any detail of any complaint or dispute to
                   any third party.
                 </Text>
@@ -2418,7 +2426,7 @@ const TermsCondition = () => {
                   202. Subject to the clauses below, the courts of competent
                   jurisdiction at Kolkata shall have exclusive jurisdiction to
                   determine any and all disputes arising out of, or in
-                  connection with the Website provided by Halaplay (including
+                  connection with the Website provided by HalaPlay (including
                   the League(s)), the construction, validity, interpretation and
                   enforceability of these Terms, or the rights and obligations
                   of the Users), as well as the exclusive jurisdiction to grant
@@ -2457,7 +2465,7 @@ const TermsCondition = () => {
                   arbitrator shall give a reasoned award.
                 </Text>
                 <Text>
-                  207. Nothing contained in these Terms shall prevent Halaplay
+                  207. Nothing contained in these Terms shall prevent HalaPlay
                   from seeking and obtaining interim or permanent equitable or
                   injunctive relief, or any other relief available to safeguard
                   its interest prior to, during or following the filing of
@@ -2465,7 +2473,7 @@ const TermsCondition = () => {
                   or award in connection with any arbitration proceedings from
                   any courts of competent jurisdiction at Kolkata to grant the
                   same. The pursuit of equitable or injunctive relief shall not
-                  constitute a waiver on the part of Halaplay to pursue any
+                  constitute a waiver on the part of HalaPlay to pursue any
                   remedy for monetary damages through the arbitration described
                   herein.
                 </Text>
