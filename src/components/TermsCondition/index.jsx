@@ -18,16 +18,16 @@ const TermsCondition = () => {
                   TECHNOLOGIES PRIVATE LIMITED (referred hereinafter as the
                   'Company', 'HalaPlay', 'us', 'we' or 'our') and you, the user
                   (hereinafter referred as 'you', 'your', or 'User' or 'Member',
-                  as defined below) of the www.Halaplay.com website ('Website')
+                  as defined below) of the www.halaplay.com website ('Website')
                   and the HalaPlay mobile application ('App') including any
                   subdomains of the Website, or related top-level domains
                   including www.halaplay.com, mobile sites, apps, APIs and
                   widgets (hereinafter collectively referred as 'Platforms').
                   These Platforms are operated by HalaPlay Technologies Pvt.
-                  Ltd. and offer online sports fantasy games / leagues This user
-                  agreement (the "Agreement"), which includes those terms and
-                  conditions expressly set out below and those incorporated by
-                  reference including the terms of the Privacy Policy
+                  Ltd. and offer online sports fantasy games / leagues. This
+                  user agreement (the "Agreement"), which includes those terms
+                  and conditions expressly set out below and those incorporated
+                  by reference including the terms of the Privacy Policy
                 </Text>
                 <Text fontWeight={"bold"} fontSize="xl">
                   AGREEMENT:
