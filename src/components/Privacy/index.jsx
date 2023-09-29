@@ -20,7 +20,7 @@ const Privacy = () => {
                 General
               </Text>
               <Text>
-              (1) This Privacy Policy forms part of the Terms of Use for the website, www.halaplay.com(‘Website’), an online daily fantasy sports platform and the Halaplay App available onGoogle Play, App Store and website (‘App’) (collectively referred to as the ‘Services’)offered by Halaplay Technologies Private Limited (hereinafter referred using ‘our’, ‘we’, ‘us’or ‘HalaPlay’).
+              (1) This Privacy Policy forms part of the Terms of Use for the website, www.halaplay.com(‘Website’), an online daily fantasy sports platform and the Halaplay App available onGoogle Play, App Store and website (‘App’) (collectively referred to as the ‘Services’)offered by Openplay Technologies Private Limited (hereinafter referred using ‘our’, ‘we’, ‘us’or ‘HalaPlay’).
               </Text>
               <Text>
               (2) This Privacy Policy governs the access, collection, usage, handling, storage and disclosureof such personal information during the course of the usage of the Services by any personaccessing or using the Services (hereinafter referred using ‘you’, ‘your’, ‘user’).

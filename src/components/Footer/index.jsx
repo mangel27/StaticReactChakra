@@ -39,7 +39,7 @@ const Footer = () => {
             </Box>
           </Flex>
           <Text fontSize={"2xl"} fontWeight="500" textAlign={"center"}>
-            Halaplay Technologies Pvt. Ltd.
+            Openplay Technologies Pvt. Ltd.
           </Text>
         </Box>
         <Box align="center">

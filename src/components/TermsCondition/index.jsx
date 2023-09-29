@@ -14,7 +14,7 @@ const TermsCondition = () => {
               <li>
                 <Text>
                   These are the HalaPlay Platforms Terms and Conditions of Use
-                  ('Terms') which form an agreement between HALAPLAY
+                  ('Terms') which form an agreement between OPENPLAY
                   TECHNOLOGIES PRIVATE LIMITED (referred hereinafter as the
                   'Company', 'HalaPlay', 'us', 'we' or 'our') and you, the user
                   (hereinafter referred as 'you', 'your', or 'User' or 'Member',
@@ -23,7 +23,7 @@ const TermsCondition = () => {
                   subdomains of the Website, or related top-level domains
                   including www.halaplay.com, mobile sites, apps, APIs and
                   widgets (hereinafter collectively referred as 'Platforms').
-                  These Platforms are operated by HalaPlay Technologies Pvt.
+                  These Platforms are operated by Openplay Technologies Pvt.
                   Ltd. and offer online sports fantasy games / leagues. This
                   user agreement (the "Agreement"), which includes those terms
                   and conditions expressly set out below and those incorporated
