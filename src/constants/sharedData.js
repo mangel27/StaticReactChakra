@@ -67,6 +67,13 @@ export const EARN_MORE = [{
     text: "Join with 4 & get 5th Entry Free",
     icon:"/assets/icons/4plus1.svg"
     // icon: TbCricket
+    },
+{
+    title: "HalaPlay Rummy",
+    text: "The Ultimate Rummy Experience Awaits You",
+    icon: "/assets/icons/card.svg",
+    onClick:()=>{window.open("https://rummy.halaplay.com/","_blank") }
+    // icon: TbCricket
 }]
 export const cardColors = [
 "rgb(112,111,211)",
@@ -75,7 +82,7 @@ export const cardColors = [
 "rgb(140,122,230)"
 ]
 export const earnmoreColors = [
-    "#8B22D0","#EB6DA5","rgb(255, 82, 82)","#2980B9"
+    "#8B22D0","#EB6DA5","rgb(255, 82, 82)","#2980B9","#009432"
 ]
 export const FAQ_ITEMS_PAGE = [
     {
