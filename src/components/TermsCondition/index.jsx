@@ -841,7 +841,17 @@ const TermsCondition = () => {
                   League(s) and games.
                 </Text>
                 <Text>
-                  54. All withdrawal requests will be processed immediately,
+                  54. The deposits made by the players in their Deposit Wallet is inclusive of GST. Each deposit made would be subject to the applicable rate of GST that would be deposited with the Government as per the extant GST laws
+                </Text>
+                <Text>
+                  55. HalaPlay continues to be an online intermediary platform and its activities are confined to providing the platform to the players. The fact that HalaPlay holds the amounts deposited as Trustee or pays GST on the deposits made by you as per deeming provisions under GST laws should not be construed to be an alteration of the nature of its activities/functions
+                </Text>
+                <Text>
+                  56. In light of the new regime, generating invoices for each deposit is required instead of generating monthly invoices.
+                  “HalaPlay shall issue a GST compliant invoice for each deposit that is made by the player. The player has to mail to care@halaplay.com and get his / her invoice. Once the player exercises the said option, the invoices will be accessible for downloading”.
+                </Text>
+                <Text>
+                  57. All withdrawal requests will be processed immediately,
                   however the funds will arrive in your nominated bank account
                   on the next working day. This may on occasion take up to 5-7
                   business days. In order to request a withdrawal, you must
@@ -850,7 +860,7 @@ const TermsCondition = () => {
                   your PAN card and bank account details.
                 </Text>
                 <Text>
-                  55. When a member enters a League, the entry fee is deducted
+                  58. When a member enters a League, the entry fee is deducted
                   from the Deposit & Bonus Balance, should there be funds
                   available. If funds are unavailable, it is deducted from the
                   Withdrawable Balance of the Account. The acceptance of these
@@ -858,12 +868,12 @@ const TermsCondition = () => {
                   HalaPlay to withdraw from the Withdrawable Balance.
                 </Text>
                 <Text>
-                  56. You agree that once you confirm a transaction on the
+                  59. You agree that once you confirm a transaction on the
                   Platforms, you shall be bound by and make payment for that
                   transaction
                 </Text>
                 <Text>
-                  57. Members acknowledge that transactions on the Platforms may
+                  60. Members acknowledge that transactions on the Platforms may
                   take up to 24 hours to be processed. Any amount paid or
                   transferred into the Member's account may take up to 24 hours
                   to reflect in the Member's Account Balance. Similarly, money
@@ -875,7 +885,7 @@ const TermsCondition = () => {
                   amount into the Member's Account.
                 </Text>
                 <Text>
-                  58. You agree, understand and acknowledge that you will use
+                  61. You agree, understand and acknowledge that you will use
                   your Account with us solely for the purpose of accessing or
                   using the Platforms and for any other transactions with us
                   which you may have to carry out with respect to your usage of
@@ -2558,7 +2568,15 @@ const TermsCondition = () => {
                   times be governed solely as per the applicable legal
                   provisions.
                 </Text>
+                <Divider
+                variant="middle"
+                style={{ margin: 5, marginBottom: 20 }}
+                />
               </li>
+              <Text fontWeight={"bold"} fontSize="xl">
+                “The Hon’ble National Company Law Tribunal (“NCLT”), Kolkata Bench vide its order dated 28 July 2023 has sanctioned the Scheme of Arrangement between Halaplay Technologies Private Limited (“Halaplay”) and Openplay Technologies Private Limited (“Openplay”) and their respective shareholders, under Sections 230 to 232 and other applicable provisions of the Companies Act, 2013 (“Scheme”) approving the demerger of Fantasy Sport Business (as defined in the Scheme) from Halaplay into Openplay.”
+              </Text>
+
             </ol>
           </div>
         </div>
